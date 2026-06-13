@@ -77,6 +77,15 @@
   .match-status.live{background:#5a2020;color:#ffb4a8}
   .match-status.done{background:#1f5132;color:#aef0c4}
   .empty-state{max-width:980px;margin:40px auto;color:var(--muted);font-size:13px;text-align:center}
+  #game-view{position:relative;overflow:hidden}
+  #game-canvas{width:100%;height:100%;display:block;touch-action:none}
+  #game-ui{position:absolute;inset:0;pointer-events:none;display:flex;flex-direction:column;align-items:center}
+  #game-score{margin-top:10px;background:rgba(15,17,21,.75);border:1px solid var(--line);border-radius:999px;padding:6px 16px;font-size:13px;font-weight:700;color:var(--accent)}
+  #game-instruction{margin-top:8px;font-size:12px;color:var(--muted)}
+  #game-result{position:absolute;top:42%;left:50%;transform:translate(-50%,-50%);font-size:36px;font-weight:900;text-shadow:0 2px 16px rgba(0,0,0,.9);pointer-events:none}
+  #game-over{position:absolute;inset:0;background:rgba(15,17,21,.85);display:none;flex-direction:column;align-items:center;justify-content:center;gap:18px;pointer-events:all}
+  #game-over-text{font-size:22px;font-weight:800;color:var(--txt);text-align:center;padding:0 20px}
+  #game-replay{padding:13px 32px;border-radius:8px;border:0;background:var(--accent);color:#17110a;font-size:15px;font-weight:800;cursor:pointer}
   @media (max-width:640px){
     header{padding:9px 10px}
     .head-row{align-items:flex-start;flex-direction:column;gap:8px}
@@ -101,6 +110,7 @@
       <div class="view-tabs" aria-label="Ansicht">
         <button class="view-tab active" type="button" data-view="map">Karte</button>
         <button class="view-tab" type="button" data-view="schedule">Spielplan</button>
+        <button class="view-tab" type="button" data-view="game">⚽ Spiel</button>
       </div>
     </div>
     <p>46 Locations · WM-Public-Viewing (BerlinMagazine.de) + Fußballkneipen (Mit Vergnügen)</p>
@@ -126,6 +136,18 @@
       <a href="https://www.fifa.com/de/tournaments/mens/worldcup/canadamexicousa2026/articles/spielplan-wm-2026-spiele-ergebnisse" target="_blank" rel="noopener">FIFA Quelle</a>
     </div>
     <div class="schedule-list" id="schedule-list"></div>
+  </div>
+  <div class="view" id="game-view">
+    <canvas id="game-canvas"></canvas>
+    <div id="game-ui">
+      <div id="game-score">0 : 0 &middot; Elfmeter 1/5</div>
+      <div id="game-instruction">Zieh den Ball und lass los!</div>
+      <div id="game-result" style="display:none"></div>
+      <div id="game-over" style="display:none">
+        <p id="game-over-text"></p>
+        <button id="game-replay">Nochmal spielen</button>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -437,5 +459,7 @@ setTimeout(fixSize, 500);
 window.addEventListener('resize', fixSize);
 window.addEventListener('load', fixSize);
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="game.js"></script>
 </body>
 </html>
