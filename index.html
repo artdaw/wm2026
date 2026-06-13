@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<meta name="description" content="Interaktive Karte für WM 2026 Public Viewing und Fußballkneipen in Berlin." />
+<meta name="description" content="Interaktive Karte für WM 2026 Public Viewing, Fußballkneipen und WM-Spielplan in Berliner Zeit." />
 <meta property="og:title" content="Public Viewing WM 2026 - Berlin" />
-<meta property="og:description" content="46 Locations für WM-Public-Viewing und Fußballkneipen in Berlin auf einer interaktiven Karte." />
+<meta property="og:description" content="46 Locations für WM-Public-Viewing und Fußballkneipen in Berlin plus WM-Spielplan in Berliner Zeit." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://wm2026.artdaw.com/" />
 <link rel="canonical" href="https://wm2026.artdaw.com/" />
@@ -20,8 +20,14 @@
   html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--txt)}
   #app{display:flex;flex-direction:column;height:100%}
   header{padding:10px 14px;border-bottom:1px solid var(--line);background:var(--panel);z-index:1000}
+  .head-row{display:flex;align-items:center;justify-content:space-between;gap:12px}
   header h1{margin:0;font-size:15px;font-weight:700;letter-spacing:.2px}
   header p{margin:2px 0 0;font-size:12px;color:var(--muted)}
+  .view-tabs{display:flex;gap:4px;padding:3px;border:1px solid var(--line);border-radius:10px;background:#10131a;flex-shrink:0}
+  .view-tab{border:0;border-radius:7px;background:transparent;color:var(--muted);font-size:12px;font-weight:700;padding:7px 10px;cursor:pointer}
+  .view-tab.active{background:var(--accent);color:#17110a}
+  .view{display:none;flex:1 1 auto;min-height:0}
+  .view.active{display:flex;flex-direction:column}
   .filters{display:flex;gap:6px;flex-wrap:wrap;padding:8px 14px;border-bottom:1px solid var(--line);background:var(--panel);z-index:1000}
   .chip{font-size:12px;padding:5px 10px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;transition:.15s}
   .chip.active{background:var(--accent);color:#1a1a1a;border-color:var(--accent);font-weight:600}
@@ -45,17 +51,82 @@
   .b-res{background:#2a3a5a;color:#9fc2ff}
   .leaflet-bar a{background:var(--panel);color:var(--txt);border-color:var(--line)}
   .count{font-size:11px;color:var(--muted);padding:4px 14px;background:var(--panel)}
+  .schedule-tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:9px 14px;border-bottom:1px solid var(--line);background:var(--panel);z-index:1000}
+  .schedule-search{min-width:210px;flex:1 1 250px;border:1px solid var(--line);border-radius:8px;background:#10131a;color:var(--txt);font-size:13px;padding:8px 10px;outline:none}
+  .schedule-search:focus{border-color:var(--accent)}
+  .schedule-chip{font-size:12px;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap}
+  .schedule-chip.active{background:var(--accent);border-color:var(--accent);color:#17110a;font-weight:700}
+  .schedule-count{display:flex;justify-content:space-between;gap:10px;align-items:center;font-size:11px;color:var(--muted);padding:5px 14px;background:var(--panel)}
+  .schedule-count a{color:var(--accent);text-decoration:none;font-weight:700}
+  .schedule-list{flex:1 1 auto;min-height:0;overflow:auto;padding:12px 14px 20px;background:var(--bg)}
+  .day-group{max-width:980px;margin:0 auto 18px}
+  .day-title{position:sticky;top:0;z-index:2;margin:0 0 8px;padding:8px 0;background:var(--bg);color:var(--accent);font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.6px}
+  .match-card{display:grid;grid-template-columns:74px minmax(0,1fr) auto;gap:12px;align-items:center;padding:11px 12px;margin-bottom:8px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+  .match-card.live{border-color:var(--accent2);box-shadow:inset 3px 0 0 var(--accent2)}
+  .match-time{display:flex;flex-direction:column;gap:2px;color:var(--txt)}
+  .match-time strong{font-size:19px;line-height:1}
+  .match-time span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+  .match-main{min-width:0}
+  .match-meta{font-size:11px;color:var(--muted);margin-bottom:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .match-teams{display:flex;align-items:center;gap:8px;min-width:0;font-size:15px;font-weight:750}
+  .team{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .team-code{font-size:10px;color:var(--muted);border:1px solid var(--line);border-radius:5px;padding:2px 5px}
+  .score{font-size:15px;color:var(--accent);font-weight:800;white-space:nowrap}
+  .match-place{font-size:11px;color:var(--muted);margin-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .match-status{font-size:11px;font-weight:800;border-radius:999px;padding:5px 8px;background:#10131a;color:var(--muted);white-space:nowrap}
+  .match-status.live{background:#5a2020;color:#ffb4a8}
+  .match-status.done{background:#1f5132;color:#aef0c4}
+  .empty-state{max-width:980px;margin:40px auto;color:var(--muted);font-size:13px;text-align:center}
+  @media (max-width:640px){
+    header{padding:9px 10px}
+    .head-row{align-items:flex-start;flex-direction:column;gap:8px}
+    .view-tabs{width:100%}
+    .view-tab{flex:1}
+    .schedule-tools{padding:8px 10px}
+    .schedule-count{padding:5px 10px}
+    .schedule-list{padding:10px}
+    .match-card{grid-template-columns:58px minmax(0,1fr);gap:10px}
+    .match-status{grid-column:2;justify-self:start}
+    .match-time strong{font-size:17px}
+    .match-teams{font-size:14px;align-items:flex-start;flex-direction:column;gap:4px}
+    .score{font-size:14px}
+  }
 </style>
 </head>
 <body>
 <div id="app">
   <header>
-    <h1>⚽ Fußball gucken in Berlin · WM 2026 + Kneipen</h1>
+    <div class="head-row">
+      <h1>⚽ Fußball gucken in Berlin · WM 2026 + Kneipen</h1>
+      <div class="view-tabs" aria-label="Ansicht">
+        <button class="view-tab active" type="button" data-view="map">Karte</button>
+        <button class="view-tab" type="button" data-view="schedule">Spielplan</button>
+      </div>
+    </div>
     <p>46 Locations · WM-Public-Viewing (BerlinMagazine.de) + Fußballkneipen (Mit Vergnügen)</p>
   </header>
-  <div class="filters" id="filters"></div>
-  <div class="count" id="count"></div>
-  <div id="map"></div>
+  <div class="view active" id="map-view">
+    <div class="filters" id="filters"></div>
+    <div class="count" id="count"></div>
+    <div id="map"></div>
+  </div>
+  <div class="view" id="schedule-view">
+    <div class="schedule-tools">
+      <input class="schedule-search" id="schedule-search" type="search" placeholder="Team, Stadt, Spielnummer suchen" />
+      <button class="schedule-chip active" type="button" data-stage="all">Alle</button>
+      <button class="schedule-chip" type="button" data-stage="Erste Phase">Gruppen</button>
+      <button class="schedule-chip" type="button" data-stage="Sechzehntelfinale">R32</button>
+      <button class="schedule-chip" type="button" data-stage="Achtelfinale">R16</button>
+      <button class="schedule-chip" type="button" data-stage="Viertelfinale">Viertel</button>
+      <button class="schedule-chip" type="button" data-stage="Halbfinale">Halbfinale</button>
+      <button class="schedule-chip" type="button" data-stage="Finale">Finale</button>
+    </div>
+    <div class="schedule-count">
+      <span id="schedule-count">Spielplan wird geladen</span>
+      <a href="https://www.fifa.com/de/tournaments/mens/worldcup/canadamexicousa2026/articles/spielplan-wm-2026-spiele-ergebnisse" target="_blank" rel="noopener">FIFA Quelle</a>
+    </div>
+    <div class="schedule-list" id="schedule-list"></div>
+  </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -189,7 +260,7 @@ Object.entries(cats).forEach(([k,v])=>{
 
 function applyFilter(c){
   active=c;
-  document.querySelectorAll('.chip').forEach(ch=>ch.classList.toggle('active',ch.dataset.c===c));
+  fbox.querySelectorAll('.chip').forEach(ch=>ch.classList.toggle('active',ch.dataset.c===c));
   let visible=0;
   markers.forEach(m=>{
     if(c==='all'||m._cat===c){ if(!map.hasLayer(m)) m.addTo(map); visible++; }
@@ -199,6 +270,136 @@ function applyFilter(c){
 }
 fbox.addEventListener('click',e=>{ const ch=e.target.closest('.chip'); if(ch) applyFilter(ch.dataset.c); });
 applyFilter('all');
+
+document.querySelector('.view-tabs').addEventListener('click',e=>{
+  const tab=e.target.closest('.view-tab');
+  if(!tab) return;
+  document.querySelectorAll('.view-tab').forEach(btn=>btn.classList.toggle('active',btn===tab));
+  document.querySelectorAll('.view').forEach(view=>view.classList.toggle('active',view.id===`${tab.dataset.view}-view`));
+  if(tab.dataset.view==='map') setTimeout(fixSize, 80);
+});
+
+const scheduleList = document.getElementById('schedule-list');
+const scheduleCount = document.getElementById('schedule-count');
+const scheduleSearch = document.getElementById('schedule-search');
+let matches = [];
+let scheduleStage = 'all';
+const matchDataUpdated = '13.06.2026';
+
+const dateLabelFmt = new Intl.DateTimeFormat('de-DE', {
+  timeZone:'Europe/Berlin',
+  weekday:'short',
+  day:'2-digit',
+  month:'long'
+});
+const timeLabelFmt = new Intl.DateTimeFormat('de-DE', {
+  timeZone:'Europe/Berlin',
+  hour:'2-digit',
+  minute:'2-digit',
+  hour12:false
+});
+const dateKeyFmt = new Intl.DateTimeFormat('en-CA', {
+  timeZone:'Europe/Berlin',
+  year:'numeric',
+  month:'2-digit',
+  day:'2-digit'
+});
+
+function escapeHtml(value){
+  return String(value ?? '').replace(/[&<>"']/g, ch => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#039;'
+  }[ch]));
+}
+
+function berlinDateKey(utc){
+  return dateKeyFmt.format(new Date(utc));
+}
+
+function matchStatus(m){
+  const hasScore = Number.isFinite(m.homeScore) && Number.isFinite(m.awayScore);
+  if(m.status===3) return {text:m.minute ? `Live · ${m.minute}` : 'Live', cls:'live'};
+  if(hasScore && m.status===0) return {text:'Beendet', cls:'done'};
+  return {text:'Anstoß', cls:''};
+}
+
+function renderSchedule(){
+  const q = scheduleSearch.value.trim().toLowerCase();
+  const visible = matches.filter(m=>{
+    const stageOk = scheduleStage==='all' || m.stage===scheduleStage;
+    const haystack = [
+      m.no, m.stage, m.group, m.home, m.away, m.homeCode, m.awayCode, m.city, m.stadium
+    ].join(' ').toLowerCase();
+    return stageOk && (!q || haystack.includes(q));
+  });
+
+  scheduleCount.textContent = `${visible.length} von ${matches.length} Spielen · Anstoßzeiten in Berlin · Stand ${matchDataUpdated}`;
+  if(!visible.length){
+    scheduleList.innerHTML = '<div class="empty-state">Keine Spiele gefunden.</div>';
+    return;
+  }
+
+  const groups = new Map();
+  visible.forEach(m=>{
+    const key = berlinDateKey(m.utc);
+    if(!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(m);
+  });
+
+  scheduleList.innerHTML = Array.from(groups.entries()).map(([,dayMatches])=>{
+    const date = new Date(dayMatches[0].utc);
+    const title = dateLabelFmt.format(date);
+    const cards = dayMatches.map(m=>{
+      const status = matchStatus(m);
+      const hasScore = Number.isFinite(m.homeScore) && Number.isFinite(m.awayScore);
+      const score = hasScore ? `${m.homeScore}:${m.awayScore}` : 'vs';
+      const meta = [`Spiel ${m.no}`, m.group || m.stage, m.city].filter(Boolean).join(' · ');
+      const codes = [m.homeCode, m.awayCode].filter(Boolean).join(' / ');
+      return `
+        <article class="match-card ${status.cls==='live' ? 'live' : ''}">
+          <div class="match-time">
+            <strong>${escapeHtml(timeLabelFmt.format(new Date(m.utc)))}</strong>
+            <span>Berlin</span>
+          </div>
+          <div class="match-main">
+            <div class="match-meta">${escapeHtml(meta)}</div>
+            <div class="match-teams">
+              <span class="team">${escapeHtml(m.home)}</span>
+              <span class="score">${escapeHtml(score)}</span>
+              <span class="team">${escapeHtml(m.away)}</span>
+              ${codes ? `<span class="team-code">${escapeHtml(codes)}</span>` : ''}
+            </div>
+            <div class="match-place">${escapeHtml(m.stadium)}</div>
+          </div>
+          <div class="match-status ${status.cls}">${escapeHtml(status.text)}</div>
+        </article>
+      `;
+    }).join('');
+    return `<section class="day-group"><h2 class="day-title">${escapeHtml(title)}</h2>${cards}</section>`;
+  }).join('');
+}
+
+document.querySelector('.schedule-tools').addEventListener('click',e=>{
+  const chip = e.target.closest('.schedule-chip');
+  if(!chip) return;
+  scheduleStage = chip.dataset.stage;
+  document.querySelectorAll('.schedule-chip').forEach(btn=>btn.classList.toggle('active',btn===chip));
+  renderSchedule();
+});
+scheduleSearch.addEventListener('input', renderSchedule);
+
+fetch('matches.json')
+  .then(response => {
+    if(!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  })
+  .then(data => {
+    matches = data;
+    renderSchedule();
+  })
+  .catch(() => {
+    scheduleCount.textContent = 'Spielplan konnte nicht geladen werden';
+    scheduleList.innerHTML = '<div class="empty-state">matches.json ist nicht erreichbar.</div>';
+  });
 
 // Force Leaflet to re-measure its container once layout has settled,
 // otherwise tiles aren't requested if the map initialised at zero height.
