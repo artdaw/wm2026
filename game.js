@@ -25,8 +25,8 @@ function computeTrajectory(startPos, vel, steps, dt) {
   let v = { x: vel.x, y: vel.y, z: vel.z };
   for (let i = 0; i < steps; i++) {
     pts.push([p.x, Math.max(p.y, BALL_R), p.z]);
-    v = { x: v.x, y: v.y + GRAVITY * dt, z: v.z };
-    p = { x: p.x + v.x * dt, y: p.y + v.y * dt, z: p.z + v.z * dt };
+    p = { x: p.x + v.x * dt, y: p.y + v.y * dt, z: p.z + v.z * dt };  // position first
+    v = { x: v.x, y: v.y + GRAVITY * dt, z: v.z };  // then gravity
     if (p.z <= GOAL_Z || p.y < 0) break;
   }
   return pts;
@@ -37,7 +37,7 @@ function isGoal(x, y) {
 }
 
 function isSaved(ballX, ballY, keeperX) {
-  return Math.abs(ballX - keeperX) < 0.55 && ballY > 0.1 && ballY < 1.6;
+  return Math.abs(ballX - keeperX) < 0.55 && ballY > 0.1 && ballY < 1.9;
 }
 
 function stepPhysics(pos, vel, dt) {
