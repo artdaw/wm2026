@@ -322,8 +322,12 @@ function berlinDateKey(utc){
 
 function matchStatus(m){
   const hasScore = Number.isFinite(m.homeScore) && Number.isFinite(m.awayScore);
-  if(m.status===3) return {text:m.minute ? `Live · ${m.minute}` : 'Live', cls:'live'};
-  if(hasScore && m.status===0) return {text:'Beendet', cls:'done'};
+  const elapsedMin = (Date.now() - new Date(m.utc).getTime()) / 60000;
+  // Treat status=3 as live only if the match could realistically still be in play.
+  // 150 min covers 90 min + extra time + penalty shootout. Beyond that, stale data.
+  const couldBeLive = elapsedMin >= 0 && elapsedMin < 150;
+  if(m.status===3 && couldBeLive) return {text:m.minute ? `Live · ${m.minute}` : 'Live', cls:'live'};
+  if(hasScore) return {text:'Beendet', cls:'done'};
   return {text:'Anstoß', cls:''};
 }
 
