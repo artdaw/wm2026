@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta name="description" content="Interaktive Karte für WM 2026 Public Viewing und Fußballkneipen in Berlin." />
+<meta property="og:title" content="Public Viewing WM 2026 - Berlin" />
+<meta property="og:description" content="46 Locations für WM-Public-Viewing und Fußballkneipen in Berlin auf einer interaktiven Karte." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://wm2026.artdaw.com/" />
+<link rel="canonical" href="https://wm2026.artdaw.com/" />
+<title>Public Viewing WM 2026 – Berlin</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<style>
+  :root{
+    --bg:#0f1115; --panel:#171a21; --line:#262b35; --txt:#e8eaed; --muted:#9aa3b2;
+    --accent:#ffcf33; --accent2:#e8462a;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--txt)}
+  #app{display:flex;flex-direction:column;height:100%}
+  header{padding:10px 14px;border-bottom:1px solid var(--line);background:var(--panel);z-index:1000}
+  header h1{margin:0;font-size:15px;font-weight:700;letter-spacing:.2px}
+  header p{margin:2px 0 0;font-size:12px;color:var(--muted)}
+  .filters{display:flex;gap:6px;flex-wrap:wrap;padding:8px 14px;border-bottom:1px solid var(--line);background:var(--panel);z-index:1000}
+  .chip{font-size:12px;padding:5px 10px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;transition:.15s}
+  .chip.active{background:var(--accent);color:#1a1a1a;border-color:var(--accent);font-weight:600}
+  .chip .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
+  #map{flex:1 1 auto;width:100%;min-height:0;height:100%}
+  .leaflet-popup-content-wrapper{background:var(--panel);color:var(--txt);border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,.5)}
+  .leaflet-popup-tip{background:var(--panel)}
+  .leaflet-popup-content{margin:12px 14px;font-size:13px;line-height:1.45;width:250px!important}
+  .pop-name{font-size:15px;font-weight:700;margin-bottom:2px}
+  .pop-dist{font-size:11px;color:var(--accent);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+  .pop-row{display:flex;gap:6px;margin:3px 0}
+  .pop-row b{color:var(--muted);font-weight:500;min-width:74px;flex-shrink:0;font-size:12px}
+  .pop-row span{font-size:12px}
+  .pop-note{margin-top:8px;padding-top:8px;border-top:1px solid var(--line);font-size:12px;font-style:italic;color:var(--muted)}
+  .pop-maps{display:inline-block;margin-top:9px;font-size:12px;color:var(--accent);text-decoration:none;font-weight:600}
+  .pop-call{display:block;margin-top:9px;padding:9px;text-align:center;border-radius:8px;text-decoration:none;font-weight:700;font-size:13px;background:#1f5132;color:#aef0c4}
+  .pop-call.alt{background:#2a3a5a;color:#bcd6ff}
+  .badge{display:inline-block;font-size:10px;padding:2px 7px;border-radius:999px;margin-right:4px;margin-top:6px}
+  .b-free{background:#1f5132;color:#7ee0a0}
+  .b-paid{background:#5a2020;color:#ff9b8a}
+  .b-res{background:#2a3a5a;color:#9fc2ff}
+  .leaflet-bar a{background:var(--panel);color:var(--txt);border-color:var(--line)}
+  .count{font-size:11px;color:var(--muted);padding:4px 14px;background:var(--panel)}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>⚽ Fußball gucken in Berlin · WM 2026 + Kneipen</h1>
+    <p>46 Locations · WM-Public-Viewing (BerlinMagazine.de) + Fußballkneipen (Mit Vergnügen)</p>
+  </header>
+  <div class="filters" id="filters"></div>
+  <div class="count" id="count"></div>
+  <div id="map"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const cats = {
+  wasser:   {label:"Am Wasser",       color:"#3fa7ff"},
+  biergarten:{label:"Biergarten",     color:"#5fcf6b"},
+  kneipe:   {label:"Fußballkneipe",    color:"#e8462a"},
+  indoor:   {label:"Indoor / wetterfest", color:"#b98cff"},
+  arena:    {label:"Große Leinwand",   color:"#ffcf33"},
+  besonders:{label:"Besonderes",       color:"#ff8ac4"}
+};
+
+const places = [
+  {n:"Center am Potsdamer Platz",d:"Mitte",c:"arena",lat:52.5096,lng:13.3737,fmt:"Weitgehend wettergeschützt",sp:"10 Spiele, alle dt. Gruppenspiele",ein:"frei",res:"keine",adr:"Potsdamer Straße 2, 10785",bahn:"U2/S1/S2 Potsdamer Platz",note:"100 m² Leinwand, Platz für ~1.000 Gäste. Keine eigenen Speisen/Stühle.",free:1},
+  {n:"Zollpackhof",d:"Mitte",c:"wasser",lat:52.5215,lng:13.3667,fmt:"Draußen, große Schirme",sp:"Ausgewählte Spiele",ein:"frei",res:"–",adr:"Elisabeth-Abegg-Straße 1, 10557",bahn:"U5 Bundestag / Bus 245",note:"Biergarten an der Spree mit Blick aufs Kanzleramt.",free:1,tel:"+49 30 33099720"},
+  {n:"Weltwirtschaft am HKW",d:"Mitte",c:"wasser",lat:52.5188,lng:13.3637,fmt:"Draußen",sp:"Viele Abendspiele",ein:"frei",res:"–",adr:"John-Foster-Dulles-Allee 10, 10557",bahn:"Bus 100 HKW",note:"Steinofenpizza & Drinks im Tiergarten.",free:1},
+  {n:"Safe-Hub Berlin",d:"Mitte",c:"arena",lat:52.5475,lng:13.3637,fmt:"Fläche mit großer Leinwand",sp:"Ausgewählte Spiele",ein:"frei",res:"–",adr:"Ruheplatzstraße 12, 13347",bahn:"U6/U9 Leopoldplatz",note:"Familien- und nachbarschaftsorientiert.",free:1},
+  {n:"Hofbräu Wirtshaus",d:"Mitte",c:"indoor",lat:52.5219,lng:13.4115,fmt:"Drinnen",sp:"Alle DE-Spiele + Topspiele K.o.",ein:"frei",res:"erforderlich",adr:"Karl-Liebknecht-Straße 30, 10178",bahn:"S/U Alexanderplatz",note:"Einlass 2 h vor Anpfiff. Bayerische Küche, Stadionatmosphäre.",free:1,reso:1,tel:"+49 30 679665520"},
+
+  {n:"11 Freunde-Quartier (Astra)",d:"Friedrichshain-Kreuzberg",c:"indoor",lat:52.5076,lng:13.4516,fmt:"Drinnen",sp:"Alle Spiele 18–24 Uhr",ein:"frei",res:"–",adr:"Revaler Straße 99, 10245",bahn:"U1/U3/S Warschauer Straße",note:"LED-Leinwand, Tribüne. Für echte Fußballkultur-Fans.",free:1},
+  {n:"BRLO Brwhouse",d:"Friedrichshain-Kreuzberg",c:"biergarten",lat:52.4994,lng:13.3760,fmt:"Draußen (nicht überdacht)",sp:"Ausgewählte Spiele",ein:"frei",res:"–",adr:"Schöneberger Straße 16, 10963",bahn:"U1/U2/U3 Gleisdreieck",note:"Craft Beer & Streetfood im Gleisdreieckpark.",free:1},
+  {n:"Golgatha im Viktoriapark",d:"Friedrichshain-Kreuzberg",c:"biergarten",lat:52.4877,lng:13.3795,fmt:"Draußen & drinnen",sp:"Ausgewählte Spiele",ein:"frei",res:"nicht möglich",adr:"Katzbachstraße/Monumentenstraße, 10965",bahn:"Bus 140 / U Platz der Luftbrücke",note:"Klassiker im Viktoriapark. Kinder & Hunde willkommen.",free:1},
+  {n:"Maaya Berlin",d:"Friedrichshain-Kreuzberg",c:"besonders",lat:52.5072,lng:13.4520,fmt:"Open-Air & Eventfläche",sp:"Ausgewählte Spiele",ein:"frei",res:"–",adr:"Revaler Straße 99, 10245",bahn:"S/U Warschauer Straße",note:"Public Viewing + DJ-Sets & Party nach dem Abpfiff.",free:1},
+  {n:"Cassiopeia Sommergarten",d:"Friedrichshain-Kreuzberg",c:"biergarten",lat:52.5080,lng:13.4512,fmt:"Draußen",sp:"Ausgewählte Spiele",ein:"frei",res:"–",adr:"Revaler Straße 99, 10245",bahn:"S/U Warschauer Straße",note:"LED-Leinwand, Kooperation mit Radio Fritz.",free:1},
+  {n:"Uber Platz Fan Camp",d:"Friedrichshain-Kreuzberg",c:"arena",lat:52.5052,lng:13.4435,fmt:"Draußen",sp:"Alle Spiele bis 22 Uhr",ein:"frei",res:"–",adr:"Uber Platz, 10243",bahn:"S/U Warschauer Straße",note:"Soccer Court, Torwand & Mitmachaktionen. Familienfreundlich.",free:1},
+
+  {n:"Kulturbrauerei",d:"Pankow",c:"arena",lat:52.5388,lng:13.4119,fmt:"Draußen, bei Regen drinnen",sp:"18 ausgewählte Spiele",ein:"DE & K.o. 5 €, sonst tlw. frei",res:"–",adr:"Schönhauser Allee 36, 10435",bahn:"U2/M1/M10 Eberswalder Straße",note:"36 m² LED-Wand, verlässliche Regenalternative.",free:0},
+  {n:"Mauersegler am Mauerpark",d:"Pankow",c:"biergarten",lat:52.5447,lng:13.4029,fmt:"Draußen",sp:"Ausgewählte Spiele",ein:"frei",res:"–",adr:"Bernauer Straße 63–64, 13355",bahn:"Tram M10/12 Jahn-Sportpark",note:"Zwei Biergärten mit mehreren Screens.",free:1},
+  {n:"Frannz Sommergarten",d:"Pankow",c:"biergarten",lat:52.5392,lng:13.4125,fmt:"Draußen, tlw. überdacht",sp:"Ausgewählte Spiele",ein:"frei",res:"–",adr:"Schönhauser Allee 36, 10435",bahn:"U2 Eberswalder Straße",note:"Kleinere, ruhigere Alternative auf dem Kulturbrauerei-Gelände.",free:1},
+  {n:"Tante Käthe",d:"Pankow",c:"kneipe",lat:52.5445,lng:13.4035,fmt:"Fußballkneipe + Außenbereich",sp:"Ausgewählte + alle DE-Spiele",ein:"frei",res:"–",adr:"Bernauer Straße 63, 13355",bahn:"Tram M10/12",note:"Vier Leinwände, zehn Kickertische. Früh kommen!",free:1},
+
+  {n:"Studio 14 – rbb Dachlounge",d:"Charlottenburg-Wilmersdorf",c:"indoor",lat:52.5006,lng:13.2790,fmt:"Drinnen & Dachterrasse",sp:"Fast alle Spiele vor Mitternacht",ein:"frei",res:"Gruppen anmeldbar",adr:"Masurenallee 20, 14057",bahn:"U2 Theodor-Heuss-Platz / S41/S42",note:"Höchstes Public Viewing der Stadt. Panoramablick. 24.6. ausgenommen.",free:1,reso:1},
+  {n:"grand bar am Studio",d:"Charlottenburg-Wilmersdorf",c:"indoor",lat:52.5078,lng:13.2860,fmt:"Drinnen",sp:"Öffnungszeiten + alle DE-Spiele",ein:"frei",res:"empfohlen",adr:"Kaiserdamm 80–81, 14057",bahn:"U2 Kaiserdamm",note:"Wetterunabhängig, gut reservierbar.",free:1,reso:1,tel:"+49 30 89783900"},
+  {n:"Route 66 Diner",d:"Charlottenburg-Wilmersdorf",c:"indoor",lat:52.4948,lng:13.3225,fmt:"Drinnen & große Terrasse",sp:"Alle Spiele in Öffnungszeiten",ein:"frei (Speisen/Getränke)",res:"empfohlen",adr:"Pariser Straße 44, 10707",bahn:"U Hohenzollernplatz",note:"50er-Jahre US-Diner, ~600 Plätze. Burger & Ribs.",free:1,reso:1,tel:"+49 30 8831602"},
+  {n:"Art Stalker",d:"Charlottenburg-Wilmersdorf",c:"kneipe",lat:52.5083,lng:13.3066,fmt:"Drinnen",sp:"Ausgewählte + alle DE-Gruppenspiele",ein:"frei (Getränke)",res:"möglich",adr:"Kaiser-Friedrich-Straße 67, 10627",bahn:"U7 Wilmersdorfer Straße",note:"Bar mit Kicker und Darts.",free:1,reso:1},
+
+  {n:"Neulich am Flughafen Tempelhof",d:"Tempelhof-Schöneberg",c:"besonders",lat:52.4806,lng:13.3870,fmt:"Draußen",sp:"Spiele bis 22 Uhr",ein:"frei",res:"–",adr:"Tempelhofer Damm 45, 12101",bahn:"U6 Paradestraße",note:"Biergarten am THF-Tower mit Blick übers Tempelhofer Feld. DJs.",free:1},
+  {n:"Naumanns Biergarten",d:"Tempelhof-Schöneberg",c:"biergarten",lat:52.4744,lng:13.3596,fmt:"Draußen",sp:"Alle angekündigten Spiele",ein:"frei",res:"–",adr:"Wilhelm-Kabus-Straße 36, 10829",bahn:"Bus 106/204 / S Schöneberg",note:"Ruhiger Biergarten auf dem ehem. Gasag-Gelände.",free:1},
+  {n:"Laax im Volkspark Schöneberg",d:"Tempelhof-Schöneberg",c:"biergarten",lat:52.4837,lng:13.3437,fmt:"Draußen",sp:"Ausgewählte Spiele",ein:"frei",res:"–",adr:"Fritz-Elsas-Straße 30, 10825",bahn:"U4/S Rathaus Schöneberg",note:"Grüner Parkstandort.",free:1},
+  {n:"Zwölf-Apostel-Kirche",d:"Tempelhof-Schöneberg",c:"besonders",lat:52.4986,lng:13.3580,fmt:"Drinnen",sp:"Ausgewählte Spiele (u.a. Curaçao, Ecuador)",ein:"frei (Spenden)",res:"–",adr:"An der Apostelkirche 1, 10783",bahn:"U1/U3 Kurfürstenstraße",note:"Live-Orgelmusik statt TV-Kommentar – einzigartig in Berlin.",free:1},
+
+  {n:"Beach Neukölln",d:"Neukölln",c:"arena",lat:52.4720,lng:13.4490,fmt:"Draußen",sp:"Ausgewählte Spiele",ein:"frei",res:"–",adr:"Treptower Straße 39, 12059",bahn:"Bus 171 Treptower/Harzer Str.",note:"1.500 m² Arena, zwei LED-Wände, Berliner Berg Bier.",free:1},
+  {n:"Gropius Passagen",d:"Neukölln",c:"indoor",lat:52.4262,lng:13.4595,fmt:"Drinnen, wettergeschützt",sp:"Ausgewählte Spiele (u.a. DE–Curaçao)",ein:"frei",res:"–",adr:"Johannisthaler Chaussee 317, 12351",bahn:"U7 Johannisthaler Chaussee",note:"Atrium am Foodcourt. Wetterfest & familiengeeignet.",free:1},
+
+  {n:"Freiheit Fünfzehn",d:"Treptow-Köpenick",c:"wasser",lat:52.4556,lng:13.5760,fmt:"Draußen",sp:"Alle DE-Spiele",ein:"frei",res:"–",adr:"Freiheit 15, 12555",bahn:"Tram 27/61/62/63/68 Freiheit",note:"Zwei Leinwände direkt an der Müggelspree. Grill & Fassbier.",free:1},
+  {n:"Strandbad Wendenschloss",d:"Treptow-Köpenick",c:"wasser",lat:52.4310,lng:13.5870,fmt:"Draußen",sp:"Alle DE-Spiele + ab Achtelfinale",ein:"kostenpflichtig (ab ~1 €)",res:"–",adr:"Möllhausenufer 30, 12557",bahn:"Tram 62 Wendenschloss",note:"Public Viewing mit Sand, Wasser & Strandgefühl.",free:0},
+  {n:"Revier Südost (Baergarten)",d:"Treptow-Köpenick",c:"indoor",lat:52.4560,lng:13.5085,fmt:"Draußen & drinnen",sp:"Alle DE-Spiele",ein:"frei",res:"–",adr:"Schnellerstraße 137, 12439",bahn:"S/Tram Schöneweide",note:"Steinofenpizza & Bier. Verlässliche Innen-/Außenoption.",free:1},
+
+  {n:"Biergarten Insel Eiswerder",d:"Spandau",c:"wasser",lat:52.5418,lng:13.2240,fmt:"Draußen, tlw. geschützt",sp:"Alle DE-Spiele + täglich 1 Spiel",ein:"frei",res:"möglich",adr:"Eiswerderstraße, 13585",bahn:"Havelinsel Eiswerder",note:"Zwei LED-Wände, Havelblick. Pinsa & Fassbier.",free:1,reso:1,tel:"+49 176 860048557"},
+  {n:"Café Lutetia",d:"Spandau",c:"biergarten",lat:52.5360,lng:13.2010,fmt:"Biergarten + Innenbereich",sp:"Alle DE-Spiele",ein:"frei",res:"–",adr:"Jüdenstraße 10, 13597",bahn:"S/U Rathaus Spandau",note:"Zentrale Lage in der Altstadt.",free:1},
+  {n:"Plan B",d:"Spandau",c:"kneipe",lat:52.5340,lng:13.1960,fmt:"Drinnen & Garten",sp:"Spiele in Öffnungszeiten",ein:"frei",res:"–",adr:"Wilhelmstraße 144, 13595",bahn:"S/U Rathaus Spandau",note:"Kleine, inklusive Kiezbar.",free:1},
+
+  {n:"Loretta am Wannsee",d:"Steglitz-Zehlendorf",c:"biergarten",lat:52.4230,lng:13.1790,fmt:"Draußen, tlw. überdacht + Innen",sp:"Ausgewählte Spiele vor 22 Uhr",ein:"frei",res:"–",adr:"Kronprinzessinnenweg 260, 14109",bahn:"S1/S7 Wannsee",note:"Einer der größten Biergärten Berlins, ~1.000 Plätze.",free:1,tel:"+49 30 80105333"},
+
+  {n:"Alter Fritz",d:"Reinickendorf",c:"indoor",lat:52.5870,lng:13.2870,fmt:"Drinnen & Biergarten",sp:"Alle DE-Spiele",ein:"frei",res:"empfehlenswert",adr:"Karolinenstraße 12, 13507",bahn:"Tegel",note:"Traditionelles Restaurant, deutsche Hausmannskost.",free:1,reso:1,tel:"+49 30 4335010"},
+  {n:"Füchsewäldchen Clublounge",d:"Reinickendorf",c:"biergarten",lat:52.5710,lng:13.3460,fmt:"Vereins- & Clublounge",sp:"Alle DE-Spiele",ein:"frei",res:"nicht möglich",adr:"Kopenhagener Straße 33, 13407",bahn:"Sportpark Reinickendorfer Füchse",note:"Grillstand. Früh kommen.",free:1},
+
+  {n:"Morgen wird besser",d:"Lichtenberg",c:"kneipe",lat:52.5135,lng:13.4790,fmt:"Drinnen",sp:"Alle DE-Spiele",ein:"frei",res:"–",adr:"Hagenstraße 7a, 10365",bahn:"S/Tram Lichtenberg",note:"Kleine Kiezkneipe, Astra zum Sonderpreis an DE-Spieltagen.",free:1},
+
+  {n:"Play Off im American Bowl",d:"Marzahn-Hellersdorf",c:"indoor",lat:52.5450,lng:13.5450,fmt:"Drinnen",sp:"Ausgewählte Spiele (keine Nachtspiele)",ein:"frei (Speisen/Getränke)",res:"empfohlen",adr:"Märkische Allee 176/178, 12681",bahn:"S7 Marzahn",note:"US-Diner + Bowling. WM-Tippspiel.",free:1,reso:1},
+
+  {n:"Sportsbar Tor 133",d:"Mitte",c:"kneipe",lat:52.5295,lng:13.4015,fmt:"Klassische Sportsbar (ganzjährig)",sp:"Bundesliga, CL & mehr",ein:"frei (Getränke)",res:"–",adr:"Torstraße 133, 10119",bahn:"U8 Rosenthaler Platz",note:"Höchste Flatscreen-Dichte Berlins, Darts. Raucherbar, ~50 m². Mo–Do 14–02, Fr–So ab 12 Uhr.",free:1},
+  {n:"Weisse Taube",d:"Friedrichshain-Kreuzberg",c:"kneipe",lat:52.4980,lng:13.4305,fmt:"Fußballkneipe (ganzjährig)",sp:"Bundesliga, CL & mehr",ein:"frei (Getränke)",res:"–",adr:"Wiener Straße 15, 10999",bahn:"U1 Görlitzer Bahnhof",note:"Klassische Kreuzberger Kneipe: Kicker, Leinwand + Flatscreen, Riesenaquarium. Täglich 17–02 Uhr.",free:1},
+  {n:"Bretterbude",d:"Friedrichshain-Kreuzberg",c:"kneipe",lat:52.5145,lng:13.4590,fmt:"Fußballkneipe (ganzjährig)",sp:"Bundesliga, CL & mehr",ein:"frei (Getränke)",res:"–",adr:"Niederbarnimstraße 9, 10247",bahn:"U5 Samariterstraße",note:"Ehrliche Kneipe, günstiges Bier, extravagante Schnäpse. Inoffizielle Bayern-Fankneipe. Di–So ab 18 Uhr.",free:1},
+  {n:"Madonna Bar",d:"Friedrichshain-Kreuzberg",c:"kneipe",lat:52.4982,lng:13.4318,fmt:"Bar (ganzjährig)",sp:"Bundesliga, CL & mehr",ein:"frei (Getränke)",res:"–",adr:"Wiener Straße 22, 10999",bahn:"U1 Görlitzer Bahnhof",note:"Über 200 Whisky-Sorten, riesige Leinwand, biblisches Deckengemälde. Bis 06 Uhr am Wochenende.",free:1},
+  {n:"Astra Stube",d:"Neukölln",c:"kneipe",lat:52.4800,lng:13.4390,fmt:"Fußballkneipe (ganzjährig)",sp:"Bundesliga (Hertha-Kiez)",ein:"frei (Getränke)",res:"–",adr:"Weichselstraße 63, 12043",bahn:"U7/U8 Hermannplatz",note:"Öffnet am Wochenende „eine halbe Stunde vor dem ersten Spiel\". Proppenvoll bei Anpfiff.",free:1},
+  {n:"Bar 11",d:"Friedrichshain-Kreuzberg",c:"kneipe",lat:52.4978,lng:13.4310,fmt:"Fußballkneipe (ganzjährig)",sp:"Bundesliga bis Champions League",ein:"frei (Getränke)",res:"–",adr:"Wiener Straße 21, 10999",bahn:"U1 Görlitzer Bahnhof",note:"Jedes Spiel auf mehreren Bildschirmen mit vollem Sound. Täglich ab 15 Uhr.",free:1},
+  {n:"FC Magnet Bar",d:"Mitte",c:"kneipe",lat:52.5318,lng:13.4015,fmt:"Fußballkneipe (ganzjährig)",sp:"Fußball weltweit, bis tief in die Nacht",ein:"frei (Getränke)",res:"–",adr:"Veteranenstraße 26, 10119",bahn:"U8 Rosenthaler Platz",note:"Wohl die bekannteste Fußballkneipe Berlins. Früh kommen bei großen Spielen.",free:1,tel:"+49 30 24352455"},
+  {n:"Birgit's Pub",d:"Charlottenburg-Wilmersdorf",c:"kneipe",lat:52.5135,lng:13.3010,fmt:"Fußballkneipe (ganzjährig)",sp:"Bundesliga, CL & mehr",ein:"frei (Getränke)",res:"–",adr:"Fritschestraße 29, 10585",bahn:"U7 Wilmersdorfer / S Charlottenburg",note:"Entspannte Familien-Fußballkneipe im Westen. Darts, freies WLAN. Di–So.",free:1},
+  {n:"Belushi's",d:"Mitte",c:"kneipe",lat:52.5265,lng:13.4120,fmt:"Sportsbar mit Küche (ganzjährig)",sp:"Bundesliga, CL & mehr",ein:"frei (Speisen/Getränke)",res:"–",adr:"Rosa-Luxemburg-Straße 41, 10178",bahn:"U2 Rosa-Luxemburg-Platz",note:"Burger & Pommes, internationales Publikum durch angeschlossenes Hostel. Täglich ab 12 Uhr.",free:1},
+  {n:"Hops & Barley",d:"Friedrichshain-Kreuzberg",c:"kneipe",lat:52.5108,lng:13.4640,fmt:"Hausbrauerei (ganzjährig)",sp:"Bundesliga, CL & Europa League",ein:"frei (Getränke)",res:"–",adr:"Wühlischstraße 22/23, 10245",bahn:"S/U Warschauer Straße / Frankfurter Tor",note:"Selbstgebraute Biere seit 2008, zwei Leinwände. Raucherraum für Gladbach-Fans.",free:1}
+];
+
+const map = L.map('map',{zoomControl:true}).setView([52.510,13.404],11);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
+  attribution:'© OpenStreetMap contributors', maxZoom:19
+}).addTo(map);
+
+function pin(color){
+  return L.divIcon({
+    className:'',
+    html:`<div style="width:20px;height:20px;background:${color};border:2.5px solid #0f1115;border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 2px 6px rgba(0,0,0,.6)"></div>`,
+    iconSize:[20,20], iconAnchor:[10,18], popupAnchor:[0,-18]
+  });
+}
+
+let active = "all";
+const markers = [];
+
+places.forEach(p=>{
+  const cat = cats[p.c];
+  const m = L.marker([p.lat,p.lng],{icon:pin(cat.color)});
+  const q = encodeURIComponent(p.n+", "+p.adr+" Berlin");
+  let badges = p.free ? '<span class="badge b-free">Eintritt frei</span>' : '<span class="badge b-paid">kostenpflichtig</span>';
+  if(p.reso) badges += '<span class="badge b-res">Reservierung</span>';
+  const telClean = p.tel ? p.tel.replace(/[^+\d]/g,'') : '';
+  const callBtn = p.tel
+    ? `<a class="pop-call" href="tel:${telClean}">📞 Anrufen · ${p.tel}</a>`
+    : `<a class="pop-call alt" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank">📞 Nummer via Google Maps</a>`;
+  m.bindPopup(`
+    <div class="pop-name">${p.n}</div>
+    <div class="pop-dist">${p.d} · ${cat.label}</div>
+    <div class="pop-row"><b>Format</b><span>${p.fmt}</span></div>
+    <div class="pop-row"><b>Spiele</b><span>${p.sp}</span></div>
+    <div class="pop-row"><b>Eintritt</b><span>${p.ein}</span></div>
+    <div class="pop-row"><b>Reservierung</b><span>${p.res}</span></div>
+    <div class="pop-row"><b>Adresse</b><span>${p.adr} Berlin</span></div>
+    <div class="pop-row"><b>Anfahrt</b><span>${p.bahn}</span></div>
+    <div>${badges}</div>
+    <div class="pop-note">${p.note}</div>
+    ${callBtn}
+    <a class="pop-maps" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank">In Google Maps öffnen →</a>
+  `,{maxWidth:280});
+  m._cat = p.c;
+  markers.push(m);
+  m.addTo(map);
+});
+
+// Filters
+const fbox = document.getElementById('filters');
+const allChip = document.createElement('button');
+allChip.className='chip active'; allChip.textContent='Alle'; allChip.dataset.c='all';
+fbox.appendChild(allChip);
+Object.entries(cats).forEach(([k,v])=>{
+  const b=document.createElement('button');
+  b.className='chip'; b.dataset.c=k;
+  b.innerHTML=`<span class="dot" style="background:${v.color}"></span>${v.label}`;
+  fbox.appendChild(b);
+});
+
+function applyFilter(c){
+  active=c;
+  document.querySelectorAll('.chip').forEach(ch=>ch.classList.toggle('active',ch.dataset.c===c));
+  let visible=0;
+  markers.forEach(m=>{
+    if(c==='all'||m._cat===c){ if(!map.hasLayer(m)) m.addTo(map); visible++; }
+    else { if(map.hasLayer(m)) map.removeLayer(m); }
+  });
+  document.getElementById('count').textContent = `${visible} von ${places.length} Locations werden angezeigt`;
+}
+fbox.addEventListener('click',e=>{ const ch=e.target.closest('.chip'); if(ch) applyFilter(ch.dataset.c); });
+applyFilter('all');
+
+// Force Leaflet to re-measure its container once layout has settled,
+// otherwise tiles aren't requested if the map initialised at zero height.
+function fixSize(){ map.invalidateSize(true); }
+setTimeout(fixSize, 100);
+setTimeout(fixSize, 500);
+window.addEventListener('resize', fixSize);
+window.addEventListener('load', fixSize);
+</script>
+</body>
+</html>
