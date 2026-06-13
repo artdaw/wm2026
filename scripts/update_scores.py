@@ -9,7 +9,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 MATCHES_JSON = Path(__file__).parent.parent / "matches.json"
-API_URL = "https://api.football-data.org/v4/competitions/WC/matches"
+API_URL = "https://api.football-data.org/v4/competitions/WC/matches?season=2026"
 WINDOW_BEFORE = timedelta(minutes=15)
 WINDOW_AFTER = timedelta(minutes=105)
 
@@ -113,11 +113,24 @@ def main():
         api_matches = fetch_api_matches(api_key)
     except Exception as e:
         print(f"ERROR fetching API: {e}", file=sys.stderr)
-        return  # exit 0 — transient errors should not fail the workflow
+        sys.exit(1)  # fail the workflow step so the error is visible in CI logs
+
+    print(f"API returned {len(api_matches)} match(es).")
+    if not api_matches:
+        print("WARNING: 0 matches from API — check competition code / API key tier.")
+        return
+
+    # Log TLA pairs the API returned so mismatches are easy to spot in CI logs.
+    api_tlas = sorted(
+        f"{m.get('homeTeam',{}).get('tla','?')}-{m.get('awayTeam',{}).get('tla','?')}"
+        for m in api_matches
+    )
+    print("API TLAs:", ", ".join(api_tlas[:10]), ("…" if len(api_tlas) > 10 else ""))
 
     lookup = build_lookup(api_matches)
     updated_matches = []
     changed_count = 0
+    unmatched = []
 
     for m in existing:
         key = (m.get("homeCode"), m.get("awayCode"))
@@ -128,6 +141,11 @@ def main():
                 changed_count += 1
         else:
             updated_matches.append(m)
+            if m.get("homeCode"):  # skip placeholder entries
+                unmatched.append(f"{m['homeCode']}-{m['awayCode']}")
+
+    if unmatched:
+        print(f"WARNING: {len(unmatched)} local match(es) not found in API: {', '.join(unmatched[:10])}")
 
     if changed_count == 0:
         print("No changes detected.")
