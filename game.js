@@ -128,6 +128,11 @@ if (typeof module !== 'undefined') {
   );
   trajLine.visible = false;
   scene.add(trajLine);
+  const TRAJ_STEPS = 30;
+  const trajPts  = new Float32Array(TRAJ_STEPS * 3);
+  const trajAttr = new THREE.BufferAttribute(trajPts, 3).setUsage(THREE.DynamicDrawUsage);
+  trajGeo.setAttribute('position', trajAttr);
+  trajGeo.setDrawRange(0, 0);
 
   // ── UI refs ───────────────────────────────────────────────────────────────
   const uiScore       = document.getElementById('game-score');
@@ -180,7 +185,7 @@ if (typeof module !== 'undefined') {
   function handleResult(outcome) {
     if (outcome === 'goal') goals++; else saved++;
     kicks++;
-    const labels = { goal: 'TOR! ⚽', saved: 'Gehalten! 🥊', miss: 'Vergeben! 😬' };
+    const labels = { goal: 'TOR! ⚽', saved: 'Gehalten! 🧤', miss: 'Vergeben! 😬' };
     uiResult.textContent = labels[outcome] || 'Vergeben!';
     resultTimer = 0;
     setState('result');
@@ -194,11 +199,9 @@ if (typeof module !== 'undefined') {
     const vel = computeLaunchVelocity(dx, dy, MAX_DRAG, MAX_SPEED);
     const pts = computeTrajectory(BALL_START, vel, 30, 0.06);
     if (!pts.length) return;
-    const flat = new Float32Array(pts.length * 3);
-    pts.forEach(([x, y, z], i) => { flat[i * 3] = x; flat[i * 3 + 1] = y; flat[i * 3 + 2] = z; });
-    trajGeo.setAttribute('position', new THREE.BufferAttribute(flat, 3));
+    pts.forEach(([x, y, z], i) => { trajPts[i * 3] = x; trajPts[i * 3 + 1] = y; trajPts[i * 3 + 2] = z; });
     trajGeo.setDrawRange(0, pts.length);
-    trajGeo.attributes.position.needsUpdate = true;
+    trajAttr.needsUpdate = true;
     trajLine.computeLineDistances();
     trajLine.visible = true;
   }
@@ -233,7 +236,7 @@ if (typeof module !== 'undefined') {
         handleResult(outcome);
       }
       // Hit ground before reaching goal
-      if (pos.y <= BALL_R && pos.z > GOAL_Z + 0.5) {
+      else if (pos.y <= BALL_R && pos.z > GOAL_Z + 0.5) {
         handleResult('miss');
       }
     }
