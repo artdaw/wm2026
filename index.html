@@ -277,6 +277,10 @@ document.querySelector('.view-tabs').addEventListener('click',e=>{
   document.querySelectorAll('.view-tab').forEach(btn=>btn.classList.toggle('active',btn===tab));
   document.querySelectorAll('.view').forEach(view=>view.classList.toggle('active',view.id===`${tab.dataset.view}-view`));
   if(tab.dataset.view==='map') setTimeout(fixSize, 80);
+  if(tab.dataset.view==='schedule'){
+    scheduleShouldFocus = true;
+    requestAnimationFrame(focusCurrentMatch);
+  }
 });
 
 const scheduleList = document.getElementById('schedule-list');
@@ -284,6 +288,7 @@ const scheduleCount = document.getElementById('schedule-count');
 const scheduleSearch = document.getElementById('schedule-search');
 let matches = [];
 let scheduleStage = 'all';
+let scheduleShouldFocus = false;
 const matchDataUpdated = '13.06.2026';
 
 const dateLabelFmt = new Intl.DateTimeFormat('de-DE', {
@@ -322,6 +327,22 @@ function matchStatus(m){
   return {text:'Anstoß', cls:''};
 }
 
+function findCurrentMatch(){
+  const ordered = [...matches].sort((a,b)=>new Date(a.utc) - new Date(b.utc) || a.no - b.no);
+  return ordered.find(m=>matchStatus(m).cls !== 'done') || ordered[ordered.length - 1];
+}
+
+function focusCurrentMatch(){
+  if(!matches.length) return false;
+  const current = findCurrentMatch();
+  let card = current ? scheduleList.querySelector(`[data-match-no="${current.no}"]`) : null;
+  if(!card) card = scheduleList.querySelector('.match-card:not(.done)');
+  if(!card) return false;
+  card.scrollIntoView({behavior:'smooth', block:'center', inline:'nearest'});
+  scheduleShouldFocus = false;
+  return true;
+}
+
 function renderSchedule(){
   const q = scheduleSearch.value.trim().toLowerCase();
   const visible = matches.filter(m=>{
@@ -355,7 +376,7 @@ function renderSchedule(){
       const meta = [`Spiel ${m.no}`, m.group || m.stage, m.city].filter(Boolean).join(' · ');
       const codes = [m.homeCode, m.awayCode].filter(Boolean).join(' / ');
       return `
-        <article class="match-card ${status.cls==='live' ? 'live' : ''}">
+        <article class="match-card ${status.cls}" data-match-no="${escapeHtml(m.no)}">
           <div class="match-time">
             <strong>${escapeHtml(timeLabelFmt.format(new Date(m.utc)))}</strong>
             <span>Berlin</span>
@@ -376,6 +397,9 @@ function renderSchedule(){
     }).join('');
     return `<section class="day-group"><h2 class="day-title">${escapeHtml(title)}</h2>${cards}</section>`;
   }).join('');
+  if(scheduleShouldFocus && document.getElementById('schedule-view').classList.contains('active')){
+    requestAnimationFrame(focusCurrentMatch);
+  }
 }
 
 document.querySelector('.schedule-tools').addEventListener('click',e=>{
