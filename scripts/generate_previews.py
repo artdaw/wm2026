@@ -60,17 +60,21 @@ def build_summary_prompt(match):
     home_score = match.get('homeScore', '?')
     away_score = match.get('awayScore', '?')
     return (
-        f"Schreib eine knappe Zusammenfassung in 1-2 Sätzen auf Deutsch für das "
-        f"WM-2026-Spiel: {home} {home_score}:{away_score} {away}. "
-        f"Nur die Sätze, kein Titel."
+        f"Das WM-2026-Spiel {home} gegen {away} ist beendet. Endergebnis: {home_score}:{away_score}. "
+        f"Schreib genau 1-2 Sätze auf Deutsch, die dieses Ergebnis kommentieren. "
+        f"Nur die Sätze, kein Titel, keine Fragen, keine Vorbehalte."
     )
 
 
 def merge_ai_text(match, field, text):
     if not text or not text.strip():
         return dict(match), False
+    # reject refusals: Claude asking a question back instead of generating text
+    stripped = text.strip()
+    if stripped.endswith('?'):
+        return dict(match), False
     updated = dict(match)
-    updated[field] = text.strip()
+    updated[field] = stripped
     return updated, True
 
 

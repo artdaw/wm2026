@@ -114,6 +114,13 @@ class TestMergeAiText(unittest.TestCase):
         updated, changed = merge_ai_text(m, 'preview', '   ')
         self.assertFalse(changed)
 
+    def test_refusal_ending_with_question_mark_no_change(self):
+        m = {'home': 'Deutschland', 'summary': None}
+        refusal = 'Dieses Spiel hat nicht stattgefunden. Soll ich ein anderes Spiel zusammenfassen?'
+        updated, changed = merge_ai_text(m, 'summary', refusal)
+        self.assertFalse(changed)
+        self.assertIsNone(updated['summary'])
+
 
 if __name__ == '__main__':
     unittest.main()
