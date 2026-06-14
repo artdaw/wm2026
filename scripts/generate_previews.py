@@ -8,7 +8,7 @@ from datetime import datetime, timezone, timedelta
 MATCHES_JSON = os.path.join(os.path.dirname(__file__), '..', 'matches.json')
 WINDOW_PREVIEW  = timedelta(days=7)
 WINDOW_FINISHED = timedelta(minutes=105)
-API_URL         = 'https://api.liquid.ai/v1/chat/completions'
+API_URL         = 'https://inference.liquid.ai/v1/chat/completions'
 DEFAULT_MODEL   = 'lfm-7b'
 
 MONTH_DE = ['', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
