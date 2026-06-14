@@ -11,6 +11,7 @@ WINDOW_PREVIEW  = timedelta(days=7)
 WINDOW_FINISHED = timedelta(minutes=105)
 API_URL         = 'https://api.anthropic.com/v1/messages'
 DEFAULT_MODEL   = 'claude-opus-4-7'
+BATCH_SIZE      = 8
 
 SYSTEM_PROMPT = (
     'You are a world-renowned football commentator. '
@@ -170,23 +171,24 @@ def main():
         print(f'Generated: 0 previews, 0 summaries. Skipped: {skipped}.')
         return
 
-    prompt = build_batch_prompt(to_generate)
-    try:
-        response_text = call_claude(prompt, api_key, model)
-    except Exception as e:
-        print(f'API error: {e}', file=sys.stderr)
-        return
-
-    results = parse_batch_response(response_text)
-    if results is None:
-        print(f'Failed to parse response:\n{response_text[:500]}', file=sys.stderr)
-        return
-
-    result_map = {
-        item['id']: item['text']
-        for item in results
-        if isinstance(item, dict) and 'id' in item and 'text' in item
-    }
+    # Process in batches to avoid API timeouts
+    result_map = {}
+    batches = [to_generate[i:i + BATCH_SIZE] for i in range(0, len(to_generate), BATCH_SIZE)]
+    for i, batch in enumerate(batches, 1):
+        print(f'Batch {i}/{len(batches)}: {len(batch)} matches…')
+        try:
+            response_text = call_claude(build_batch_prompt(batch), api_key, model)
+        except Exception as e:
+            print(f'API error on batch {i}: {e}', file=sys.stderr)
+            continue
+        results = parse_batch_response(response_text)
+        if results is None:
+            print(f'Failed to parse batch {i} response:\n{response_text[:300]}',
+                  file=sys.stderr)
+            continue
+        for item in results:
+            if isinstance(item, dict) and 'id' in item and 'text' in item:
+                result_map[item['id']] = item['text']
 
     field_map = {m['no']: field for m, field in to_generate}
     previews_gen = summaries_gen = 0
