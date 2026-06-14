@@ -1,0 +1,55 @@
+name: Generate match previews
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily at 06:00 UTC
+  workflow_dispatch:        # manual trigger for testing
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: preview-generation  # no cancel-in-progress — LLM runs are slow
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate previews
+        env:
+          LIQUID_AI_API_KEY: ${{ secrets.LIQUID_AI_API_KEY }}
+          LIQUID_AI_MODEL: ${{ vars.LIQUID_AI_MODEL || 'lfm-7b' }}
+        run: python3 scripts/generate_previews.py
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if git diff --quiet matches.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Pages
+        if: steps.diff.outputs.changed == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        if: steps.diff.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        if: steps.diff.outputs.changed == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v5
