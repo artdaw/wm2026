@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 import urllib.request
 import urllib.error
@@ -13,8 +14,9 @@ DEFAULT_MODEL   = 'claude-opus-4-7'
 
 SYSTEM_PROMPT = (
     'You are a world-renowned football commentator. '
-    'You must write 3 to 5 sentences about the game. '
-    'Use all resources you have including online websites.'
+    'You must write 3 to 5 sentences per match. '
+    'Use all resources you have including online websites. '
+    'Always respond with valid JSON only — no prose before or after.'
 )
 
 MONTH_DE = ['', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
@@ -44,39 +46,75 @@ def needs_summary(match, now):
     return (now - kick_off) >= WINDOW_FINISHED
 
 
-def build_preview_prompt(match):
-    home  = match.get('home', '?')
-    away  = match.get('away', '?')
-    stage = match.get('stage') or match.get('group', '')
+def build_batch_prompt(to_generate):
+    """Build one prompt for all matches. to_generate: list of (match_dict, field)."""
+    items = []
+    for match, field in to_generate:
+        no   = match['no']
+        home = match.get('home', '?')
+        away = match.get('away', '?')
+        if field == 'summary':
+            hs  = match.get('homeScore', '?')
+            aws = match.get('awayScore', '?')
+            items.append(
+                f'{{"id": {no}, "type": "summary", '
+                f'"match": "{home} {hs}:{aws} {away} (beendet)"}}'
+            )
+        else:
+            stage = match.get('stage') or match.get('group', '')
+            try:
+                ko      = datetime.fromisoformat(match['utc'].replace('Z', '+00:00'))
+                date_de = f"{ko.day}. {MONTH_DE[ko.month]} {ko.year}"
+            except (KeyError, ValueError):
+                date_de = ''
+            items.append(
+                f'{{"id": {no}, "type": "preview", '
+                f'"match": "{home} vs {away}, {stage}, {date_de}"}}'
+            )
+
+    matches_block = '[\n  ' + ',\n  '.join(items) + '\n]'
+    return (
+        f"Erstelle deutschsprachige Kommentare für folgende WM-2026-Spiele.\n\n"
+        f"Eingabe:\n{matches_block}\n\n"
+        f"Gib ausschließlich ein JSON-Array zurück. Kein Text davor oder danach.\n"
+        f"Format: [{{\"id\": <Spielnummer>, \"text\": \"<Kommentar>\"}}, ...]\n\n"
+        f"- type=preview: spannende Vorschau auf das bevorstehende Spiel.\n"
+        f"- type=summary: Zusammenfassung des beendeten Spiels basierend auf dem angegebenen Ergebnis. "
+        f"Keine Fragen, keine Vorbehalte.\n"
+        f"Kommentar auf Deutsch, kein Titel."
+    )
+
+
+def parse_batch_response(text):
+    """Extract and return a list of {{id, text}} dicts from Claude's response."""
+    stripped = text.strip()
+    # Direct parse
     try:
-        kick_off = datetime.fromisoformat(match['utc'].replace('Z', '+00:00'))
-        date_de  = f"{kick_off.day}. {MONTH_DE[kick_off.month]} {kick_off.year}"
-    except (KeyError, ValueError):
-        date_de = ''
-    return (
-        f"Schreib eine spannende Vorschau auf Deutsch für das "
-        f"WM-2026-Spiel: {home} vs {away}, {stage}, {date_de}. "
-        f"Kein Titel, nur die Sätze."
-    )
-
-
-def build_summary_prompt(match):
-    home       = match.get('home', '?')
-    away       = match.get('away', '?')
-    home_score = match.get('homeScore', '?')
-    away_score = match.get('awayScore', '?')
-    return (
-        f"Das WM-2026-Spiel {home} gegen {away} ist beendet. Endergebnis: {home_score}:{away_score}. "
-        f"Schreib eine Zusammenfassung auf Deutsch, die dieses Ergebnis kommentiert. "
-        f"Kein Titel, keine Fragen, keine Vorbehalte."
-    )
+        return json.loads(stripped)
+    except json.JSONDecodeError:
+        pass
+    # Markdown code fence: ```json [...] ```
+    m = re.search(r'```(?:json)?\s*(\[.*?\])\s*```', stripped, re.DOTALL)
+    if m:
+        try:
+            return json.loads(m.group(1))
+        except json.JSONDecodeError:
+            pass
+    # Bare array anywhere in the response
+    m = re.search(r'\[.*\]', stripped, re.DOTALL)
+    if m:
+        try:
+            return json.loads(m.group())
+        except json.JSONDecodeError:
+            pass
+    return None
 
 
 def merge_ai_text(match, field, text):
     if not text or not text.strip():
         return dict(match), False
-    # reject refusals: Claude asking a question back instead of generating text
     stripped = text.strip()
+    # Reject refusals: Claude asking a question back instead of generating text
     if stripped.endswith('?'):
         return dict(match), False
     updated = dict(match)
@@ -87,7 +125,7 @@ def merge_ai_text(match, field, text):
 def call_claude(prompt, api_key, model=DEFAULT_MODEL, base_url=API_URL):
     payload = json.dumps({
         'model': model,
-        'max_tokens': 400,
+        'max_tokens': 8000,
         'system': SYSTEM_PROMPT,
         'messages': [{'role': 'user', 'content': prompt}],
     }).encode()
@@ -101,7 +139,7 @@ def call_claude(prompt, api_key, model=DEFAULT_MODEL, base_url=API_URL):
         },
         method='POST',
     )
-    with urllib.request.urlopen(req, timeout=30) as resp:
+    with urllib.request.urlopen(req, timeout=120) as resp:
         data = json.loads(resp.read())
     return data['content'][0]['text']
 
@@ -118,35 +156,54 @@ def main():
         matches = json.load(f)
 
     now = datetime.now(timezone.utc)
-    previews_gen = 0
-    summaries_gen = 0
-    skipped = 0
+
+    to_generate = []
+    for m in matches:
+        if needs_summary(m, now):
+            to_generate.append((m, 'summary'))
+        elif needs_preview(m, now):
+            to_generate.append((m, 'preview'))
+
+    skipped = len(matches) - len(to_generate)
+
+    if not to_generate:
+        print(f'Generated: 0 previews, 0 summaries. Skipped: {skipped}.')
+        return
+
+    prompt = build_batch_prompt(to_generate)
+    try:
+        response_text = call_claude(prompt, api_key, model)
+    except Exception as e:
+        print(f'API error: {e}', file=sys.stderr)
+        return
+
+    results = parse_batch_response(response_text)
+    if results is None:
+        print(f'Failed to parse response:\n{response_text[:500]}', file=sys.stderr)
+        return
+
+    result_map = {
+        item['id']: item['text']
+        for item in results
+        if isinstance(item, dict) and 'id' in item and 'text' in item
+    }
+
+    field_map = {m['no']: field for m, field in to_generate}
+    previews_gen = summaries_gen = 0
     updated_matches = []
     any_changed = False
 
     for m in matches:
-        if needs_summary(m, now):
-            try:
-                text = call_claude(build_summary_prompt(m), api_key, model)
-                m, changed = merge_ai_text(m, 'summary', text)
-                if changed:
-                    summaries_gen += 1
-                    any_changed = True
-            except Exception as e:
-                print(f"Summary error for {m.get('home')} vs {m.get('away')}: {e}",
-                      file=sys.stderr)
-        elif needs_preview(m, now):
-            try:
-                text = call_claude(build_preview_prompt(m), api_key, model)
-                m, changed = merge_ai_text(m, 'preview', text)
-                if changed:
+        no = m['no']
+        if no in field_map and no in result_map:
+            field = field_map[no]
+            m, changed = merge_ai_text(m, field, result_map[no])
+            if changed:
+                any_changed = True
+                if field == 'preview':
                     previews_gen += 1
-                    any_changed = True
-            except Exception as e:
-                print(f"Preview error for {m.get('home')} vs {m.get('away')}: {e}",
-                      file=sys.stderr)
-        else:
-            skipped += 1
+                else:
+                    summaries_gen += 1
         updated_matches.append(m)
 
     if any_changed:
@@ -154,8 +211,7 @@ def main():
             json.dump(updated_matches, f, ensure_ascii=False, indent=2)
             f.write('\n')
 
-    print(f"Generated: {previews_gen} previews, {summaries_gen} summaries. "
-          f"Skipped: {skipped}.")
+    print(f'Generated: {previews_gen} previews, {summaries_gen} summaries. Skipped: {skipped}.')
 
 
 if __name__ == '__main__':

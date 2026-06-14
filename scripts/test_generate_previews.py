@@ -3,7 +3,7 @@ from datetime import datetime, timezone, timedelta
 sys.path.insert(0, __file__.replace('/test_generate_previews.py', ''))
 from generate_previews import (
     needs_preview, needs_summary,
-    build_preview_prompt, build_summary_prompt,
+    build_batch_prompt, parse_batch_response,
     merge_ai_text,
 )
 
@@ -53,42 +53,77 @@ class TestNeedsSummary(unittest.TestCase):
         self.assertTrue(needs_summary(self._m(3, home_score=0, away_score=0), NOW))
 
 
-class TestBuildPreviewPrompt(unittest.TestCase):
-    def _m(self):
+class TestBuildBatchPrompt(unittest.TestCase):
+    def _preview_match(self):
         return {
-            'home': 'Deutschland', 'away': 'Brasilien',
+            'no': 10, 'home': 'Deutschland', 'away': 'Brasilien',
             'stage': 'Gruppe A', 'group': None,
             'utc': '2026-06-17T18:00:00Z',
         }
 
-    def test_contains_home_team(self):
-        self.assertIn('Deutschland', build_preview_prompt(self._m()))
+    def _summary_match(self):
+        return {
+            'no': 1, 'home': 'Mexiko', 'away': 'Südafrika',
+            'homeScore': 2, 'awayScore': 0,
+            'utc': '2026-06-11T19:00:00Z',
+        }
 
-    def test_contains_away_team(self):
-        self.assertIn('Brasilien', build_preview_prompt(self._m()))
+    def test_contains_match_id(self):
+        prompt = build_batch_prompt([(self._preview_match(), 'preview')])
+        self.assertIn('10', prompt)
 
-    def test_contains_stage(self):
-        self.assertIn('Gruppe A', build_preview_prompt(self._m()))
+    def test_contains_team_names(self):
+        prompt = build_batch_prompt([(self._preview_match(), 'preview')])
+        self.assertIn('Deutschland', prompt)
+        self.assertIn('Brasilien', prompt)
 
-    def test_asks_for_german(self):
-        self.assertIn('Deutsch', build_preview_prompt(self._m()))
+    def test_preview_type_label(self):
+        prompt = build_batch_prompt([(self._preview_match(), 'preview')])
+        self.assertIn('preview', prompt)
+
+    def test_summary_includes_score(self):
+        prompt = build_batch_prompt([(self._summary_match(), 'summary')])
+        self.assertIn('2:0', prompt)
+        self.assertIn('summary', prompt)
+
+    def test_multiple_matches(self):
+        prompt = build_batch_prompt([
+            (self._preview_match(), 'preview'),
+            (self._summary_match(), 'summary'),
+        ])
+        self.assertIn('"id": 10', prompt)
+        self.assertIn('"id": 1', prompt)
+
+    def test_requests_json_output(self):
+        prompt = build_batch_prompt([(self._preview_match(), 'preview')])
+        self.assertIn('JSON', prompt)
 
 
-class TestBuildSummaryPrompt(unittest.TestCase):
-    def _m(self):
-        return {'home': 'Deutschland', 'away': 'Brasilien',
-                'homeScore': 2, 'awayScore': 1}
+class TestParseBatchResponse(unittest.TestCase):
+    def test_direct_json_array(self):
+        text = '[{"id": 1, "text": "Tolles Spiel."}, {"id": 2, "text": "Spannendes Match."}]'
+        result = parse_batch_response(text)
+        self.assertEqual(len(result), 2)
+        self.assertEqual(result[0]['id'], 1)
 
-    def test_contains_home_team(self):
-        self.assertIn('Deutschland', build_summary_prompt(self._m()))
+    def test_json_in_markdown_fence(self):
+        text = '```json\n[{"id": 5, "text": "Gutes Spiel."}]\n```'
+        result = parse_batch_response(text)
+        self.assertIsNotNone(result)
+        self.assertEqual(result[0]['id'], 5)
 
-    def test_contains_away_team(self):
-        self.assertIn('Brasilien', build_summary_prompt(self._m()))
+    def test_json_with_surrounding_prose(self):
+        text = 'Hier sind die Kommentare:\n[{"id": 3, "text": "Super."}]\nViel Spaß!'
+        result = parse_batch_response(text)
+        self.assertIsNotNone(result)
+        self.assertEqual(result[0]['text'], 'Super.')
 
-    def test_contains_score(self):
-        prompt = build_summary_prompt(self._m())
-        self.assertIn('2', prompt)
-        self.assertIn('1', prompt)
+    def test_invalid_returns_none(self):
+        self.assertIsNone(parse_batch_response('Das kann ich leider nicht beantworten.'))
+
+    def test_empty_array(self):
+        result = parse_batch_response('[]')
+        self.assertEqual(result, [])
 
 
 class TestMergeAiText(unittest.TestCase):
@@ -120,7 +155,3 @@ class TestMergeAiText(unittest.TestCase):
         updated, changed = merge_ai_text(m, 'summary', refusal)
         self.assertFalse(changed)
         self.assertIsNone(updated['summary'])
-
-
-if __name__ == '__main__':
-    unittest.main()
