@@ -11,7 +11,7 @@ WINDOW_PREVIEW  = timedelta(days=7)
 WINDOW_FINISHED = timedelta(minutes=105)
 API_URL         = 'https://api.anthropic.com/v1/messages'
 DEFAULT_MODEL   = 'claude-sonnet-4-6'
-BATCH_SIZE      = 8
+BATCH_SIZE      = 5
 
 SYSTEM_PROMPT = (
     'You are a world-renowned football commentator. '
@@ -87,27 +87,50 @@ def build_batch_prompt(to_generate):
 
 
 def parse_batch_response(text):
-    """Extract and return a list of {{id, text}} dicts from Claude's response."""
+    """Extract and return a list of {id, text} dicts from Claude's response.
+
+    Tries strategies in order:
+    1. Direct JSON parse
+    2. JSON inside a markdown code fence
+    3. Bare JSON array anywhere in the text
+    4. Partial recovery — salvage complete objects from a truncated array
+    """
     stripped = text.strip()
-    # Direct parse
-    try:
-        return json.loads(stripped)
-    except json.JSONDecodeError:
-        pass
-    # Markdown code fence: ```json [...] ```
+
+    def try_parse(s):
+        try:
+            return json.loads(s)
+        except json.JSONDecodeError:
+            return None
+
+    # 1. Direct parse
+    result = try_parse(stripped)
+    if result is not None:
+        return result
+
+    # 2. Markdown code fence
     m = re.search(r'```(?:json)?\s*(\[.*?\])\s*```', stripped, re.DOTALL)
     if m:
-        try:
-            return json.loads(m.group(1))
-        except json.JSONDecodeError:
-            pass
-    # Bare array anywhere in the response
+        result = try_parse(m.group(1))
+        if result is not None:
+            return result
+
+    # 3. Bare array
     m = re.search(r'\[.*\]', stripped, re.DOTALL)
     if m:
-        try:
-            return json.loads(m.group())
-        except json.JSONDecodeError:
-            pass
+        result = try_parse(m.group())
+        if result is not None:
+            return result
+
+    # 4. Partial recovery — extract complete {"id": N, "text": "..."} objects
+    #    even if the surrounding array was truncated mid-response
+    objects = re.findall(
+        r'\{\s*"id"\s*:\s*(\d+)\s*,\s*"text"\s*:\s*"((?:[^"\\]|\\.)*)"\s*\}',
+        stripped, re.DOTALL
+    )
+    if objects:
+        return [{'id': int(id_), 'text': text_} for id_, text_ in objects]
+
     return None
 
 

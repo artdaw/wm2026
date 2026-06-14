@@ -125,6 +125,19 @@ class TestParseBatchResponse(unittest.TestCase):
         result = parse_batch_response('[]')
         self.assertEqual(result, [])
 
+    def test_partial_recovery_from_truncated_array(self):
+        # Simulates max_tokens cutoff mid-JSON array
+        truncated = (
+            '[{"id": 10, "text": "Spannendes Spiel."}, '
+            '{"id": 11, "text": "Tolle Partie."}, '
+            '{"id": 12, "text": "Das war gut ge'  # truncated here
+        )
+        result = parse_batch_response(truncated)
+        self.assertIsNotNone(result)
+        self.assertEqual(len(result), 2)
+        self.assertEqual(result[0]['id'], 10)
+        self.assertEqual(result[1]['id'], 11)
+
 
 class TestMergeAiText(unittest.TestCase):
     def test_sets_field_and_changed_true(self):
