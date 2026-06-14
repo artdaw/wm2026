@@ -13,7 +13,8 @@
     "status": 0,
     "minute": null,
     "city": "Mexiko-Stadt",
-    "stadium": "Mexiko-Stadt-Stadion"
+    "stadium": "Mexiko-Stadt-Stadion",
+    "summary": "Mexiko marschiert mit einem verdienten 2:0-Sieg gegen Südafrika in die nächste Runde der WM 2026! El Tri zeigte von Beginn an eine dominante Vorstellung und ließ dem Gegner kaum Raum zur Entfaltung. Die mexikanische Offensive überzeugte mit präzisem Kombinationsspiel und eiskalt verwerteten Chancen. Südafrika kämpfte tapfer, doch gegen ein so gut eingespieltes Mexiko war heute kein Kraut gewachsen. Ein wichtiger Auftakt für die Mexikaner, die damit ein starkes Signal in ihrer Gruppe setzen!"
   },
   {
     "no": 2,
@@ -29,7 +30,8 @@
     "status": 0,
     "minute": null,
     "city": "Guadalajara",
-    "stadium": "Guadalajara-Stadion"
+    "stadium": "Guadalajara-Stadion",
+    "summary": "Was für ein dramatisches Spiel in der WM 2026 – die Republik Korea bezwingt Tschechien mit 2:1 und feiert damit einen goldwerten Erfolg! Die Koreaner starteten unter Druck, ließen sich vom tschechischen Treffer aber nicht entmutigen und kämpften sich eindrucksvoll zurück. Mit Leidenschaft, Geschwindigkeit und taktischer Disziplin drehten die Asiaten die Partie und sicherten sich drei Punkte. Tschechien zeigte durchaus gute Ansätze, doch am Ende fehlte die Kaltschnäuzigkeit vor dem Tor. Korea darf sich nach diesem Herzschlagfinale zu Recht über einen verdienten Sieg freuen!"
   },
   {
     "no": 3,
@@ -45,7 +47,8 @@
     "status": 0,
     "minute": null,
     "city": "Toronto",
-    "stadium": "Toronto-Stadion"
+    "stadium": "Toronto-Stadion",
+    "summary": "Kanada und Bosnien-Herzegowina liefern sich ein packendes Duell und trennen sich am Ende mit einem gerechten 1:1-Unentschieden. Die Kanadier, angetrieben von der Heimatmosphäre in Nordamerika, zeigten eine engagierte Leistung, konnten sich aber gegen eine zähe bosnische Defensive nicht endgültig durchsetzen. Bosnien-Herzegowina bewies einmal mehr, dass sie ein unbequemer Gegner für jede Mannschaft sind, und verdiente sich den Punkt absolut. Für beide Teams ist es ein Ergebnis mit Licht und Schatten, da ein Sieg natürlich die bessere Ausgangsposition geboten hätte. Ein fairer Punktgewinn für beide Seiten – das Abenteuer WM 2026 geht für beide weiter!"
   },
   {
     "no": 4,
@@ -61,7 +64,8 @@
     "status": 0,
     "minute": null,
     "city": "Los Angeles",
-    "stadium": "Los-Angeles-Stadion"
+    "stadium": "Los-Angeles-Stadion",
+    "summary": "Die USA schicken mit einem furiosen 4:1-Kantersieg gegen Paraguay eine klare Botschaft an alle WM-Teilnehmer! Vor heimischer Kulisse spielten die Amerikaner von Beginn an befreit auf und ließen Paraguay keine Chance, ins Spiel zu finden. Vier Tore, brillante Kombinationen und eine mitreißende Teamleistung – die Gastgeber zeigen, warum man sie zu den Favoriten auf den Titel zählen darf. Paraguay traf zwar zum zwischenzeitlichen Ehrentreffer, doch gegen diesen aufgedrehten US-amerikanischen Sturm war letztlich kein Halten mehr. Eine Machtdemonstration der Stars and Stripes, die die WM-Euphorie im eigenen Land weiter anheizt!"
   },
   {
     "no": 8,
@@ -77,7 +81,8 @@
     "status": 0,
     "minute": null,
     "city": "San Francisco Bay Area",
-    "stadium": "San-Francisco-Bay-Area-Stadion"
+    "stadium": "San-Francisco-Bay-Area-Stadion",
+    "summary": "Katar und die Schweiz liefern sich ein ausgeglichenes Kräftemessen und trennen sich mit einem 1:1-Unentschieden. Der WM-Gastgeber von 2022 zeigte sich verbessert gegenüber früheren Turnieren und belohnte sich mit einem erzielten Treffer. Die Schweizer, bekannt für ihre taktische Disziplin und Effizienz, ließen sich nicht überrumpeln und glichen verdient aus. Beide Mannschaften haben damit einen Punkt auf dem Konto, der je nach Gruppenverlauf noch wichtig werden könnte. Ein solides, wenn auch nicht spektakuläres Unentschieden zwischen zwei Teams, die noch viel vorhaben!"
   },
   {
     "no": 7,
@@ -93,7 +98,8 @@
     "status": 0,
     "minute": null,
     "city": "New Jersey",
-    "stadium": "New-York-New-Jersey-Stadion"
+    "stadium": "New-York-New-Jersey-Stadion",
+    "summary": "Das heiß erwartete Duell zwischen Brasilien und Marokko endet mit einem 1:1-Unentschieden – ein Ergebnis, das beiden Mannschaften nicht vollständig gerecht wird! Die Seleção bewies ihre technische Überlegenheit in vielen Phasen des Spiels, doch Marokko, Halbfinalist der WM 2022, verteidigte aufopferungsvoll und schlug eiskalt aus einer Chance zu. Brasilien drängte nach dem Ausgleich auf den Siegtreffer, doch die marokkanische Defensive hielt stand wie eine Festungsmauer. Für Marokko ist der Punkt gegen die fünfmaligen Weltmeister ein riesiger Erfolg, für Brasilien eine kleine Enttäuschung. Dieses Remis hält die Spannung in der Gruppe aufrecht und verspricht weitere nervenaufreibende Spiele!"
   },
   {
     "no": 5,
@@ -109,7 +115,8 @@
     "status": 0,
     "minute": null,
     "city": "Boston",
-    "stadium": "Boston-Stadion"
+    "stadium": "Boston-Stadion",
+    "summary": "Schottland setzt sich knapp aber verdient mit 1:0 gegen Haiti durch und feiert einen wichtigen Auftaktsieg bei der WM 2026! Die Schotten zeigten eine kämpferische Leistung und ließen in der Defensive kaum etwas zu, während Haiti offensiv zu selten gefährlich wurde. Das einzige Tor des Spiels reichte den Tartan Army-Jungs, um alle drei Punkte mitzunehmen. Haiti kämpfte bis zum Schluss und verdient Respekt für ihre Leidenschaft, doch heute hatte Schottland das entscheidende Quäntchen mehr. Ein wichtiger erster Schritt für die Schotten, die damit ihren WM-Traum am Leben halten!"
   },
   {
     "no": 6,
@@ -125,7 +132,8 @@
     "status": 0,
     "minute": null,
     "city": "Vancouver",
-    "stadium": "BC Place Vancouver"
+    "stadium": "BC Place Vancouver",
+    "summary": "Australien überzeugt mit einem souveränen 2:0-Sieg gegen die Türkei und meldet sich eindrucksvoll auf der WM-Bühne zurück! Die Socceroos zeigten eine reife, kontrollierte Leistung und nutzten ihre Chancen mit kühler Effizienz aus. Die türkische Mannschaft, die zuvor als ernsthafter Mitfavorit in der Gruppe gehandelt wurde, fand offensiv kaum Mittel gegen die gut organisierte australische Defensive. Australien belohnte sich für einen energischen Auftritt und sammelt drei Punkte, die für das weitere Turnier enorm wertvoll sein könnten. Ein starkes Statement der Socceroos – Australien ist bei dieser WM definitiv zu beachten!"
   },
   {
     "no": 10,
@@ -269,7 +277,8 @@
     "status": 0,
     "minute": null,
     "city": "New Jersey",
-    "stadium": "New-York-New-Jersey-Stadion"
+    "stadium": "New-York-New-Jersey-Stadion",
+    "preview": "Was für ein Auftakt der Weltmeisterschaft 2026 – Frankreich trifft auf den Senegal, und die Luft ist förmlich zum Schneiden! Die Équipe Tricolore mit ihren Weltklasse-Akteuren rund um Kylian Mbappé gilt zwar als klarer Favorit, doch die Löwen von Teranga haben bei vergangenen Turnieren bewiesen, dass sie jeden Gegner das Fürchten lehren können. Sadio Mané und seine Mitstreiter werden nicht einfach die Bühne räumen – das Selbstbewusstsein im senegalesischen Lager ist nach dem Afrika-Cup-Triumph enorm. Frankreich muss von der ersten Minute an hochkonzentriert agieren, denn der Senegal lebt von schnellen Kontern und unbändiger Energie. Dieses Duell zwischen europäischer Klasse und afrikanischer Leidenschaft verspricht Weltklasse-Fußball vom Feinsten!"
   },
   {
     "no": 18,
@@ -285,7 +294,8 @@
     "status": 0,
     "minute": null,
     "city": "Boston",
-    "stadium": "Boston-Stadion"
+    "stadium": "Boston-Stadion",
+    "preview": "Irak gegen Norwegen – auf den ersten Blick eine ungleiche Paarung, doch dieser Vergleich täuscht gewaltig! Die Mesopotamischen Löwen haben sich erstmals seit Jahrzehnten für eine WM-Endrunde qualifiziert und werden auf der Weltbühne alles geben, um ihr Land zu begeistern. Norwegen hingegen, angeführt vom unaufhaltsamen Erling Haaland, bringt eines der gefährlichsten Sturm-Arsenale des Turniers mit. Haaland wird im Mittelpunkt stehen und wird mit Sicherheit brennen darauf, auf der größten Bühne des Weltfußballs zu glänzen. Doch die irakische Defensive könnte für die eine oder andere Überraschung sorgen – dieses Spiel birgt mehr Brisanz, als man zunächst vermuten würde!"
   },
   {
     "no": 19,
@@ -301,7 +311,8 @@
     "status": 0,
     "minute": null,
     "city": "Kansas City",
-    "stadium": "Kansas-City-Stadion"
+    "stadium": "Kansas-City-Stadion",
+    "preview": "Titelverteidiger Argentinien betritt die WM-Bühne 2026 und bekommt es gleich mit einem aufstrebenden Algerien zu tun – das riecht nach einem heißen Abend! Lionel Messi, der lebende Fußball-Gott, trägt die Hoffnungen einer ganzen Nation auf seinen Schultern und wird alles dafür tun, seinen letzten großen Tanz auf der Weltbühne unvergesslich zu machen. Algerien, angeführt von Riyad Mahrez, ist keine leichte Beute und kommt mit dem tiefen Glauben an eine mögliche Überraschung nach oben. Die argentinische Mannschaft weiß jedoch genau, wie man unter Druck funktioniert – ein Meisterwerk an Erfahrung und Klasse steht gegen algerischen Hunger und Entschlossenheit. Ein Aufeinandertreffen zweier Welten, das die WM 2026 direkt in Flammen setzen könnte!"
   },
   {
     "no": 20,
@@ -317,7 +328,8 @@
     "status": 0,
     "minute": null,
     "city": "San Francisco Bay Area",
-    "stadium": "San-Francisco-Bay-Area-Stadion"
+    "stadium": "San-Francisco-Bay-Area-Stadion",
+    "preview": "Österreich gegen Jordanien – das Duell des aufstrebenden mitteleuropäischen Kraftpakets gegen den mutigen Außenseiter aus dem Nahen Osten! Das ÖFB-Team unter Ralf Rangnick hat sich in den vergangenen Jahren enorm entwickelt und geht mit breiter Brust in dieses erste WM-Vorrundenspiel. Spieler wie Marcel Sabitzer und Christoph Baumgartner stehen für modernen, aggressiven Pressing-Fußball, der Jordanien vor enorme Probleme stellen wird. Die jordanische Mannschaft hingegen hat das Herz am rechten Fleck und wird versuchen, mit Disziplin und schnellen Umschaltspielen für Nadelstiche zu sorgen. Für Österreich ist dies die große Chance, endlich zu zeigen, dass man bei einer WM mehr als nur Statist sein kann!"
   },
   {
     "no": 23,
@@ -333,7 +345,8 @@
     "status": 0,
     "minute": null,
     "city": "Houston",
-    "stadium": "Houston-Stadion"
+    "stadium": "Houston-Stadion",
+    "preview": "Portugal gegen die Demokratische Republik Kongo – ein Aufeinandertreffen voller Emotionen, Klasse und unvorhersehbarer Dramatik! Cristiano Ronaldo, der ewige Rekordbrecher, steht möglicherweise vor seinem allerletzten WM-Auftritt und wird mit einer Energie auf den Platz gehen, die kein Alter kennt. Die DR Kongo hingegen bringt mit ihrem ungestümen Tempo und technisch versierten Spielern wie Cédric Bakambu eine Mischung mit, die Portugal sicher nicht unterschätzen darf. Das portugiesische Kollektiv unter Bruno Fernandes und Rafael Leão ist jedoch mehr als der Ein-Mann-Betrieb der frühen Ronaldo-Ära – sie sind heute ein komplettes Team. Dieses Spiel wird Werbung für den Weltfußball sein, egal wo man hinschaut!"
   },
   {
     "no": 22,
@@ -349,7 +362,8 @@
     "status": 0,
     "minute": null,
     "city": "Dallas",
-    "stadium": "Dallas-Stadion"
+    "stadium": "Dallas-Stadion",
+    "preview": "England gegen Kroatien – dieses Duell weckt sofort Erinnerungen an das WM-Halbfinale 2018, als die Three Lions in letzter Minute das Herz gebrochen wurde! Die Engländer, geführt von Jude Bellingham und Harry Kane, sind entschlossen, alte Wunden zu heilen und endlich den langersehnten WM-Titel für das Mutterland des Fußballs zu holen. Kroatien hingegen ist bekannt dafür, stets dann am stärksten zu sein, wenn es am schwersten kommt – die goldene Generation um Luka Modrić gibt ihr möglicherweise letztes großes Kapitel auf der Weltbühne. England darf keine Schwäche zeigen, denn die Kroaten werden jeden Fehler gnadenlos bestrafen. Die Erwartungen auf der Insel sind riesig – und dieses Spiel könnte bereits die Stimmung für den gesamten englischen Turnierverlauf bestimmen!"
   },
   {
     "no": 21,
@@ -365,7 +379,8 @@
     "status": 0,
     "minute": null,
     "city": "Toronto",
-    "stadium": "Toronto-Stadion"
+    "stadium": "Toronto-Stadion",
+    "preview": "Ghana gegen Panama – ein Duell der Leidenschaft, in dem beide Mannschaften unbedingt mit einem Sieg in die Weltmeisterschaft starten wollen! Die Black Stars aus Ghana bringen mit ihrer schnellen, technisch versierten Offensivlinie eine Gefahr mit, die Panama vor echte Probleme stellen wird. Panama hingegen ist für seine unglaubliche Teamarbeit und kämpferische Stärke bekannt und wird als Kollektiv versuchen, den afrikanischen Vorrundenrivalen aus dem Rhythmus zu bringen. Für Ghana ist die WM-Teilnahme stets ein nationales Fest, und die mitgereisten Fans werden für eine beeindruckende Stimmung im Stadion sorgen. Erwartet ein offenes Spiel mit Toren auf beiden Seiten – denn beide Teams wissen, dass ein Sieg zum Auftakt Gold wert ist!"
   },
   {
     "no": 24,
@@ -381,7 +396,8 @@
     "status": 0,
     "minute": null,
     "city": "Mexiko-Stadt",
-    "stadium": "Mexiko-Stadt-Stadion"
+    "stadium": "Mexiko-Stadt-Stadion",
+    "preview": "Usbekistan gegen Kolumbien – der vielleicht unerwartetste Vergleich des gesamten Turnierauftakts und gleichzeitig eine der faszinierendsten Geschichten der WM 2026! Usbekistan ist das Newcomer-Märchen schlechthin – erstmals überhaupt bei einer Weltmeisterschaft dabei und brennend heiß darauf, der Welt zu zeigen, was zentralasiatischer Fußball kann. Kolumbien hingegen, mit Spielern wie Luis Díaz und James Rodríguez, bringt südamerikanische Flair, Klasse und jede Menge WM-Erfahrung mit auf den Platz. Die Usbekischen Adler werden mit einem unglaublichen kollektiven Einsatz versuchen, Kolumbiens Offensivstarkes Ensemble in Schach zu halten. Eines ist sicher: Die Welt wird an diesem Abend nach Usbekistan schauen – und dieses Team hat keine Angst vor dem großen Moment!"
   },
   {
     "no": 25,
@@ -397,7 +413,8 @@
     "status": 0,
     "minute": null,
     "city": "Atlanta",
-    "stadium": "Atlanta-Stadion"
+    "stadium": "Atlanta-Stadion",
+    "preview": "Tschechien trifft in der Ersten Phase auf Südafrika – ein Duell zwischen europäischer Cleverness und afrikanischer Leidenschaft! Die Tschechen um Superstar Patrik Schick wollen mit einem Sieg gleich ein erstes Ausrufezeichen setzen. Südafrika, das nach langer Abstinenz endlich wieder bei einer WM dabei ist, wird mit grenzenloser Energie und dem Rückenwind einer ganzen Kontinentalregion auflaufen. Dieses Spiel verspricht einen offenen Schlagabtausch, bei dem nichts vorherzusagen ist!"
   },
   {
     "no": 26,
@@ -413,7 +430,8 @@
     "status": 0,
     "minute": null,
     "city": "Los Angeles",
-    "stadium": "Los-Angeles-Stadion"
+    "stadium": "Los-Angeles-Stadion",
+    "preview": "Die Schweiz, bekannt für ihre taktische Disziplin und Zuverlässigkeit, bekommt es mit einem hochmotivierten Bosnien und Herzegowina zu tun, das erstmals seit 2014 wieder auf der WM-Bühne steht. Die Schweizer Nati unter Trainer Murat Yakin hat sich als unangenehmer Gegner für jede Mannschaft der Welt etabliert und wird mit Granit Xhaka als Taktgeber ins Spiel gehen. Bosnien hingegen bringt mit Edin Džekos Erbe im Herzen jede Menge Stolz und Qualität in die Partie. Ein taktisch anspruchsvolles Spiel, das bis zur letzten Minute offenbleiben könnte!"
   },
   {
     "no": 27,
@@ -429,7 +447,8 @@
     "status": 0,
     "minute": null,
     "city": "Vancouver",
-    "stadium": "BC Place Vancouver"
+    "stadium": "BC Place Vancouver",
+    "preview": "Kanada als Gastgebernation genießt Heimvorteil und will vor den eigenen Fans mit einem Sieg gegen Katar in die WM starten – was für ein Auftakt wäre das! Die Kanadier um Alphonso Davies und Jonathan David haben in den letzten Jahren enorme Fortschritte gemacht und gelten als einer der aufregendsten Aufsteiger im Weltfußball. Katar, der Titelverteidiger des Gastgebers von 2022, musste damals zuhause früh die Heimreise antreten und will nun auf großer WM-Bühne endlich aufzeigen. Das Stadion wird brennen – ein packender Auftakt für beide Nationen!"
   },
   {
     "no": 28,
@@ -445,7 +464,8 @@
     "status": 0,
     "minute": null,
     "city": "Guadalajara",
-    "stadium": "Guadalajara-Stadion"
+    "stadium": "Guadalajara-Stadion",
+    "preview": "Mexiko gegen Südkorea – das ist Weltklasse-Unterhaltung vorprogrammiert! El Tri, dreimal in Serie im Achtelfinale ausgeschieden, will endlich die verfluchte Runde der letzten 16 überwinden und startet mit voller Entschlossenheit in dieses Turnier. Die Südkoreaner hingegen, inspiriert vom Vermächtnis des Halbfinaleinzugs 2002 und getragen von Stars wie Son Heung-min, werden mit Tempo und Präzision antworten. Es ist ein echtes Duell der Fußballkulturen, das die Fans auf der ganzen Welt in ihren Bann ziehen wird!"
   },
   {
     "no": 32,
@@ -461,7 +481,8 @@
     "status": 0,
     "minute": null,
     "city": "Seattle",
-    "stadium": "Seattle-Stadion"
+    "stadium": "Seattle-Stadion",
+    "preview": "Die USA, Mitgastgeber und einer der Favoriten auf den Heimvorteil, empfangen Australien in einem Duell zweier aufstrebender Fußballnationen. Die Amerikaner um Christian Pulisic wollen vor eigenem Publikum zeigen, dass sie beim eigenen Turnier mehr als eine Statistenrolle spielen. Die Socceroos, angeführt von den torgefährlichen Stürmern und mit WM-Erfahrung im Gepäck, werden sich keineswegs verstecken. Dieses Duell verspricht Tempo, Leidenschaft und jede Menge unvergessliche Momente!"
   },
   {
     "no": 30,
@@ -477,7 +498,8 @@
     "status": 0,
     "minute": null,
     "city": "Boston",
-    "stadium": "Boston-Stadion"
+    "stadium": "Boston-Stadion",
+    "preview": "Schottland feiert nach jahrzehntelanger Durststrecke sein WM-Comeback und trifft gleich auf das starke Marokko – eine Aufgabe, die es in sich hat! Die Schotten, emotional wie kaum eine andere Nation, werden mit grenzenlosem Kampfgeist und der lautesten Fankurve weit und breit in das Spiel gehen. Marokko, der sensationelle Halbfinalist von 2022, hat bewiesen, dass sie jeden Gegner der Welt bezwingen können, und gilt als klarer Favorit. Trotzdem: Wer schreibt schon die Geschichte eines Tages wie diesen vor – Scotland the Brave könnte für die große Überraschung sorgen!"
   },
   {
     "no": 29,
@@ -493,7 +515,8 @@
     "status": 0,
     "minute": null,
     "city": "Philadelphia",
-    "stadium": "Philadelphia-Stadion"
+    "stadium": "Philadelphia-Stadion",
+    "preview": "Brasilien, fünfmaliger Weltmeister und ewiger Anwärter auf den Titel, eröffnet seine WM-Kampagne gegen Haiti – ein klarer Favorit trifft auf einen leidenschaftlichen Außenseiter. Die Seleção, mit Vinicius Jr., Rodrygo und Raphinha gespickt, will nach dem bitteren Scheitern in den letzten Turnieren endlich wieder den Henkelpott in die Höhe stemmen. Haiti steht vor einer fast unlösbaren Aufgabe, doch der Fußball schreibt bekanntlich seine eigenen Geschichten, und die Karibiker werden kämpfen, bis der Schiedsrichter abpfeift. Es ist mehr als nur ein Spiel – es ist der Beginn einer brasilianischen WM-Träumerei vor Millionen von Zuschauern!"
   },
   {
     "no": 31,
@@ -509,7 +532,8 @@
     "status": 0,
     "minute": null,
     "city": "San Francisco Bay Area",
-    "stadium": "San-Francisco-Bay-Area-Stadion"
+    "stadium": "San-Francisco-Bay-Area-Stadion",
+    "preview": "Die Türkei, nach ihrer starken EM 2024 in aller Munde, trifft auf Paraguay – ein Duell zweier hungriger Nationen, die beweisen wollen, dass sie zur Weltspitze gehören. Die Türken unter dem Einfluss von Stars wie Hakan Çalhanoğlu und Arda Güler bringen eine explosive Mischung aus Erfahrung und jugendlichem Feuer mit. Paraguay, der südamerikanische Underdog mit einer reichen WM-Geschichte, wird physisch und taktisch alles in die Waagschale werfen. Dieses Spiel könnte einer der versteckten Leckerbissen des gesamten Turniers werden!"
   },
   {
     "no": 35,
@@ -525,7 +549,8 @@
     "status": 0,
     "minute": null,
     "city": "Houston",
-    "stadium": "Houston-Stadion"
+    "stadium": "Houston-Stadion",
+    "preview": "Ein skandinavisches Duell mit niederländischem Glanz erwartet uns: Die Elftal um Superstar Virgil van Dijk und das explosive Offensivduo Gakpo und Depay trifft auf ein kampfstarkes Schweden, das mit Alexander Isak einen der gefährlichsten Mittelstürmer der Welt in seinen Reihen hat. Die Niederländer gehen als klarer Favorit in diese Partie und wollen nach dem enttäuschenden WM-2022-Finale endlich den großen Wurf schaffen. Schweden hingegen setzt auf kompaktes Pressing und schnelle Konter – ein Rezept, das schon manchen Favoriten ins Schwitzen gebracht hat. Es ist ein Aufeinandertreffen zweier Nationen mit tief verwurzelter Fußballtradition, und die Atmosphäre im Stadion dürfte entsprechend elektrisierend sein. Wer hier die Oberhand behält, macht einen riesigen Schritt Richtung Achtelfinale!"
   },
   {
     "no": 33,
@@ -541,7 +566,8 @@
     "status": 0,
     "minute": null,
     "city": "Toronto",
-    "stadium": "Toronto-Stadion"
+    "stadium": "Toronto-Stadion",
+    "preview": "Das DFB-Team um Bundestrainer Julian Nagelsmann steht vor einer wegweisenden Aufgabe: Gegen die Elfenbeinküste, eine der technisch versiertesten Mannschaften Afrikas, muss Deutschland früh ein Zeichen setzen. Mit Florian Wirtz, Jamal Musiala und Kai Havertz besitzt die Nationalmannschaft eine der aufregendsten Offensivreihen des Turniers – doch die Ivorer um Sébastien Haller und Simon Adingra sind physisch enorm präsent und brandgefährlich im Umschalten. Deutschland will nach dem Vorrunden-Aus 2018 und 2022 endlich wieder beweisen, dass man zu den echten Titelkandidaten gehört. Die Elfenbeinküste träumt davon, ein weiteres afrikanisches Ausrufezeichen bei dieser Weltmeisterschaft zu setzen. Ein hochklassiges, intensives Duell zweier fußballverrückter Nationen – dieses Spiel sollte man keinesfalls verpassen!"
   },
   {
     "no": 34,
@@ -557,7 +583,8 @@
     "status": 0,
     "minute": null,
     "city": "Kansas City",
-    "stadium": "Kansas-City-Stadion"
+    "stadium": "Kansas-City-Stadion",
+    "preview": "Ecuador gegen Curaçao – auf dem Papier eine klare Angelegenheit, doch bei einer Weltmeisterschaft gibt es keine leichten Gegner! Die Ecuadorianer um Enner Valencia wollen die Begeisterung ihrer leidenschaftlichen Fans nutzen und mit einem Sieg früh Punkte in der Gruppe sammeln. Curaçao, das kleine Inselparadies in der Karibik, erlebt mit dieser WM-Teilnahme den absoluten Höhepunkt seiner noch jungen Fußballgeschichte und wird mit grenzenlosem Enthusiasmus auflaufen. Ecuador bringt physische Robustheit und südamerikanische Leidenschaft mit, während Curaçao auf Kreativität und Unbekümmertheit setzt. Es ist David gegen Goliath – und gerade das macht dieses Spiel zu einem der emotionalsten des gesamten Turniers!"
   },
   {
     "no": 36,
@@ -573,7 +600,8 @@
     "status": 0,
     "minute": null,
     "city": "Monterrey",
-    "stadium": "Monterrey-Stadion"
+    "stadium": "Monterrey-Stadion",
+    "preview": "Japan, die asiatische Fußballmacht schlechthin, trifft auf Tunesien, den erfahrensten WM-Teilnehmer des afrikanischen Kontinents – ein Duell zweier Nationen, die regelmäßig für Überraschungen auf der Weltbühne sorgen! Die Samurai Blue um Takefusa Kubo und Ritsu Doan haben zuletzt mit mutiger Spielweise und taktischer Disziplin Europa aufhorchen lassen, während Tunesien mit seiner defensiven Kompaktheit und körperlichen Präsenz jedem Gegner das Leben schwer macht. Beide Teams wissen: Ein Sieg hier könnte der Schlüssel zum Weiterkommen sein. Japan setzt auf blitzschnelles Kombinationsspiel und hohe Laufbereitschaft, Tunesien dagegen auf Erfahrung und gnadenlose Effizienz bei Standards. Diese Partie verspricht taktische Raffinesse auf höchstem Niveau – ein absolutes Pflichtspiel für jeden Fußballfan!"
   },
   {
     "no": 38,
