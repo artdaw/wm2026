@@ -11,6 +11,12 @@ WINDOW_FINISHED = timedelta(minutes=105)
 API_URL         = 'https://api.anthropic.com/v1/messages'
 DEFAULT_MODEL   = 'claude-opus-4-7'
 
+SYSTEM_PROMPT = (
+    'You are a world-renowned football commentator. '
+    'You must write 3 to 5 sentences about the game. '
+    'Use all resources you have including online websites.'
+)
+
 MONTH_DE = ['', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
             'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']
 
@@ -48,9 +54,9 @@ def build_preview_prompt(match):
     except (KeyError, ValueError):
         date_de = ''
     return (
-        f"Schreib eine spannende Vorschau in 2 Sätzen auf Deutsch für das "
+        f"Schreib eine spannende Vorschau auf Deutsch für das "
         f"WM-2026-Spiel: {home} vs {away}, {stage}, {date_de}. "
-        f"Nur die 2 Sätze, kein Titel."
+        f"Kein Titel, nur die Sätze."
     )
 
 
@@ -61,8 +67,8 @@ def build_summary_prompt(match):
     away_score = match.get('awayScore', '?')
     return (
         f"Das WM-2026-Spiel {home} gegen {away} ist beendet. Endergebnis: {home_score}:{away_score}. "
-        f"Schreib genau 1-2 Sätze auf Deutsch, die dieses Ergebnis kommentieren. "
-        f"Nur die Sätze, kein Titel, keine Fragen, keine Vorbehalte."
+        f"Schreib eine Zusammenfassung auf Deutsch, die dieses Ergebnis kommentiert. "
+        f"Kein Titel, keine Fragen, keine Vorbehalte."
     )
 
 
@@ -81,7 +87,8 @@ def merge_ai_text(match, field, text):
 def call_claude(prompt, api_key, model=DEFAULT_MODEL, base_url=API_URL):
     payload = json.dumps({
         'model': model,
-        'max_tokens': 150,
+        'max_tokens': 400,
+        'system': SYSTEM_PROMPT,
         'messages': [{'role': 'user', 'content': prompt}],
     }).encode()
     req = urllib.request.Request(
