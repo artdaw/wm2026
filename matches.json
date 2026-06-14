@@ -42,8 +42,8 @@
     "away": "Bosnien und Herzegowina",
     "homeCode": "CAN",
     "awayCode": "BIH",
-    "homeScore": 1,
-    "awayScore": 1,
+    "homeScore": null,
+    "awayScore": null,
     "status": 0,
     "minute": null,
     "city": "Toronto",
@@ -149,7 +149,8 @@
     "status": 0,
     "minute": null,
     "city": "Houston",
-    "stadium": "Houston-Stadion"
+    "stadium": "Houston-Stadion",
+    "preview": "Deutschland startet mit einem vermeintlich klaren Auftrag in die WM 2026 – doch Vorsicht ist geboten! Curaçao, das kleine Inselparadies in der Karibik mit gerade einmal 150.000 Einwohnern, hat sich überraschend für das Turnier qualifiziert und besitzt mit Spielern wie Leandro Bacuna kampferprobte Profis aus dem europäischen Fußball. Die DFB-Elf unter Bundestrainer Julian Nagelsmann geht als haushoher Favorit ins Rennen und will nach dem Vorrundenaus 2018 und 2022 endlich wieder Normalität ausstrahlen. Dennoch: Ein früher Rückschlag wäre für das deutsche Selbstvertrauen fatal – Konzentration ist Pflicht von der ersten Minute an!"
   },
   {
     "no": 11,
@@ -165,7 +166,8 @@
     "status": 0,
     "minute": null,
     "city": "Dallas",
-    "stadium": "Dallas-Stadion"
+    "stadium": "Dallas-Stadion",
+    "preview": "Ein wahres Highlight der ersten WM-Runde: Die Niederlande um Superstar Virgil van Dijk und den explosiven Cody Gakpo treffen auf das taktisch hochintelligente Japan, das Europa längst nicht mehr überrascht. Die Samurai Blue haben sich unter ihrem Nationaltrainer zu einer der diszipliniertesten Defensivmannschaften der Welt entwickelt und schlugen bei der WM 2022 sowohl Deutschland als auch Spanien. Oranje bringt individuelle Weltklasse mit, muss aber auf der Hut sein vor Japans blitzschnellen Kontern und unerschütterlichem Teamgeist. Dieses Spiel könnte bereits ein Vorgeschmack auf das Achtelfinale sein – ein Leckerbissen für jeden Fußballfan!"
   },
   {
     "no": 9,
@@ -181,7 +183,8 @@
     "status": 0,
     "minute": null,
     "city": "Philadelphia",
-    "stadium": "Philadelphia-Stadion"
+    "stadium": "Philadelphia-Stadion",
+    "preview": "Ein hochinteressantes Duell zweier aufstrebender Fußballnationen eröffnet die WM 2026! Die Elfenbeinküste, angeführt von ihren gefährlichen Offensivkräften rund um Sébastien Haller, trifft auf ein technisch versiertes Ecuador, das zuletzt bei der WM 2022 mit einem Auftaktsieg für Furore sorgte. Die westafrikanischen Elefanten bringen eine explosive Mischung aus Schnelligkeit und Technik mit, während die Ecuadorianer auf ihre kompakte Defensive und blitzschnelle Konter setzen. Dieses Spiel verspricht ein offenes, temporeicher Schlagabtausch zu werden – mit dem Potenzial zur Überraschung des Turnierauftakts."
   },
   {
     "no": 12,
@@ -197,7 +200,8 @@
     "status": 0,
     "minute": null,
     "city": "Monterrey",
-    "stadium": "Monterrey-Stadion"
+    "stadium": "Monterrey-Stadion",
+    "preview": "Schweden betritt die WM-Bühne 2026 mit großen Ambitionen und einem Kader voller hungriger Talente, die in die Fußstapfen von Ibrahimović-Ära treten wollen. Tunesien hingegen ist bekannt für seine leidenschaftliche Defensive und hat sich als unbequemer Gegner für jeden etablierten Fußballnation erwiesen – das 1:0 gegen Frankreich bei der WM 2022 ist unvergessen. Die Skandinavier um Alexander Isak von Newcastle United versprechen einen technisch ansprechenden und offensiv ausgerichteten Fußball. Doch Tunesien wird sich hinten reinstellen und auf seine Chance lauern – ein zähes, intensives Spiel mit offenem Ausgang erwartet uns!"
   },
   {
     "no": 14,
@@ -213,7 +217,8 @@
     "status": 0,
     "minute": null,
     "city": "Atlanta",
-    "stadium": "Atlanta-Stadion"
+    "stadium": "Atlanta-Stadion",
+    "preview": "Der amtierende Europameister Spanien eröffnet seine WM-Kampagne gegen Kap Verde – auf dem Papier ein klarer Fall, doch La Roja wird keinen Gegner unterschätzen. Spaniens goldene Generation um Pedri, Lamine Yamal und Nico Williams gilt als einer der heißesten Titel-Anwärter des Turniers und begeistert mit einem Tiki-Taka der neuen Generation. Kap Verde hat sich jedoch als Afrika-Vertreter verdient qualifiziert und bringt mit seinen in Europa ausgebildeten Spielern eine gewisse Qualität mit – Brasilien-Legende Garba Diallo und Konsorten werden nichts zu verschenken haben. Für Spanien geht es darum, von Beginn an den eigenen Rhythmus zu finden und ein klares Statement an die Konkurrenz zu senden."
   },
   {
     "no": 16,
@@ -229,7 +234,8 @@
     "status": 0,
     "minute": null,
     "city": "Seattle",
-    "stadium": "Seattle-Stadion"
+    "stadium": "Seattle-Stadion",
+    "preview": "Was für eine Begegnung steht uns hier bevor! Belgien, die Roten Teufel, treten mit einem der tiefsten Kader des Turniers an und wollen endlich den großen Wurf schaffen, nachdem sie 2018 mit Platz drei so nah dran waren. Ägypten hingegen bringt mit Mohamed Salah den vielleicht gefährlichsten Einzelspieler dieser Weltmeisterschaft mit – ein Mann, der allein Spiele entscheiden kann. Die Defensive der Belgier um Kieffer Moore und de Bruyne im Mittelfeld wird alles daran setzen, den Liverpool-Star aus dem Spiel zu nehmen. Gelingt Ägypten die Überraschung, wäre es eine Sensation der ersten Phase – doch Belgien gilt zu Recht als klarer Favorit auf den Gruppensieg."
   },
   {
     "no": 13,
@@ -245,7 +251,8 @@
     "status": 1,
     "minute": "",
     "city": "Miami",
-    "stadium": "Miami-Stadion"
+    "stadium": "Miami-Stadion",
+    "preview": "Saudi-Arabien gegen Uruguay – ein Duell zweier Mannschaften, die beide unbedingt mit einem Sieg ins Turnier starten wollen! Die Saudis haben nach ihrer legendären Überraschung gegen Argentinien 2022 Hunger auf mehr und werden das heimische Publikum auf dem amerikanischen Kontinent in Staunen versetzen wollen. Uruguay dagegen besitzt mit Darwin Núñez, Federico Valverde und dem erfahrenen Abwehrverbund eine Qualität, die weit über den Papierform-Favoriten hinausgeht. Es wird ein taktisch hochinteressantes Spiel – die Saudis stehen defensiv kompakt und kontern gefährlich, während Uruguay auf Ballbesitz und Kreativität setzt. Dieses Spiel könnte über den weiteren Verlauf der Gruppe entscheiden!"
   },
   {
     "no": 15,
@@ -261,7 +268,8 @@
     "status": 0,
     "minute": null,
     "city": "Los Angeles",
-    "stadium": "Los-Angeles-Stadion"
+    "stadium": "Los-Angeles-Stadion",
+    "preview": "Der Iran trifft in seiner WM-Auftaktpartie auf Neuseeland, und die Vorzeichen stehen klar auf eine iranische Dominanz. Die Mannschaft von Trainer Amir Ghalenoei gilt als einer der technisch stärksten Vertreter Asiens und wird mit großer Leidenschaft und taktischer Disziplin in dieses Spiel gehen. Neuseeland, die All Whites, haben sich über einen langen Qualifikationsweg für diese WM qualifiziert und werden nichts zu verlieren haben – genau das macht sie gefährlich. Der Iran um seinen starken Mittelfeldspieler Alireza Jahanbakhsh muss die Partie von Beginn an kontrollieren, um keine böse Überraschung zu erleben. Ein Pflichtsieg für den Iran – doch Neuseeland wird bis zur letzten Minute kämpfen."
   },
   {
     "no": 17,
