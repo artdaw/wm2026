@@ -26,8 +26,8 @@ jobs:
 
       - name: Generate previews
         env:
-          LIQUID_AI_API_KEY: ${{ secrets.LIQUID_AI_API_KEY }}
-          LIQUID_AI_MODEL: ${{ vars.LIQUID_AI_MODEL || 'lfm-7b' }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-haiku-4-5-20251001' }}
         run: python3 scripts/generate_previews.py
 
       - name: Detect changes

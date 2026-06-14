@@ -8,8 +8,8 @@ from datetime import datetime, timezone, timedelta
 MATCHES_JSON = os.path.join(os.path.dirname(__file__), '..', 'matches.json')
 WINDOW_PREVIEW  = timedelta(days=7)
 WINDOW_FINISHED = timedelta(minutes=105)
-API_URL         = 'https://labs.liquid.ai/api/v1/chat/completions'
-DEFAULT_MODEL   = 'lfm-7b'
+API_URL         = 'https://api.anthropic.com/v1/messages'
+DEFAULT_MODEL   = 'claude-haiku-4-5-20251001'
 
 MONTH_DE = ['', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
             'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']
@@ -74,33 +74,33 @@ def merge_ai_text(match, field, text):
     return updated, True
 
 
-def call_liquid_ai(prompt, api_key, model=DEFAULT_MODEL, base_url=API_URL):
+def call_claude(prompt, api_key, model=DEFAULT_MODEL, base_url=API_URL):
     payload = json.dumps({
         'model': model,
+        'max_tokens': 150,
         'messages': [{'role': 'user', 'content': prompt}],
-        'max_tokens': 80,
-        'temperature': 0.7,
     }).encode()
     req = urllib.request.Request(
         base_url,
         data=payload,
         headers={
-            'Authorization': f'Bearer {api_key}',
-            'Content-Type': 'application/json',
+            'x-api-key': api_key,
+            'anthropic-version': '2023-06-01',
+            'content-type': 'application/json',
         },
         method='POST',
     )
-    with urllib.request.urlopen(req, timeout=15) as resp:
+    with urllib.request.urlopen(req, timeout=30) as resp:
         data = json.loads(resp.read())
-    return data['choices'][0]['message']['content']
+    return data['content'][0]['text']
 
 
 def main():
-    api_key = os.environ.get('LIQUID_AI_API_KEY', '')
-    model   = os.environ.get('LIQUID_AI_MODEL', DEFAULT_MODEL)
+    api_key = os.environ.get('ANTHROPIC_API_KEY', '')
+    model   = os.environ.get('CLAUDE_MODEL', DEFAULT_MODEL)
 
     if not api_key:
-        print('LIQUID_AI_API_KEY not set — skipping', file=sys.stderr)
+        print('ANTHROPIC_API_KEY not set — skipping', file=sys.stderr)
         return
 
     with open(MATCHES_JSON, encoding='utf-8') as f:
@@ -116,7 +116,7 @@ def main():
     for m in matches:
         if needs_summary(m, now):
             try:
-                text = call_liquid_ai(build_summary_prompt(m), api_key, model)
+                text = call_claude(build_summary_prompt(m), api_key, model)
                 m, changed = merge_ai_text(m, 'summary', text)
                 if changed:
                     summaries_gen += 1
@@ -126,7 +126,7 @@ def main():
                       file=sys.stderr)
         elif needs_preview(m, now):
             try:
-                text = call_liquid_ai(build_preview_prompt(m), api_key, model)
+                text = call_claude(build_preview_prompt(m), api_key, model)
                 m, changed = merge_ai_text(m, 'preview', text)
                 if changed:
                     previews_gen += 1
