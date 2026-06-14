@@ -86,6 +86,12 @@
   #game-over{position:absolute;inset:0;background:rgba(15,17,21,.85);display:none;flex-direction:column;align-items:center;justify-content:center;gap:18px;pointer-events:all}
   #game-over-text{font-size:22px;font-weight:800;color:var(--txt);text-align:center;padding:0 20px}
   #game-replay{padding:13px 32px;border-radius:8px;border:0;background:var(--accent);color:#17110a;font-size:15px;font-weight:800;cursor:pointer}
+  .preview-btn{margin-top:6px;border:1px solid var(--accent);background:transparent;color:var(--accent);border-radius:6px;padding:3px 8px;font-size:11px;font-weight:700;cursor:pointer;align-self:flex-start}
+  .preview-panel{display:none;grid-column:1/-1;padding:10px 12px;background:#13161e;border-top:1px solid var(--line);border-radius:0 0 8px 8px}
+  .match-card.preview-open .preview-panel{display:block}
+  .preview-label{font-size:10px;color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+  .preview-text{font-size:12px;line-height:1.6;color:var(--txt);margin:0}
+  .preview-attr{font-size:10px;color:var(--muted);margin-top:6px;text-align:right}
   @media (max-width:640px){
     header{padding:9px 10px}
     .head-row{align-items:flex-start;flex-direction:column;gap:8px}
@@ -401,6 +407,9 @@ function renderSchedule(){
       const score = hasScore ? `${m.homeScore}:${m.awayScore}` : 'vs';
       const meta = [`Spiel ${m.no}`, m.group || m.stage, m.city].filter(Boolean).join(' · ');
       const codes = [m.homeCode, m.awayCode].filter(Boolean).join(' / ');
+      const aiText = m.summary || m.preview || '';
+      const aiLabel = m.summary ? '⚡ Zusammenfassung' : '⚡ Vorschau';
+      const aiPanelLabel = m.summary ? '⚡ KI-Zusammenfassung' : '⚡ KI-Vorschau';
       return `
         <article class="match-card ${status.cls}" data-match-no="${escapeHtml(m.no)}">
           <div class="match-time">
@@ -416,8 +425,15 @@ function renderSchedule(){
               ${codes ? `<span class="team-code">${escapeHtml(codes)}</span>` : ''}
             </div>
             <div class="match-place">${escapeHtml(m.stadium)}</div>
+            ${aiText ? `<button class="preview-btn" type="button">${escapeHtml(aiLabel)}</button>` : ''}
           </div>
           <div class="match-status ${status.cls}">${escapeHtml(status.text)}</div>
+          ${aiText ? `
+          <div class="preview-panel">
+            <div class="preview-label">${escapeHtml(aiPanelLabel)}</div>
+            <p class="preview-text">${escapeHtml(aiText)}</p>
+            <div class="preview-attr">LiquidAI</div>
+          </div>` : ''}
         </article>
       `;
     }).join('');
@@ -436,6 +452,10 @@ document.querySelector('.schedule-tools').addEventListener('click',e=>{
   renderSchedule();
 });
 scheduleSearch.addEventListener('input', renderSchedule);
+scheduleList.addEventListener('click', e=>{
+  if(e.target.classList.contains('preview-btn'))
+    e.target.closest('.match-card').classList.toggle('preview-open');
+});
 
 fetch('matches.json')
   .then(response => {
