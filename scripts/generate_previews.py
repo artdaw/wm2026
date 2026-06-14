@@ -9,7 +9,7 @@ MATCHES_JSON = os.path.join(os.path.dirname(__file__), '..', 'matches.json')
 WINDOW_PREVIEW  = timedelta(days=7)
 WINDOW_FINISHED = timedelta(minutes=105)
 API_URL         = 'https://api.anthropic.com/v1/messages'
-DEFAULT_MODEL   = 'claude-haiku-4-5-20251001'
+DEFAULT_MODEL   = 'claude-opus-4-7'
 
 MONTH_DE = ['', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
             'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']

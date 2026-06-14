@@ -27,7 +27,7 @@ jobs:
       - name: Generate previews
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-haiku-4-5-20251001' }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-opus-4-7' }}
         run: python3 scripts/generate_previews.py
 
       - name: Detect changes
