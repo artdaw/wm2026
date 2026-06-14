@@ -46,7 +46,7 @@ Two new optional fields added to each match object in `matches.json`:
 
 **LiquidAI API (OpenAI-compatible):**
 ```
-POST https://inference.liquid.ai/v1/chat/completions
+POST https://labs.liquid.ai/api/v1/chat/completions
 Authorization: Bearer $LIQUID_AI_API_KEY
 Model: lfm-7b  (override via LIQUID_AI_MODEL env var)
 max_tokens: 80
