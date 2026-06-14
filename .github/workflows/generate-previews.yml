@@ -32,7 +32,7 @@ jobs:
       - name: Generate previews
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-opus-4-7' }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-sonnet-4-6' }}
         run: python3 scripts/generate_previews.py
 
       - name: Detect changes

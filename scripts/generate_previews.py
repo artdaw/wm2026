@@ -10,7 +10,7 @@ MATCHES_JSON = os.path.join(os.path.dirname(__file__), '..', 'matches.json')
 WINDOW_PREVIEW  = timedelta(days=7)
 WINDOW_FINISHED = timedelta(minutes=105)
 API_URL         = 'https://api.anthropic.com/v1/messages'
-DEFAULT_MODEL   = 'claude-opus-4-7'
+DEFAULT_MODEL   = 'claude-sonnet-4-6'
 BATCH_SIZE      = 8
 
 SYSTEM_PROMPT = (
