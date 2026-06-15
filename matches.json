@@ -42,8 +42,8 @@
     "away": "Bosnien und Herzegowina",
     "homeCode": "CAN",
     "awayCode": "BIH",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Toronto",
@@ -144,13 +144,14 @@
     "away": "Curaçao",
     "homeCode": "GER",
     "awayCode": "CUW",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 7,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Houston",
     "stadium": "Houston-Stadion",
-    "preview": "Deutschland startet mit einem vermeintlich klaren Auftrag in die WM 2026 – doch Vorsicht ist geboten! Curaçao, das kleine Inselparadies in der Karibik mit gerade einmal 150.000 Einwohnern, hat sich überraschend für das Turnier qualifiziert und besitzt mit Spielern wie Leandro Bacuna kampferprobte Profis aus dem europäischen Fußball. Die DFB-Elf unter Bundestrainer Julian Nagelsmann geht als haushoher Favorit ins Rennen und will nach dem Vorrundenaus 2018 und 2022 endlich wieder Normalität ausstrahlen. Dennoch: Ein früher Rückschlag wäre für das deutsche Selbstvertrauen fatal – Konzentration ist Pflicht von der ersten Minute an!"
+    "preview": "Deutschland startet mit einem vermeintlich klaren Auftrag in die WM 2026 – doch Vorsicht ist geboten! Curaçao, das kleine Inselparadies in der Karibik mit gerade einmal 150.000 Einwohnern, hat sich überraschend für das Turnier qualifiziert und besitzt mit Spielern wie Leandro Bacuna kampferprobte Profis aus dem europäischen Fußball. Die DFB-Elf unter Bundestrainer Julian Nagelsmann geht als haushoher Favorit ins Rennen und will nach dem Vorrundenaus 2018 und 2022 endlich wieder Normalität ausstrahlen. Dennoch: Ein früher Rückschlag wäre für das deutsche Selbstvertrauen fatal – Konzentration ist Pflicht von der ersten Minute an!",
+    "summary": "Was für eine Machtdemonstration der deutschen Nationalmannschaft! Die DFB-Elf zeigte gegen Curaçao eine schier unglaubliche Leistung und feierte einen historischen 7:1-Kantersieg. Torjäger reihten sich aneinander, die Offensive spielte auf einem anderen Niveau als der überforderte Außenseiter. Dieser Auftakt zur WM 2026 sendet ein unmissverständliches Signal an alle Mitbewerber: Deutschland ist zurück und hungrig auf den Titel."
   },
   {
     "no": 11,
@@ -161,13 +162,14 @@
     "away": "Japan",
     "homeCode": "NED",
     "awayCode": "JPN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 2,
     "status": 0,
     "minute": null,
     "city": "Dallas",
     "stadium": "Dallas-Stadion",
-    "preview": "Ein wahres Highlight der ersten WM-Runde: Die Niederlande um Superstar Virgil van Dijk und den explosiven Cody Gakpo treffen auf das taktisch hochintelligente Japan, das Europa längst nicht mehr überrascht. Die Samurai Blue haben sich unter ihrem Nationaltrainer zu einer der diszipliniertesten Defensivmannschaften der Welt entwickelt und schlugen bei der WM 2022 sowohl Deutschland als auch Spanien. Oranje bringt individuelle Weltklasse mit, muss aber auf der Hut sein vor Japans blitzschnellen Kontern und unerschütterlichem Teamgeist. Dieses Spiel könnte bereits ein Vorgeschmack auf das Achtelfinale sein – ein Leckerbissen für jeden Fußballfan!"
+    "preview": "Ein wahres Highlight der ersten WM-Runde: Die Niederlande um Superstar Virgil van Dijk und den explosiven Cody Gakpo treffen auf das taktisch hochintelligente Japan, das Europa längst nicht mehr überrascht. Die Samurai Blue haben sich unter ihrem Nationaltrainer zu einer der diszipliniertesten Defensivmannschaften der Welt entwickelt und schlugen bei der WM 2022 sowohl Deutschland als auch Spanien. Oranje bringt individuelle Weltklasse mit, muss aber auf der Hut sein vor Japans blitzschnellen Kontern und unerschütterlichem Teamgeist. Dieses Spiel könnte bereits ein Vorgeschmack auf das Achtelfinale sein – ein Leckerbissen für jeden Fußballfan!",
+    "summary": "Ein dramatisches Unentschieden im Duell zweier Fußballnationen mit ganz unterschiedlichen Stilen! Die Niederlande gingen als Favorit ins Spiel, doch Japan zeigte einmal mehr, warum die Asiaten zu den aufregendsten Teams der Weltspitze gehören. Zweimal lagen die Oranjes vorne, zweimal schlugen die Japaner zurück – ein 2:2, das keinem der beiden Teams vollständig gerecht wird. Für die Niederlande ist ein Punkt zu wenig, für Japan ein verdienter Lohn mutiger Arbeit."
   },
   {
     "no": 9,
@@ -178,13 +180,14 @@
     "away": "Ecuador",
     "homeCode": "CIV",
     "awayCode": "ECU",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Philadelphia",
     "stadium": "Philadelphia-Stadion",
-    "preview": "Ein hochinteressantes Duell zweier aufstrebender Fußballnationen eröffnet die WM 2026! Die Elfenbeinküste, angeführt von ihren gefährlichen Offensivkräften rund um Sébastien Haller, trifft auf ein technisch versiertes Ecuador, das zuletzt bei der WM 2022 mit einem Auftaktsieg für Furore sorgte. Die westafrikanischen Elefanten bringen eine explosive Mischung aus Schnelligkeit und Technik mit, während die Ecuadorianer auf ihre kompakte Defensive und blitzschnelle Konter setzen. Dieses Spiel verspricht ein offenes, temporeicher Schlagabtausch zu werden – mit dem Potenzial zur Überraschung des Turnierauftakts."
+    "preview": "Ein hochinteressantes Duell zweier aufstrebender Fußballnationen eröffnet die WM 2026! Die Elfenbeinküste, angeführt von ihren gefährlichen Offensivkräften rund um Sébastien Haller, trifft auf ein technisch versiertes Ecuador, das zuletzt bei der WM 2022 mit einem Auftaktsieg für Furore sorgte. Die westafrikanischen Elefanten bringen eine explosive Mischung aus Schnelligkeit und Technik mit, während die Ecuadorianer auf ihre kompakte Defensive und blitzschnelle Konter setzen. Dieses Spiel verspricht ein offenes, temporeicher Schlagabtausch zu werden – mit dem Potenzial zur Überraschung des Turnierauftakts.",
+    "summary": "Ein knappes, intensives Spiel, das die Elfenbeinküste mit 1:0 gegen Ecuador für sich entschied. Die Ivorer zeigten leidenschaftliche Defensivarbeit und nutzten ihre einzige wirklich zwingende Chance eiskalt zur Führung. Ecuador drängte vergebens auf den Ausgleich und verlässt das Spielfeld mit leeren Händen. Ein wichtiger Sieg für die Elfenbeinküste, die damit ihre WM-Ambitionen deutlich unterstreicht."
   },
   {
     "no": 12,
@@ -195,13 +198,14 @@
     "away": "Tunesien",
     "homeCode": "SWE",
     "awayCode": "TUN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 5,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Monterrey",
     "stadium": "Monterrey-Stadion",
-    "preview": "Schweden betritt die WM-Bühne 2026 mit großen Ambitionen und einem Kader voller hungriger Talente, die in die Fußstapfen von Ibrahimović-Ära treten wollen. Tunesien hingegen ist bekannt für seine leidenschaftliche Defensive und hat sich als unbequemer Gegner für jeden etablierten Fußballnation erwiesen – das 1:0 gegen Frankreich bei der WM 2022 ist unvergessen. Die Skandinavier um Alexander Isak von Newcastle United versprechen einen technisch ansprechenden und offensiv ausgerichteten Fußball. Doch Tunesien wird sich hinten reinstellen und auf seine Chance lauern – ein zähes, intensives Spiel mit offenem Ausgang erwartet uns!"
+    "preview": "Schweden betritt die WM-Bühne 2026 mit großen Ambitionen und einem Kader voller hungriger Talente, die in die Fußstapfen von Ibrahimović-Ära treten wollen. Tunesien hingegen ist bekannt für seine leidenschaftliche Defensive und hat sich als unbequemer Gegner für jeden etablierten Fußballnation erwiesen – das 1:0 gegen Frankreich bei der WM 2022 ist unvergessen. Die Skandinavier um Alexander Isak von Newcastle United versprechen einen technisch ansprechenden und offensiv ausgerichteten Fußball. Doch Tunesien wird sich hinten reinstellen und auf seine Chance lauern – ein zähes, intensives Spiel mit offenem Ausgang erwartet uns!",
+    "summary": "Schweden hat Tunesien mit einem überzeugenden 5:1 regelrecht zerlegt und damit früh ein Ausrufezeichen in der Gruppe gesetzt. Die Skandinavier zeigten von der ersten Minute an, wer der Herr im Feld ist, und ließen dem nordafrikanischen Vertreter kaum Raum zum Atmen. Mit einer gnadenlosen Chancenverwertung und starker Teamleistung demonstrierte Schweden, dass es in diesem Turnier ein ernstzunehmender Kandidat für die K.o.-Runde ist. Tunesiens Ehrentreffer war lediglich Kosmetik in einem einseitigen Abend."
   },
   {
     "no": 14,
@@ -625,7 +629,8 @@
     "status": 0,
     "minute": null,
     "city": "Atlanta",
-    "stadium": "Atlanta-Stadion"
+    "stadium": "Atlanta-Stadion",
+    "preview": "Wenn Europas Titelverteidiger auf den ambitionierten Wüstensturm aus Saudi-Arabien trifft, ist eine Partie voller Spannung garantiert! Spanien bringt mit seinem unverkennbaren Kombinationsfußball und einer goldenen Generation an technisch versierten Spielern alles mit, um als klarer Favorit in dieses Duell zu gehen. Doch Saudi-Arabien hat zuletzt bewiesen – nicht zuletzt mit dem Sensationssieg gegen Argentinien bei der WM 2022 –, dass sie Giganten bezwingen können. Am 21. Juni 2026 könnte das Publikum eine weitere Überraschung erleben, wenn die Grün-Weißen mit kompakter Defensive und blitzschnellem Umschaltspiel die spanische Übermacht herausfordern. Dieses Spiel darf kein Fußballfan verpassen!"
   },
   {
     "no": 39,
@@ -641,7 +646,8 @@
     "status": 0,
     "minute": null,
     "city": "Los Angeles",
-    "stadium": "Los-Angeles-Stadion"
+    "stadium": "Los-Angeles-Stadion",
+    "preview": "Die Roten Teufel aus Belgien treffen auf die kämpferischen Iraner – ein Duell zweier Nationen mit gänzlich unterschiedlichen Fußballphilosophien. Belgien, einst die Nummer eins der FIFA-Weltrangliste, befindet sich im Generationenwechsel und will unter neuem Trainer endlich den ersehnten WM-Titel anpeilen. Der Iran hingegen ist für seine defensive Kompaktheit bekannt und gefährlich bei Kontern, wie zuletzt bei der WM 2022 in Katar bewiesen. Für Belgien ist ein Sieg fast Pflicht, um die Gruppenphase erfolgreich zu gestalten – doch der Iran wird alles daransetzen, die Europäer zu ärgern. Ein hochspannendes Aufeinandertreffen, das mehr Brisanz birgt, als es auf dem Papier vermuten lässt!"
   },
   {
     "no": 37,
@@ -657,7 +663,8 @@
     "status": 1,
     "minute": "",
     "city": "Miami",
-    "stadium": "Miami-Stadion"
+    "stadium": "Miami-Stadion",
+    "preview": "Uruguay, die zweifachen Weltmeister und ewige Großmacht des südamerikanischen Fußballs, treffen auf den aufstrebenden Außenseiter Kap Verde – auf dem Papier eine klare Sache, doch im Fußball zählt bekanntlich nur das Spielfeld. Die Mannschaft von der Inselgruppe vor der westafrikanischen Küste hat in den letzten Jahren für Aufsehen gesorgt und qualifizierte sich sensationell für ihre erste Fußball-Weltmeisterschaft überhaupt. Uruguay hingegen setzt auf seine bewährte Mischung aus Leidenschaft, taktischer Disziplin und individueller Klasse rund um Torjäger wie Darwin Núñez. Kap Verde wird mit breiter Brust und dem Rückhalt eines ganzen Inselstaates antreten – doch die Celeste-Erfahrung auf höchstem Niveau dürfte letztlich den Unterschied machen. Es könnte ein historischer Abend werden, egal wie es ausgeht!"
   },
   {
     "no": 40,
@@ -673,7 +680,8 @@
     "status": 0,
     "minute": null,
     "city": "Vancouver",
-    "stadium": "BC Place Vancouver"
+    "stadium": "BC Place Vancouver",
+    "preview": "Neuseeland und Ägypten – zwei Nationen, die bei einer Weltmeisterschaft absolute Seltenheitswert haben, liefern sich ein wegweisendes Duell in der Gruppenphase. Die All Whites aus Neuseeland, bekannt für ihren unbändigen Kampfgeist, hoffen auf die Unterstützung der nordamerikanischen Gastgeberatmosphäre, um für eine Überraschung zu sorgen. Ägypten, Heimat der Pharaonen und einer leidenschaftlichen Fußballkultur, bringt erfahrene Spieler aus europäischen Ligen mit und setzt auf seine technische Stärke im Mittelfeld. Für beide Teams ist dieser Auftakt enorm wichtig – ein Sieg könnte den Grundstein für das Weiterkommen legen. Das Stadion wird brodeln, denn hier kämpfen zwei Underdogs mit allem, was sie haben, um WM-Geschichte zu schreiben!"
   },
   {
     "no": 43,
