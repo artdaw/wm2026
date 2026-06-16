@@ -216,13 +216,14 @@
     "away": "Kap Verde",
     "homeCode": "ESP",
     "awayCode": "CPV",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Atlanta",
     "stadium": "Atlanta-Stadion",
-    "preview": "Der amtierende Europameister Spanien eröffnet seine WM-Kampagne gegen Kap Verde – auf dem Papier ein klarer Fall, doch La Roja wird keinen Gegner unterschätzen. Spaniens goldene Generation um Pedri, Lamine Yamal und Nico Williams gilt als einer der heißesten Titel-Anwärter des Turniers und begeistert mit einem Tiki-Taka der neuen Generation. Kap Verde hat sich jedoch als Afrika-Vertreter verdient qualifiziert und bringt mit seinen in Europa ausgebildeten Spielern eine gewisse Qualität mit – Brasilien-Legende Garba Diallo und Konsorten werden nichts zu verschenken haben. Für Spanien geht es darum, von Beginn an den eigenen Rhythmus zu finden und ein klares Statement an die Konkurrenz zu senden."
+    "preview": "Der amtierende Europameister Spanien eröffnet seine WM-Kampagne gegen Kap Verde – auf dem Papier ein klarer Fall, doch La Roja wird keinen Gegner unterschätzen. Spaniens goldene Generation um Pedri, Lamine Yamal und Nico Williams gilt als einer der heißesten Titel-Anwärter des Turniers und begeistert mit einem Tiki-Taka der neuen Generation. Kap Verde hat sich jedoch als Afrika-Vertreter verdient qualifiziert und bringt mit seinen in Europa ausgebildeten Spielern eine gewisse Qualität mit – Brasilien-Legende Garba Diallo und Konsorten werden nichts zu verschenken haben. Für Spanien geht es darum, von Beginn an den eigenen Rhythmus zu finden und ein klares Statement an die Konkurrenz zu senden.",
+    "summary": "Ein torloses Unentschieden zwischen Spanien und Kap Verde – die iberische Tiki-Taka-Maschinerie lief auf Hochtouren, doch die Verteidigung der Kapverdier hielt dem Druck überraschend stand. Spanien dominierte Ballbesitz und Spielkontrolle, fand aber kein Mittel gegen die disziplinierte Defensive der Afrikaner. Kap Verde darf diesen Punkt als historischen Erfolg gegen einen der Titelfavoriten feiern. Für Spanien hingegen ist dies ein Weckruf – in der K.-o.-Phase wird mehr Durchschlagskraft gefordert sein."
   },
   {
     "no": 16,
@@ -233,13 +234,14 @@
     "away": "Ägypten",
     "homeCode": "BEL",
     "awayCode": "EGY",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Seattle",
     "stadium": "Seattle-Stadion",
-    "preview": "Was für eine Begegnung steht uns hier bevor! Belgien, die Roten Teufel, treten mit einem der tiefsten Kader des Turniers an und wollen endlich den großen Wurf schaffen, nachdem sie 2018 mit Platz drei so nah dran waren. Ägypten hingegen bringt mit Mohamed Salah den vielleicht gefährlichsten Einzelspieler dieser Weltmeisterschaft mit – ein Mann, der allein Spiele entscheiden kann. Die Defensive der Belgier um Kieffer Moore und de Bruyne im Mittelfeld wird alles daran setzen, den Liverpool-Star aus dem Spiel zu nehmen. Gelingt Ägypten die Überraschung, wäre es eine Sensation der ersten Phase – doch Belgien gilt zu Recht als klarer Favorit auf den Gruppensieg."
+    "preview": "Was für eine Begegnung steht uns hier bevor! Belgien, die Roten Teufel, treten mit einem der tiefsten Kader des Turniers an und wollen endlich den großen Wurf schaffen, nachdem sie 2018 mit Platz drei so nah dran waren. Ägypten hingegen bringt mit Mohamed Salah den vielleicht gefährlichsten Einzelspieler dieser Weltmeisterschaft mit – ein Mann, der allein Spiele entscheiden kann. Die Defensive der Belgier um Kieffer Moore und de Bruyne im Mittelfeld wird alles daran setzen, den Liverpool-Star aus dem Spiel zu nehmen. Gelingt Ägypten die Überraschung, wäre es eine Sensation der ersten Phase – doch Belgien gilt zu Recht als klarer Favorit auf den Gruppensieg.",
+    "summary": "Ein packendes 1:1 zwischen Belgien und Ägypten, das beide Mannschaften letztlich mit gemischten Gefühlen vom Platz gehen ließ. Belgien ging durch einen frühen Treffer in Führung, doch Ägypten bewies Moral und erzielte den verdienten Ausgleich. Die Roten Teufel enttäuschten über weite Strecken und zeigten erneut die bekannten Schwächen in der Chancenverwertung. Ägypten hingegen überzeugte mit leidenschaftlichem Defensivfußball und verdiente sich diesen Punktgewinn gegen einen Mitfavoriten vollauf."
   },
   {
     "no": 13,
@@ -267,13 +269,14 @@
     "away": "Neuseeland",
     "homeCode": "IRN",
     "awayCode": "NZL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 2,
     "status": 0,
     "minute": null,
     "city": "Los Angeles",
     "stadium": "Los-Angeles-Stadion",
-    "preview": "Der Iran trifft in seiner WM-Auftaktpartie auf Neuseeland, und die Vorzeichen stehen klar auf eine iranische Dominanz. Die Mannschaft von Trainer Amir Ghalenoei gilt als einer der technisch stärksten Vertreter Asiens und wird mit großer Leidenschaft und taktischer Disziplin in dieses Spiel gehen. Neuseeland, die All Whites, haben sich über einen langen Qualifikationsweg für diese WM qualifiziert und werden nichts zu verlieren haben – genau das macht sie gefährlich. Der Iran um seinen starken Mittelfeldspieler Alireza Jahanbakhsh muss die Partie von Beginn an kontrollieren, um keine böse Überraschung zu erleben. Ein Pflichtsieg für den Iran – doch Neuseeland wird bis zur letzten Minute kämpfen."
+    "preview": "Der Iran trifft in seiner WM-Auftaktpartie auf Neuseeland, und die Vorzeichen stehen klar auf eine iranische Dominanz. Die Mannschaft von Trainer Amir Ghalenoei gilt als einer der technisch stärksten Vertreter Asiens und wird mit großer Leidenschaft und taktischer Disziplin in dieses Spiel gehen. Neuseeland, die All Whites, haben sich über einen langen Qualifikationsweg für diese WM qualifiziert und werden nichts zu verlieren haben – genau das macht sie gefährlich. Der Iran um seinen starken Mittelfeldspieler Alireza Jahanbakhsh muss die Partie von Beginn an kontrollieren, um keine böse Überraschung zu erleben. Ein Pflichtsieg für den Iran – doch Neuseeland wird bis zur letzten Minute kämpfen.",
+    "summary": "Ein dramatisches 2:2 zwischen dem Iran und Neuseeland, das bis zur letzten Minute in Atem hielt. Der Iran ging zweimal in Führung und schien das Spiel bereits unter Kontrolle zu haben, doch die All Whites zeigten außergewöhnliche Widerstandsfähigkeit und glichen jeweils aus. Für Neuseeland ist dieses Remis gegen eine physisch starke iranische Mannschaft ein bemerkenswertes Ergebnis in der WM-Geschichte des Landes. Beide Teams teilen die Punkte, wobei der Iran die verpassten Siege bitter bereuen dürfte."
   },
   {
     "no": 17,
@@ -697,7 +700,8 @@
     "status": 0,
     "minute": null,
     "city": "Dallas",
-    "stadium": "Dallas-Stadion"
+    "stadium": "Dallas-Stadion",
+    "preview": "Am 22. Juni 2026 trifft der amtierende Weltmeister Argentinien auf ein aufstrebendes österreichisches Team – ein Duell, das unterschiedlicher kaum sein könnte. Lionel Messi und seine Mannschaft werden den Favoritenstatus mit Nachdruck unterstreichen wollen, während Österreich mit Ralf Rangnicks taktischer Handschrift auf eine Überraschung hofft. Die österreichische Defensive um David Alaba wird alles daran setzen, die argentinische Offensive rund um Julián Álvarez und Enzo Fernández zu bändigen. Es verspricht ein taktisch hochinteressantes Kräftemessen zu werden, bei dem Argentinien jedoch klar als Favorit in dieses Spiel geht."
   },
   {
     "no": 42,
@@ -713,7 +717,8 @@
     "status": 0,
     "minute": null,
     "city": "Philadelphia",
-    "stadium": "Philadelphia-Stadion"
+    "stadium": "Philadelphia-Stadion",
+    "preview": "Frankreich trifft am 22. Juni 2026 in der Gruppenphase auf den Irak – auf dem Papier eine klare Angelegenheit für Les Bleus, doch bei einer Weltmeisterschaft ist Vorsicht stets geboten. Kylian Mbappé, Antoine Griezmann und eine der talentiertesten Offensivreihen der Welt werden dem irakischen Torhüter eine lange Nacht bereiten wollen. Der Irak, der sich erstmals seit Jahrzehnten für eine WM qualifiziert hat, wird mit viel Leidenschaft und einer gut organisierten Defensive versuchen, für eine der großen Überraschungen des Turniers zu sorgen. Frankreich wird dennoch alles daran setzen, frühzeitig für klare Verhältnisse zu sorgen und mit einem Sieg die Tabellenführung in der Gruppe zu festigen."
   },
   {
     "no": 41,
@@ -729,7 +734,8 @@
     "status": 0,
     "minute": null,
     "city": "New Jersey",
-    "stadium": "New-York-New-Jersey-Stadion"
+    "stadium": "New-York-New-Jersey-Stadion",
+    "preview": "Ein hochspannendes Aufeinandertreffen zweier aufstrebender Fußballnationen steht bevor! Norwegen, angeführt vom überragenden Erling Haaland, bringt eine der gefährlichsten Offensivreihen des gesamten Turniers mit nach Nordamerika. Auf der anderen Seite präsentiert sich Senegal als das stärkste Team Afrikas, mit Spielern wie Sadio Mané und einer kompakten, leidenschaftlichen Defensive. Beide Mannschaften sind hungrig auf den ersten Sieg in dieser Gruppe und werden alles geben, um die drei Punkte einzufahren. Ein Spektakel ist garantiert – dieses Spiel könnte eines der Highlights der Vorrunde werden!"
   },
   {
     "no": 44,
@@ -745,7 +751,8 @@
     "status": 0,
     "minute": null,
     "city": "San Francisco Bay Area",
-    "stadium": "San-Francisco-Bay-Area-Stadion"
+    "stadium": "San-Francisco-Bay-Area-Stadion",
+    "preview": "Jordanien und Algerien liefern sich ein wegweisendes Duell zweier Nationen, die ihren historischen Moment auf der größten Fußballbühne der Welt endlich erleben dürfen. Die Algerier, bekannt für ihr technisch feines Kombinationsspiel und ihre leidenschaftliche Anhängerschaft, gelten als klarer Favorit in dieser Begegnung. Doch Jordanien hat sich erst kürzlich als aufstrebende Kraft im asiatischen Fußball etabliert und wird alles daran setzen, eine Überraschung zu landen. Die Schlüsselspieler auf beiden Seiten könnten den Unterschied ausmachen – ein packender Schlagabtausch zwischen asiatischem Kampfgeist und afrikanischer Spielkunst erwartet uns hier."
   },
   {
     "no": 47,
