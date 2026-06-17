@@ -252,13 +252,14 @@
     "away": "Uruguay",
     "homeCode": "KSA",
     "awayCode": "URU",
-    "homeScore": null,
-    "awayScore": null,
-    "status": 1,
-    "minute": "",
+    "homeScore": 1,
+    "awayScore": 1,
+    "status": 0,
+    "minute": null,
     "city": "Miami",
     "stadium": "Miami-Stadion",
-    "preview": "Saudi-Arabien gegen Uruguay – ein Duell zweier Mannschaften, die beide unbedingt mit einem Sieg ins Turnier starten wollen! Die Saudis haben nach ihrer legendären Überraschung gegen Argentinien 2022 Hunger auf mehr und werden das heimische Publikum auf dem amerikanischen Kontinent in Staunen versetzen wollen. Uruguay dagegen besitzt mit Darwin Núñez, Federico Valverde und dem erfahrenen Abwehrverbund eine Qualität, die weit über den Papierform-Favoriten hinausgeht. Es wird ein taktisch hochinteressantes Spiel – die Saudis stehen defensiv kompakt und kontern gefährlich, während Uruguay auf Ballbesitz und Kreativität setzt. Dieses Spiel könnte über den weiteren Verlauf der Gruppe entscheiden!"
+    "preview": "Saudi-Arabien gegen Uruguay – ein Duell zweier Mannschaften, die beide unbedingt mit einem Sieg ins Turnier starten wollen! Die Saudis haben nach ihrer legendären Überraschung gegen Argentinien 2022 Hunger auf mehr und werden das heimische Publikum auf dem amerikanischen Kontinent in Staunen versetzen wollen. Uruguay dagegen besitzt mit Darwin Núñez, Federico Valverde und dem erfahrenen Abwehrverbund eine Qualität, die weit über den Papierform-Favoriten hinausgeht. Es wird ein taktisch hochinteressantes Spiel – die Saudis stehen defensiv kompakt und kontern gefährlich, während Uruguay auf Ballbesitz und Kreativität setzt. Dieses Spiel könnte über den weiteren Verlauf der Gruppe entscheiden!",
+    "summary": "Ein packendes Unentschieden zwischen Saudi-Arabien und Uruguay! Die Saudis zeigten eine kämpferische Leistung und hielten den erfahrenen Südamerikanern stand. Uruguay dominierte zwar weite Phasen des Spiels, fand aber kein Mittel, um die kompakte Defensive der Grünen Falken zu knacken. Beide Teams teilen sich am Ende die Punkte – ein Ergebnis, das keiner der beiden Mannschaften wirklich weiterhilft. Im Kampf um das Weiterkommen bleibt alles offen."
   },
   {
     "no": 15,
@@ -287,13 +288,14 @@
     "away": "Senegal",
     "homeCode": "FRA",
     "awayCode": "SEN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "New Jersey",
     "stadium": "New-York-New-Jersey-Stadion",
-    "preview": "Was für ein Auftakt der Weltmeisterschaft 2026 – Frankreich trifft auf den Senegal, und die Luft ist förmlich zum Schneiden! Die Équipe Tricolore mit ihren Weltklasse-Akteuren rund um Kylian Mbappé gilt zwar als klarer Favorit, doch die Löwen von Teranga haben bei vergangenen Turnieren bewiesen, dass sie jeden Gegner das Fürchten lehren können. Sadio Mané und seine Mitstreiter werden nicht einfach die Bühne räumen – das Selbstbewusstsein im senegalesischen Lager ist nach dem Afrika-Cup-Triumph enorm. Frankreich muss von der ersten Minute an hochkonzentriert agieren, denn der Senegal lebt von schnellen Kontern und unbändiger Energie. Dieses Duell zwischen europäischer Klasse und afrikanischer Leidenschaft verspricht Weltklasse-Fußball vom Feinsten!"
+    "preview": "Was für ein Auftakt der Weltmeisterschaft 2026 – Frankreich trifft auf den Senegal, und die Luft ist förmlich zum Schneiden! Die Équipe Tricolore mit ihren Weltklasse-Akteuren rund um Kylian Mbappé gilt zwar als klarer Favorit, doch die Löwen von Teranga haben bei vergangenen Turnieren bewiesen, dass sie jeden Gegner das Fürchten lehren können. Sadio Mané und seine Mitstreiter werden nicht einfach die Bühne räumen – das Selbstbewusstsein im senegalesischen Lager ist nach dem Afrika-Cup-Triumph enorm. Frankreich muss von der ersten Minute an hochkonzentriert agieren, denn der Senegal lebt von schnellen Kontern und unbändiger Energie. Dieses Duell zwischen europäischer Klasse und afrikanischer Leidenschaft verspricht Weltklasse-Fußball vom Feinsten!",
+    "summary": "Les Bleus marschieren weiter! Frankreich ließ Senegal beim 3:1 keine Chance und unterstrich eindrucksvoll seine Ambitionen auf den WM-Titel. Die Franzosen kombinierten sich mit spielerischer Leichtigkeit durch die senegalesische Defensive und belohnten ihre Überlegenheit mit drei Treffern. Senegal versuchte zwar durch einen Anschlusstreffer nochmal Spannung zu erzeugen, doch Frankreich ließ nichts mehr anbrennen. Ein Statement-Sieg der Equipe Tricolore!"
   },
   {
     "no": 18,
@@ -304,13 +306,14 @@
     "away": "Norwegen",
     "homeCode": "IRQ",
     "awayCode": "NOR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 4,
     "status": 0,
     "minute": null,
     "city": "Boston",
     "stadium": "Boston-Stadion",
-    "preview": "Irak gegen Norwegen – auf den ersten Blick eine ungleiche Paarung, doch dieser Vergleich täuscht gewaltig! Die Mesopotamischen Löwen haben sich erstmals seit Jahrzehnten für eine WM-Endrunde qualifiziert und werden auf der Weltbühne alles geben, um ihr Land zu begeistern. Norwegen hingegen, angeführt vom unaufhaltsamen Erling Haaland, bringt eines der gefährlichsten Sturm-Arsenale des Turniers mit. Haaland wird im Mittelpunkt stehen und wird mit Sicherheit brennen darauf, auf der größten Bühne des Weltfußballs zu glänzen. Doch die irakische Defensive könnte für die eine oder andere Überraschung sorgen – dieses Spiel birgt mehr Brisanz, als man zunächst vermuten würde!"
+    "preview": "Irak gegen Norwegen – auf den ersten Blick eine ungleiche Paarung, doch dieser Vergleich täuscht gewaltig! Die Mesopotamischen Löwen haben sich erstmals seit Jahrzehnten für eine WM-Endrunde qualifiziert und werden auf der Weltbühne alles geben, um ihr Land zu begeistern. Norwegen hingegen, angeführt vom unaufhaltsamen Erling Haaland, bringt eines der gefährlichsten Sturm-Arsenale des Turniers mit. Haaland wird im Mittelpunkt stehen und wird mit Sicherheit brennen darauf, auf der größten Bühne des Weltfußballs zu glänzen. Doch die irakische Defensive könnte für die eine oder andere Überraschung sorgen – dieses Spiel birgt mehr Brisanz, als man zunächst vermuten würde!",
+    "summary": "Norwegen überrollt den Irak mit einer beeindruckenden Vorstellung! Beim 4:1-Kantersieg zeigten die Skandinavier ihre ganze offensiveCraft und ließen dem Irak keine Chance. Erling Haaland und seine Kollegen setzten von Beginn an die Messlatte hoch und kombinierten sich immer wieder erfolgreich durch die irakische Abwehr. Der Irak konnte lediglich einen Ehrentreffer erzielen, war dem Tempo und der Qualität der Norweger aber über 90 Minuten heillos unterlegen. Norwegen meldet sich als ernstzunehmender Kandidat für die nächste Runde an."
   },
   {
     "no": 19,
@@ -321,13 +324,14 @@
     "away": "Algerien",
     "homeCode": "ARG",
     "awayCode": "ALG",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Kansas City",
     "stadium": "Kansas-City-Stadion",
-    "preview": "Titelverteidiger Argentinien betritt die WM-Bühne 2026 und bekommt es gleich mit einem aufstrebenden Algerien zu tun – das riecht nach einem heißen Abend! Lionel Messi, der lebende Fußball-Gott, trägt die Hoffnungen einer ganzen Nation auf seinen Schultern und wird alles dafür tun, seinen letzten großen Tanz auf der Weltbühne unvergesslich zu machen. Algerien, angeführt von Riyad Mahrez, ist keine leichte Beute und kommt mit dem tiefen Glauben an eine mögliche Überraschung nach oben. Die argentinische Mannschaft weiß jedoch genau, wie man unter Druck funktioniert – ein Meisterwerk an Erfahrung und Klasse steht gegen algerischen Hunger und Entschlossenheit. Ein Aufeinandertreffen zweier Welten, das die WM 2026 direkt in Flammen setzen könnte!"
+    "preview": "Titelverteidiger Argentinien betritt die WM-Bühne 2026 und bekommt es gleich mit einem aufstrebenden Algerien zu tun – das riecht nach einem heißen Abend! Lionel Messi, der lebende Fußball-Gott, trägt die Hoffnungen einer ganzen Nation auf seinen Schultern und wird alles dafür tun, seinen letzten großen Tanz auf der Weltbühne unvergesslich zu machen. Algerien, angeführt von Riyad Mahrez, ist keine leichte Beute und kommt mit dem tiefen Glauben an eine mögliche Überraschung nach oben. Die argentinische Mannschaft weiß jedoch genau, wie man unter Druck funktioniert – ein Meisterwerk an Erfahrung und Klasse steht gegen algerischen Hunger und Entschlossenheit. Ein Aufeinandertreffen zweier Welten, das die WM 2026 direkt in Flammen setzen könnte!",
+    "summary": "Argentinien lässt keine Zweifel aufkommen! Der amtierende Weltmeister fegte Algerien mit 3:0 vom Platz und präsentierte sich in bestechender Form. La Albiceleste kontrollierte das Spiel von der ersten bis zur letzten Minute und ließ Algerien kaum in die Nähe des eigenen Tores. Die Effizienz im Abschluss war beängstigend – jede Chance wurde eiskalt genutzt. Argentinien zeigt der Welt: Der Titelverteidiger ist heiß auf mehr."
   },
   {
     "no": 20,
@@ -338,13 +342,14 @@
     "away": "Jordanien",
     "homeCode": "AUT",
     "awayCode": "JOR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "San Francisco Bay Area",
     "stadium": "San-Francisco-Bay-Area-Stadion",
-    "preview": "Österreich gegen Jordanien – das Duell des aufstrebenden mitteleuropäischen Kraftpakets gegen den mutigen Außenseiter aus dem Nahen Osten! Das ÖFB-Team unter Ralf Rangnick hat sich in den vergangenen Jahren enorm entwickelt und geht mit breiter Brust in dieses erste WM-Vorrundenspiel. Spieler wie Marcel Sabitzer und Christoph Baumgartner stehen für modernen, aggressiven Pressing-Fußball, der Jordanien vor enorme Probleme stellen wird. Die jordanische Mannschaft hingegen hat das Herz am rechten Fleck und wird versuchen, mit Disziplin und schnellen Umschaltspielen für Nadelstiche zu sorgen. Für Österreich ist dies die große Chance, endlich zu zeigen, dass man bei einer WM mehr als nur Statist sein kann!"
+    "preview": "Österreich gegen Jordanien – das Duell des aufstrebenden mitteleuropäischen Kraftpakets gegen den mutigen Außenseiter aus dem Nahen Osten! Das ÖFB-Team unter Ralf Rangnick hat sich in den vergangenen Jahren enorm entwickelt und geht mit breiter Brust in dieses erste WM-Vorrundenspiel. Spieler wie Marcel Sabitzer und Christoph Baumgartner stehen für modernen, aggressiven Pressing-Fußball, der Jordanien vor enorme Probleme stellen wird. Die jordanische Mannschaft hingegen hat das Herz am rechten Fleck und wird versuchen, mit Disziplin und schnellen Umschaltspielen für Nadelstiche zu sorgen. Für Österreich ist dies die große Chance, endlich zu zeigen, dass man bei einer WM mehr als nur Statist sein kann!",
+    "summary": "Österreich feiert einen verdienten 3:1-Sieg gegen Jordanien und startet damit stark in das WM-Turnier! Das ÖFB-Team zeigte von Beginn an klare Dominanz und kombinierte sich immer wieder erfolgreich durch die jordanische Defensive. Jordanien bewies zwar kämpferischen Geist und erzielte einen Ehrentreffer, war den Österreichern aber spielerisch deutlich unterlegen. Ralf Rangnicks Mannschaft setzte taktisch kluge Akzente und überzeugte vor allem in der Offensive. Ein gelungener Start für das österreichische Nationalteam auf der großen WM-Bühne!"
   },
   {
     "no": 23,
@@ -663,8 +668,8 @@
     "awayCode": "CPV",
     "homeScore": null,
     "awayScore": null,
-    "status": 1,
-    "minute": "",
+    "status": 0,
+    "minute": null,
     "city": "Miami",
     "stadium": "Miami-Stadion",
     "preview": "Uruguay, die zweifachen Weltmeister und ewige Großmacht des südamerikanischen Fußballs, treffen auf den aufstrebenden Außenseiter Kap Verde – auf dem Papier eine klare Sache, doch im Fußball zählt bekanntlich nur das Spielfeld. Die Mannschaft von der Inselgruppe vor der westafrikanischen Küste hat in den letzten Jahren für Aufsehen gesorgt und qualifizierte sich sensationell für ihre erste Fußball-Weltmeisterschaft überhaupt. Uruguay hingegen setzt auf seine bewährte Mischung aus Leidenschaft, taktischer Disziplin und individueller Klasse rund um Torjäger wie Darwin Núñez. Kap Verde wird mit breiter Brust und dem Rückhalt eines ganzen Inselstaates antreten – doch die Celeste-Erfahrung auf höchstem Niveau dürfte letztlich den Unterschied machen. Es könnte ein historischer Abend werden, egal wie es ausgeht!"
@@ -768,7 +773,8 @@
     "status": 0,
     "minute": null,
     "city": "Houston",
-    "stadium": "Houston-Stadion"
+    "stadium": "Houston-Stadion",
+    "preview": "Portugal betritt das WM-Parkett mit einem Kader voller Weltklassespieler – angeführt von Cristiano Ronaldo, der bei seiner wohl letzten Weltmeisterschaft noch einmal Geschichte schreiben will. Usbekistan hingegen ist das Underdog-Märchen des Turniers: Die Zentralasiaten haben sich erstmals für eine WM-Endrunde qualifiziert und werden mit unbändiger Energie und kollektiver Leidenschaft dagegenzuhalten versuchen. Für Portugal ist ein Sieg Pflicht, doch unterschätzen sollte man die quirligen Usbekier keinesfalls – in der Gruppenphase haben schon größere Namen gestolpert. Es verspricht ein Duell zwischen technischer Brillanz und unbezähmbarem Kampfgeist zu werden. Der Allianz-Stadion-Atmosphäre in Atlanta dürfte an diesem Juniabend kaum etwas fehlen!"
   },
   {
     "no": 45,
@@ -784,7 +790,8 @@
     "status": 0,
     "minute": null,
     "city": "Boston",
-    "stadium": "Boston-Stadion"
+    "stadium": "Boston-Stadion",
+    "preview": "England gegen Ghana – das ist nicht nur ein Fußballspiel, das ist ein Aufeinandertreffen zweier Nationen mit einer tiefen, historisch gewachsenen Verbindung. Die Three Lions reisen mit enormen Erwartungen nach Nordamerika: Unter Trainer Thomas Tuchel soll endlich der lang ersehnte große Titel her, und ein überzeugender Auftakt gegen Ghana wäre das perfekte Signal an die restliche Welt. Ghana seinerseits hat mit Spielern wie Jordan Ayew und einer wachsenden Talentgeneration durchaus das Potenzial, für eine Überraschung zu sorgen. Die westafrikanische Leidenschaft trifft auf englische Disziplin – das Rezept für ein hochklassiges Gruppenspiel ist angerichtet. Wer die Oberhand behält, wird auch die Weichen für das weitere Turnierschicksal beider Teams stellen."
   },
   {
     "no": 46,
@@ -800,7 +807,8 @@
     "status": 0,
     "minute": null,
     "city": "Toronto",
-    "stadium": "Toronto-Stadion"
+    "stadium": "Toronto-Stadion",
+    "preview": "Panama gegen Kroatien – auf dem Papier klingt das nach einer klaren Angelegenheit für den Vizeweltmeister von 2018, doch die WM hat uns schon oft gelehrt, dass Papierform und Realität weit auseinanderliegen können. Kroatien um Modric, der mit 40 Jahren noch immer das Mittelfeld dirigiert wie kein anderer, ist eingespielt, erfahren und hungrig auf einen erneuten tiefen Turnierlauf. Panama dagegen kämpft mit einer Mischung aus unbedingtem Willen und taktischer Disziplin – die Mittelamerikaner wissen, dass sie jeden Zentimeter des Rasens verteidigen müssen. Für die Kroaten geht es darum, einen souveränen Start hinzulegen und keine unnötigen Kräfte zu verschwenden. Dieses Spiel könnte knapper werden, als viele erwarten – Panama hat nichts zu verlieren und alles zu gewinnen."
   },
   {
     "no": 48,
@@ -816,7 +824,8 @@
     "status": 0,
     "minute": null,
     "city": "Guadalajara",
-    "stadium": "Guadalajara-Stadion"
+    "stadium": "Guadalajara-Stadion",
+    "preview": "Kolumbien trifft auf die Demokratische Republik Kongo – ein Duell zweier aufregender Fußballnationen, die beide mit Stil und Tempo brillieren können. Die Kolumbianer um James Rodríguez und Luis Díaz haben in der Qualifikation gezeigt, dass sie zu den gefährlichsten Teams Südamerikas zählen, und wollen auch auf der WM-Bühne glänzen. Die DR Kongo hingegen bringt rohe Athletik, technisches Feingefühl und eine Portion Unberechenbarkeit mit – Attribute, die jeden Gegner in Schwierigkeiten bringen können. Es ist ein Spiel der Kontraste: südamerikanische Spielkultur gegen afrikanischen Rhythmus und Energie. Der Sieger dieses packenden Duells dürfte ein entscheidendes Wort um den Gruppensieg mitreden."
   },
   {
     "no": 51,
@@ -1069,8 +1078,8 @@
     "awayCode": "ESP",
     "homeScore": null,
     "awayScore": null,
-    "status": 1,
-    "minute": "",
+    "status": 0,
+    "minute": null,
     "city": "Guadalajara",
     "stadium": "Guadalajara-Stadion"
   },
