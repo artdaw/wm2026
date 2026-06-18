@@ -360,13 +360,14 @@
     "away": "DR Kongo",
     "homeCode": "POR",
     "awayCode": "COD",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Houston",
     "stadium": "Houston-Stadion",
-    "preview": "Portugal gegen die Demokratische Republik Kongo – ein Aufeinandertreffen voller Emotionen, Klasse und unvorhersehbarer Dramatik! Cristiano Ronaldo, der ewige Rekordbrecher, steht möglicherweise vor seinem allerletzten WM-Auftritt und wird mit einer Energie auf den Platz gehen, die kein Alter kennt. Die DR Kongo hingegen bringt mit ihrem ungestümen Tempo und technisch versierten Spielern wie Cédric Bakambu eine Mischung mit, die Portugal sicher nicht unterschätzen darf. Das portugiesische Kollektiv unter Bruno Fernandes und Rafael Leão ist jedoch mehr als der Ein-Mann-Betrieb der frühen Ronaldo-Ära – sie sind heute ein komplettes Team. Dieses Spiel wird Werbung für den Weltfußball sein, egal wo man hinschaut!"
+    "preview": "Portugal gegen die Demokratische Republik Kongo – ein Aufeinandertreffen voller Emotionen, Klasse und unvorhersehbarer Dramatik! Cristiano Ronaldo, der ewige Rekordbrecher, steht möglicherweise vor seinem allerletzten WM-Auftritt und wird mit einer Energie auf den Platz gehen, die kein Alter kennt. Die DR Kongo hingegen bringt mit ihrem ungestümen Tempo und technisch versierten Spielern wie Cédric Bakambu eine Mischung mit, die Portugal sicher nicht unterschätzen darf. Das portugiesische Kollektiv unter Bruno Fernandes und Rafael Leão ist jedoch mehr als der Ein-Mann-Betrieb der frühen Ronaldo-Ära – sie sind heute ein komplettes Team. Dieses Spiel wird Werbung für den Weltfußball sein, egal wo man hinschaut!",
+    "summary": "Ein dramatisches Unentschieden in dieser Begegnung zwischen Portugal und der Demokratischen Republik Kongo! Die Portugiesen, angeführt von einem glänzenden Cristiano Ronaldo, gingen früh in Führung und schienen auf Kurs für einen Pflichtsieg. Doch die Kongolesen zeigten Herz und Kampfgeist und erzwangen mit einem verdienten Ausgleichstreffer ein 1:1-Remis. Portugal lässt damit wichtige Punkte liegen und muss sich in den kommenden Spielen deutlich steigern, um das Weiterkommen zu sichern."
   },
   {
     "no": 22,
@@ -377,13 +378,14 @@
     "away": "Kroatien",
     "homeCode": "ENG",
     "awayCode": "CRO",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 4,
+    "awayScore": 2,
     "status": 0,
     "minute": null,
     "city": "Dallas",
     "stadium": "Dallas-Stadion",
-    "preview": "England gegen Kroatien – dieses Duell weckt sofort Erinnerungen an das WM-Halbfinale 2018, als die Three Lions in letzter Minute das Herz gebrochen wurde! Die Engländer, geführt von Jude Bellingham und Harry Kane, sind entschlossen, alte Wunden zu heilen und endlich den langersehnten WM-Titel für das Mutterland des Fußballs zu holen. Kroatien hingegen ist bekannt dafür, stets dann am stärksten zu sein, wenn es am schwersten kommt – die goldene Generation um Luka Modrić gibt ihr möglicherweise letztes großes Kapitel auf der Weltbühne. England darf keine Schwäche zeigen, denn die Kroaten werden jeden Fehler gnadenlos bestrafen. Die Erwartungen auf der Insel sind riesig – und dieses Spiel könnte bereits die Stimmung für den gesamten englischen Turnierverlauf bestimmen!"
+    "preview": "England gegen Kroatien – dieses Duell weckt sofort Erinnerungen an das WM-Halbfinale 2018, als die Three Lions in letzter Minute das Herz gebrochen wurde! Die Engländer, geführt von Jude Bellingham und Harry Kane, sind entschlossen, alte Wunden zu heilen und endlich den langersehnten WM-Titel für das Mutterland des Fußballs zu holen. Kroatien hingegen ist bekannt dafür, stets dann am stärksten zu sein, wenn es am schwersten kommt – die goldene Generation um Luka Modrić gibt ihr möglicherweise letztes großes Kapitel auf der Weltbühne. England darf keine Schwäche zeigen, denn die Kroaten werden jeden Fehler gnadenlos bestrafen. Die Erwartungen auf der Insel sind riesig – und dieses Spiel könnte bereits die Stimmung für den gesamten englischen Turnierverlauf bestimmen!",
+    "summary": "England lieferte eine beeindruckende Machtdemonstration gegen den ehemaligen WM-Finalisten Kroatien und gewann verdient mit 4:2! Die Three Lions präsentierten sich von Beginn an in blendender Verfassung und ließen den Kroaten kaum Luft zum Atmen. Zwar kamen die Männer von der Adria zweimal heran und zeigten dabei ihre bekannte Qualität, doch England blieb stets Herr der Lage. Mit vier Toren und einer starken Teamleistung sendet Southgates Mannschaft ein klares Signal an die übrigen WM-Teilnehmer. Ein Auftakt nach Maß für das englische Fußball-Mutterland!"
   },
   {
     "no": 21,
@@ -394,13 +396,14 @@
     "away": "Panama",
     "homeCode": "GHA",
     "awayCode": "PAN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Toronto",
     "stadium": "Toronto-Stadion",
-    "preview": "Ghana gegen Panama – ein Duell der Leidenschaft, in dem beide Mannschaften unbedingt mit einem Sieg in die Weltmeisterschaft starten wollen! Die Black Stars aus Ghana bringen mit ihrer schnellen, technisch versierten Offensivlinie eine Gefahr mit, die Panama vor echte Probleme stellen wird. Panama hingegen ist für seine unglaubliche Teamarbeit und kämpferische Stärke bekannt und wird als Kollektiv versuchen, den afrikanischen Vorrundenrivalen aus dem Rhythmus zu bringen. Für Ghana ist die WM-Teilnahme stets ein nationales Fest, und die mitgereisten Fans werden für eine beeindruckende Stimmung im Stadion sorgen. Erwartet ein offenes Spiel mit Toren auf beiden Seiten – denn beide Teams wissen, dass ein Sieg zum Auftakt Gold wert ist!"
+    "preview": "Ghana gegen Panama – ein Duell der Leidenschaft, in dem beide Mannschaften unbedingt mit einem Sieg in die Weltmeisterschaft starten wollen! Die Black Stars aus Ghana bringen mit ihrer schnellen, technisch versierten Offensivlinie eine Gefahr mit, die Panama vor echte Probleme stellen wird. Panama hingegen ist für seine unglaubliche Teamarbeit und kämpferische Stärke bekannt und wird als Kollektiv versuchen, den afrikanischen Vorrundenrivalen aus dem Rhythmus zu bringen. Für Ghana ist die WM-Teilnahme stets ein nationales Fest, und die mitgereisten Fans werden für eine beeindruckende Stimmung im Stadion sorgen. Erwartet ein offenes Spiel mit Toren auf beiden Seiten – denn beide Teams wissen, dass ein Sieg zum Auftakt Gold wert ist!",
+    "summary": "Ghana sorgte in einer engen und kampfbetonten Partie gegen Panama für den entscheidenden Moment und gewann knapp mit 1:0. Die Black Stars zeigten eine disziplinierte Defensivleistung und nutzten ihre einzige zwingende Torchance eiskalt zur Führung. Panama kämpfte leidenschaftlich um den Ausgleich, fand aber gegen kompakt stehende Ghanaer kein Mittel. Für Ghana ist dieser Sieg Gold wert und ein wichtiger Schritt in Richtung Achtelfinale."
   },
   {
     "no": 24,
@@ -411,13 +414,14 @@
     "away": "Kolumbien",
     "homeCode": "UZB",
     "awayCode": "COL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 3,
     "status": 0,
     "minute": null,
     "city": "Mexiko-Stadt",
     "stadium": "Mexiko-Stadt-Stadion",
-    "preview": "Usbekistan gegen Kolumbien – der vielleicht unerwartetste Vergleich des gesamten Turnierauftakts und gleichzeitig eine der faszinierendsten Geschichten der WM 2026! Usbekistan ist das Newcomer-Märchen schlechthin – erstmals überhaupt bei einer Weltmeisterschaft dabei und brennend heiß darauf, der Welt zu zeigen, was zentralasiatischer Fußball kann. Kolumbien hingegen, mit Spielern wie Luis Díaz und James Rodríguez, bringt südamerikanische Flair, Klasse und jede Menge WM-Erfahrung mit auf den Platz. Die Usbekischen Adler werden mit einem unglaublichen kollektiven Einsatz versuchen, Kolumbiens Offensivstarkes Ensemble in Schach zu halten. Eines ist sicher: Die Welt wird an diesem Abend nach Usbekistan schauen – und dieses Team hat keine Angst vor dem großen Moment!"
+    "preview": "Usbekistan gegen Kolumbien – der vielleicht unerwartetste Vergleich des gesamten Turnierauftakts und gleichzeitig eine der faszinierendsten Geschichten der WM 2026! Usbekistan ist das Newcomer-Märchen schlechthin – erstmals überhaupt bei einer Weltmeisterschaft dabei und brennend heiß darauf, der Welt zu zeigen, was zentralasiatischer Fußball kann. Kolumbien hingegen, mit Spielern wie Luis Díaz und James Rodríguez, bringt südamerikanische Flair, Klasse und jede Menge WM-Erfahrung mit auf den Platz. Die Usbekischen Adler werden mit einem unglaublichen kollektiven Einsatz versuchen, Kolumbiens Offensivstarkes Ensemble in Schach zu halten. Eines ist sicher: Die Welt wird an diesem Abend nach Usbekistan schauen – und dieses Team hat keine Angst vor dem großen Moment!",
+    "summary": "Kolumbien feierte einen souveränen 3:1-Sieg gegen Usbekistan und präsentierte sich dabei in starker Frühform. Die Südamerikaner dominierten weite Strecken des Spiels mit ihrem technisch versierten Kombinationsfußball und belohnten sich durch drei sehenswerte Treffer. Usbekistan gelang zwar ein Ehrentreffer und bewies damit seine Qualität als WM-Neuling, konnte die Niederlage aber nicht mehr abwenden. Kolumbien meldet mit dieser überzeugenden Vorstellung klare Ambitionen auf den Einzug in die K.-o.-Runde an."
   },
   {
     "no": 25,
@@ -841,7 +845,8 @@
     "status": 0,
     "minute": null,
     "city": "Vancouver",
-    "stadium": "BC Place Vancouver"
+    "stadium": "BC Place Vancouver",
+    "preview": "Die Begegnung zwischen der Schweiz und Kanada verspricht am 24. Juni 2026 ein taktisch hochinteressantes Duell der ersten Phase zu werden! Die Eidgenossen, bekannt für ihre kompakte Defensive und ihre Effizienz im Umschaltspiel, treffen auf ein junges, hungriges kanadisches Team, das bei dieser WM als Gastgebernation vor heimischer Kulisse aufläuft und enorme Unterstützung genießen wird. Kanadas Angriff rund um Alphonso Davies brodelt vor Energie, während die Schweizer auf Erfahrung und taktische Disziplin setzen. Es könnte ein enges Match auf Augenhöhe werden, in dem ein einzelner Moment den Unterschied macht – die Vorfreude ist jedenfalls riesig!"
   },
   {
     "no": 52,
@@ -857,7 +862,8 @@
     "status": 0,
     "minute": null,
     "city": "Seattle",
-    "stadium": "Seattle-Stadion"
+    "stadium": "Seattle-Stadion",
+    "preview": "Ein wahrhaft historisches Aufeinandertreffen: Bosnien und Herzegowina gibt sein WM-Debüt seit 2014 und trifft auf den Gastgeber von 2022, Katar, der nun zum ersten Mal als regulär qualifiziertes Team an einer WM-Endrunde teilnimmt. Die Bosnier um ihre technisch versierten Mittelfeldspieler werden auf eine katarische Mannschaft treffen, die durch die Heim-WM gereift ist und taktisch kompakter agiert als je zuvor. Für Bosnien ist es eine Chance, endlich wieder auf der größten Fußballbühne der Welt zu glänzen – die Drachen-Elf wird alles daran setzen, die drei Punkte einzufahren. Katar hingegen weiß, dass jeder Punkt in dieser Phase Gold wert ist, und wird mit leidenschaftlichem Defensivfußball dagegenzuhalten versuchen. Ein Match auf Augenhöhe, das bis zur letzten Minute spannend bleiben dürfte!"
   },
   {
     "no": 49,
@@ -873,7 +879,8 @@
     "status": 0,
     "minute": null,
     "city": "Miami",
-    "stadium": "Miami-Stadion"
+    "stadium": "Miami-Stadion",
+    "preview": "Was für ein Traumlos für Schottland: Die stolze Nation aus dem Norden Britanniens trifft in der Ersten Phase auf den fünfmaligen Weltmeister Brasilien! Die Schotten, die sich nach langer Durststrecke wieder für eine WM qualifiziert haben, werden mit unbändigem Kampfgeist und lautstarker Unterstützung ihrer Fans in dieses Giganten-Duell gehen. Brasilien hingegen reist als einer der heißen Titelkandidaten nach Nordamerika und wird mit ihrer spielerischen Leichtigkeit und individuellen Klasse versuchen, von Beginn an die Kontrolle zu übernehmen. Für Schottland wäre schon ein Unentschieden ein historisches Ergebnis – doch die Brasilianer werden keine Gnaden zeigen wollen. Dieses Spiel verspricht pures Spektakel: südamerikanische Samba-Magie trifft auf schottisches Herz und Seele!"
   },
   {
     "no": 50,
@@ -889,7 +896,8 @@
     "status": 0,
     "minute": null,
     "city": "Atlanta",
-    "stadium": "Atlanta-Stadion"
+    "stadium": "Atlanta-Stadion",
+    "preview": "Marokko, der sensationelle Halbfinalist von Katar 2022, ist bei dieser WM wieder ein ernsthafter Kandidat für die K.o.-Runde und geht als klarer Favorit in die Partie gegen Haiti. Die Atlaslewen haben bewiesen, dass sie auf absolutem Weltklasse-Niveau mithalten können, und werden diese Begegnung nutzen wollen, um von Beginn an ein starkes Ausrufezeichen zu setzen. Haiti hingegen feiert seine Rückkehr auf die WM-Bühne nach langer Abstinenz und wird mit jugendlichem Elan und nichts zu verlieren in dieses Spiel gehen. Für die Haitianer wäre eine Überraschung gegen die nordafrikanische Macht ein Märchen – aber Marokko kennt solche Geschichten selbst nur zu gut. Es bleibt zu hoffen, dass Haiti die Welt mit einer mutigen Leistung überrascht, auch wenn die Papierform eindeutig zugunsten der Nordafrikaner spricht."
   },
   {
     "no": 53,
@@ -905,7 +913,8 @@
     "status": 0,
     "minute": null,
     "city": "Mexiko-Stadt",
-    "stadium": "Mexiko-Stadt-Stadion"
+    "stadium": "Mexiko-Stadt-Stadion",
+    "preview": "Tschechien trifft auf Mexiko – ein Duell zweier traditionsreicher Nationen, die beide wissen, wie man bei einer WM für Furore sorgt! Die Tschechen mit ihrer soliden Defensive und kreativen Offensive um ihre Bundesliga-erprobten Stars werden versuchen, die physisch robusten Mexikaner früh unter Druck zu setzen. El Tri, das mexikanische Nationalteam, hat eine beeindruckende WM-Geschichte und wird vor einer riesigen Heimkullisse in Nordamerika spielen – das gibt ihnen einen enormen emotionalen Schub. Tschechien wird taktische Disziplin benötigen, um die schnellen Außenstürmer Mexikos unter Kontrolle zu halten. Dieses Gruppenspiel könnte bereits richtungsweisend für den weiteren Turnierverlauf beider Mannschaften sein!"
   },
   {
     "no": 54,
@@ -921,7 +930,8 @@
     "status": 0,
     "minute": null,
     "city": "Monterrey",
-    "stadium": "Monterrey-Stadion"
+    "stadium": "Monterrey-Stadion",
+    "preview": "Afrika trifft auf Asien: Südafrika, das Gastgeberland der legendären WM 2010, steht erneut auf der großen WM-Bühne und will Bafana Bafana wieder zu alter Stärke führen. Die Südafrikaner werden mit der Leidenschaft eines ganzen Kontinents im Rücken in dieses Spiel gehen und auf ihren schnellen Umschaltfußball vertrauen. Die Republik Korea hingegen hat sich als asiatische Fußballmacht mit der spektakulären Halbfinalteilnahme 2002 in die Geschichtsbücher eingeschrieben und bringt erfahrene Europa-Legionäre mit nach Nordamerika. Taktische Cleverness gegen physische Intensität – dieses Duell verspricht eine offene Partie, in der jedes Detail entscheidet. Wer hier die drei Punkte holt, legt einen wichtigen Grundstein für das Weiterkommen in der Gruppe!"
   },
   {
     "no": 55,
