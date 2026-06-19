@@ -432,13 +432,14 @@
     "away": "Südafrika",
     "homeCode": "CZE",
     "awayCode": "RSA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Atlanta",
     "stadium": "Atlanta-Stadion",
-    "preview": "Tschechien trifft in der Ersten Phase auf Südafrika – ein Duell zwischen europäischer Cleverness und afrikanischer Leidenschaft! Die Tschechen um Superstar Patrik Schick wollen mit einem Sieg gleich ein erstes Ausrufezeichen setzen. Südafrika, das nach langer Abstinenz endlich wieder bei einer WM dabei ist, wird mit grenzenloser Energie und dem Rückenwind einer ganzen Kontinentalregion auflaufen. Dieses Spiel verspricht einen offenen Schlagabtausch, bei dem nichts vorherzusagen ist!"
+    "preview": "Tschechien trifft in der Ersten Phase auf Südafrika – ein Duell zwischen europäischer Cleverness und afrikanischer Leidenschaft! Die Tschechen um Superstar Patrik Schick wollen mit einem Sieg gleich ein erstes Ausrufezeichen setzen. Südafrika, das nach langer Abstinenz endlich wieder bei einer WM dabei ist, wird mit grenzenloser Energie und dem Rückenwind einer ganzen Kontinentalregion auflaufen. Dieses Spiel verspricht einen offenen Schlagabtausch, bei dem nichts vorherzusagen ist!",
+    "summary": "Ein packendes Unentschieden zwischen Tschechien und Südafrika! Die Tschechen gingen in Führung und schienen das Spiel kontrollieren zu wollen, doch Südafrika bewies Nehmerqualitäten und erkämpfte sich den verdienten Ausgleich. Beide Teams zeigten einen leidenschaftlichen Auftritt und lieferten den Zuschauern ein faires, umkämpftes WM-Gruppenspiel. Mit einem Punkt müssen beide Mannschaften nun abwarten, wie sich die weiteren Gruppenspiele entwickeln."
   },
   {
     "no": 26,
@@ -449,13 +450,14 @@
     "away": "Bosnien und Herzegowina",
     "homeCode": "SUI",
     "awayCode": "BIH",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 4,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Los Angeles",
     "stadium": "Los-Angeles-Stadion",
-    "preview": "Die Schweiz, bekannt für ihre taktische Disziplin und Zuverlässigkeit, bekommt es mit einem hochmotivierten Bosnien und Herzegowina zu tun, das erstmals seit 2014 wieder auf der WM-Bühne steht. Die Schweizer Nati unter Trainer Murat Yakin hat sich als unangenehmer Gegner für jede Mannschaft der Welt etabliert und wird mit Granit Xhaka als Taktgeber ins Spiel gehen. Bosnien hingegen bringt mit Edin Džekos Erbe im Herzen jede Menge Stolz und Qualität in die Partie. Ein taktisch anspruchsvolles Spiel, das bis zur letzten Minute offenbleiben könnte!"
+    "preview": "Die Schweiz, bekannt für ihre taktische Disziplin und Zuverlässigkeit, bekommt es mit einem hochmotivierten Bosnien und Herzegowina zu tun, das erstmals seit 2014 wieder auf der WM-Bühne steht. Die Schweizer Nati unter Trainer Murat Yakin hat sich als unangenehmer Gegner für jede Mannschaft der Welt etabliert und wird mit Granit Xhaka als Taktgeber ins Spiel gehen. Bosnien hingegen bringt mit Edin Džekos Erbe im Herzen jede Menge Stolz und Qualität in die Partie. Ein taktisch anspruchsvolles Spiel, das bis zur letzten Minute offenbleiben könnte!",
+    "summary": "Die Schweiz hat sich in einem souveränen Auftritt gegen Bosnien und Herzegowina mit 4:1 durchgesetzt und damit ein klares Ausrufezeichen in der Gruppe gesetzt. Die Nati dominierte das Spiel von Beginn an und ließ dem Gegner kaum Raum zur Entfaltung, lediglich ein Ehrentreffer gelang den Bosniern. Mit diesem überzeugenden Sieg stehen die Schweizer mit hervorragenden Chancen da, die nächste Runde zu erreichen. Es war ein Klasseleistung des gut organisierten Teams von Murat Yakin."
   },
   {
     "no": 27,
@@ -466,13 +468,14 @@
     "away": "Katar",
     "homeCode": "CAN",
     "awayCode": "QAT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 6,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Vancouver",
     "stadium": "BC Place Vancouver",
-    "preview": "Kanada als Gastgebernation genießt Heimvorteil und will vor den eigenen Fans mit einem Sieg gegen Katar in die WM starten – was für ein Auftakt wäre das! Die Kanadier um Alphonso Davies und Jonathan David haben in den letzten Jahren enorme Fortschritte gemacht und gelten als einer der aufregendsten Aufsteiger im Weltfußball. Katar, der Titelverteidiger des Gastgebers von 2022, musste damals zuhause früh die Heimreise antreten und will nun auf großer WM-Bühne endlich aufzeigen. Das Stadion wird brennen – ein packender Auftakt für beide Nationen!"
+    "preview": "Kanada als Gastgebernation genießt Heimvorteil und will vor den eigenen Fans mit einem Sieg gegen Katar in die WM starten – was für ein Auftakt wäre das! Die Kanadier um Alphonso Davies und Jonathan David haben in den letzten Jahren enorme Fortschritte gemacht und gelten als einer der aufregendsten Aufsteiger im Weltfußball. Katar, der Titelverteidiger des Gastgebers von 2022, musste damals zuhause früh die Heimreise antreten und will nun auf großer WM-Bühne endlich aufzeigen. Das Stadion wird brennen – ein packender Auftakt für beide Nationen!",
+    "summary": "Was für eine Demonstration! Kanada überrollte den amtierenden WM-Gastgeber Katar mit einem historischen 6:0-Kantersieg und zeigte, dass das nordamerikanische Fußball auf der Weltbühne endgültig angekommen ist. Die Kanadier waren in allen Bereichen überlegen und ließen den Qataris keine Chance, dem Sturm standzuhalten. Für Katar hingegen war es ein bitterer Abend – ähnlich wie bei der Heim-WM 2022 gelang es der Mannschaft nicht, auf höchstem Niveau mithalten zu können. Kanada darf nach diesem Ergebnis von sehr viel mehr träumen."
   },
   {
     "no": 28,
@@ -483,13 +486,14 @@
     "away": "Republik Korea",
     "homeCode": "MEX",
     "awayCode": "KOR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Guadalajara",
     "stadium": "Guadalajara-Stadion",
-    "preview": "Mexiko gegen Südkorea – das ist Weltklasse-Unterhaltung vorprogrammiert! El Tri, dreimal in Serie im Achtelfinale ausgeschieden, will endlich die verfluchte Runde der letzten 16 überwinden und startet mit voller Entschlossenheit in dieses Turnier. Die Südkoreaner hingegen, inspiriert vom Vermächtnis des Halbfinaleinzugs 2002 und getragen von Stars wie Son Heung-min, werden mit Tempo und Präzision antworten. Es ist ein echtes Duell der Fußballkulturen, das die Fans auf der ganzen Welt in ihren Bann ziehen wird!"
+    "preview": "Mexiko gegen Südkorea – das ist Weltklasse-Unterhaltung vorprogrammiert! El Tri, dreimal in Serie im Achtelfinale ausgeschieden, will endlich die verfluchte Runde der letzten 16 überwinden und startet mit voller Entschlossenheit in dieses Turnier. Die Südkoreaner hingegen, inspiriert vom Vermächtnis des Halbfinaleinzugs 2002 und getragen von Stars wie Son Heung-min, werden mit Tempo und Präzision antworten. Es ist ein echtes Duell der Fußballkulturen, das die Fans auf der ganzen Welt in ihren Bann ziehen wird!",
+    "summary": "Mexiko sichert sich mit einem knappen, aber verdienten 1:0-Sieg gegen die Republik Korea drei wichtige Punkte in der Gruppenphase. Das einzige Tor des Spiels reichte, um den El Tri den ersten Erfolg bei dieser Weltmeisterschaft zu bescheren – ein Befreiungsschlag für die Mexikaner. Die Südkoreaner versuchten zwar, mehr aus dem Spiel zu machen, scheiterten jedoch immer wieder an einer kompakten mexikanischen Defensive. Ein klassisches Eins-zu-null, das in der Geschichte dieser Weltmeisterschaft dennoch seine Spuren hinterlassen wird."
   },
   {
     "no": 32,
@@ -947,7 +951,8 @@
     "status": 0,
     "minute": null,
     "city": "Philadelphia",
-    "stadium": "Philadelphia-Stadion"
+    "stadium": "Philadelphia-Stadion",
+    "preview": "Ein hochinteressantes Duell steht bevor: Curaçao, das märchenhafte Überraschungsteam dieser WM aus der Karibik, trifft am 25. Juni 2026 auf den westafrikanischen Giganten Elfenbeinküste. Die Ivorer mit ihren gefährlichen Angreifern und einer goldenen Spielergeneration gelten als klarer Favorit, doch Curaçao hat bereits bewiesen, dass sie kein leichter Brocken sind. Für die kleine Karibikinsel wäre ein Ergebnis gegen die Elefanten eine Sensation – für die Elfenbeinküste hingegen ein Pflichtspiel, das gewonnen werden muss, um in der Gruppe weiterzukommen. Es verspricht ein feuriges und taktisch reizvolles Aufeinandertreffen zu werden!"
   },
   {
     "no": 56,
@@ -963,7 +968,8 @@
     "status": 0,
     "minute": null,
     "city": "New Jersey",
-    "stadium": "New-York-New-Jersey-Stadion"
+    "stadium": "New-York-New-Jersey-Stadion",
+    "preview": "Ein Hochspannungsduell der Gruppe erwartet uns, wenn Ecuador und Deutschland aufeinandertreffen! Die DFB-Elf unter Bundestrainer Julian Nagelsmann reist mit großen Ambitionen nach Nordamerika und will endlich wieder WM-Geschichte schreiben. Ecuador hingegen ist bekannt für seine leidenschaftliche, körperlich intensive Spielweise und wird in ihrem eigenen Kontinentalvorfeld alles geben, um für eine Überraschung zu sorgen. Spieler wie Jamal Musiala und Florian Wirtz sind in Glanzform und könnten das Spiel im Alleingang entscheiden. Es verspricht ein elektrisierendes Duell zu werden, bei dem Deutschland klarer Favorit ist, Ecuador aber den Gastgeber-Kontinent auf seiner Seite hat!"
   },
   {
     "no": 57,
@@ -979,7 +985,8 @@
     "status": 0,
     "minute": null,
     "city": "Dallas",
-    "stadium": "Dallas-Stadion"
+    "stadium": "Dallas-Stadion",
+    "preview": "Japan gegen Schweden – ein Aufeinandertreffen zweier WM-erfahrener Nationen, die beide mit Entschlossenheit in das Turnier gestartet sind! Die Samurai Blue haben zuletzt bei Weltmeisterschaften wiederholt für Überraschungen gesorgt und verfügen über ein schnelles, taktisch diszipliniertes Team. Schweden wiederum bringt mit Spielern wie Alexander Isak und Dejan Kulusevski eine physisch starke, gefährliche Offensive mit. Japan wird auf Konter lauern und versuchen, das schwedische Aufbauspiel zu stören. Es ist ein Duell zwischen skandinavischer Wucht und asiatischer Präzision – und könnte einer der spannendsten Gruppenspiele des Tages werden!"
   },
   {
     "no": 58,
@@ -995,7 +1002,8 @@
     "status": 0,
     "minute": null,
     "city": "Kansas City",
-    "stadium": "Kansas-City-Stadion"
+    "stadium": "Kansas-City-Stadion",
+    "preview": "Tunesien trifft auf die Niederlande – und die Nordafrikaner werden alles daran setzen, die Oranjes zu ärgern! Die Niederländer um Superstar Virgil van Dijk und Xavi Simons kommen als klarer Favorit in dieses Spiel, haben aber in der Vergangenheit immer wieder Schwierigkeiten gegen tief stehende afrikanische Teams gezeigt. Tunesien ist für seine disziplinierte Defensivarbeit bekannt und könnte auf einen Lucky-Punch über schnelle Konter hoffen. Ronald Koemans Team muss von Beginn an Dominanz zeigen und darf es nicht wie so oft zu einem engen Spiel kommen lassen. Ein Selbstläufer wird das für die Niederlande ganz sicher nicht!"
   },
   {
     "no": 59,
@@ -1011,7 +1019,8 @@
     "status": 0,
     "minute": null,
     "city": "Los Angeles",
-    "stadium": "Los-Angeles-Stadion"
+    "stadium": "Los-Angeles-Stadion",
+    "preview": "Feuer trifft auf Feuer – wenn die leidenschaftliche Türkei auf die USA trifft, ist ein packender Schlagabtausch garantiert! Die Türkei um Hakan Çalhanoğlu hat sich unter ihrem neuen Trainer zu einer gefährlichen Einheit entwickelt und wird das nordamerikanische Publikum mit ihrem offensiven Fußball begeistern wollen. Das Heimteam USA setzt auf junge Wilden wie Christian Pulisic und Folarin Balogun und wird den Vorteil des Gastgebers voll ausnutzen wollen. Beide Teams brauchen nach dem Auftakt dringend Punkte, was dieses Duell zu einem echten Schlüsselspiel in der Gruppe macht. Wer hier verliert, steht schon früh mit dem Rücken zur Wand!"
   },
   {
     "no": 60,
@@ -1027,7 +1036,8 @@
     "status": 0,
     "minute": null,
     "city": "San Francisco Bay Area",
-    "stadium": "San-Francisco-Bay-Area-Stadion"
+    "stadium": "San-Francisco-Bay-Area-Stadion",
+    "preview": "Paraguay gegen Australien – ein klassisches Duell zwischen südamerikanischer Leidenschaft und australischer Kampfkraft! Die Paraguayer sind für ihr unnachgiebiges Defensivspiel und ihre blitzschnellen Umschaltsituationen bekannt und werden mit voller Energie in die WM starten. Die Socceroos um ihren Stürmerstar Mathew Leckie haben sich in den letzten Jahren enorm weiterentwickelt und träumen von einer erneuten Sensation wie 2022. Beide Teams wissen, dass ein Sieg zum Auftakt im Kampf um das Achtelfinale entscheidend sein kann. Ein offenes, intensives Spiel zweier Nationen mit allem zu verlieren und alles zu gewinnen – ein echtes WM-Abenteuer!"
   },
   {
     "no": 61,
