@@ -42,8 +42,8 @@
     "away": "Bosnien und Herzegowina",
     "homeCode": "CAN",
     "awayCode": "BIH",
-    "homeScore": 1,
-    "awayScore": 1,
+    "homeScore": null,
+    "awayScore": null,
     "status": 0,
     "minute": null,
     "city": "Toronto",
@@ -504,13 +504,14 @@
     "away": "Australien",
     "homeCode": "USA",
     "awayCode": "AUS",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Seattle",
     "stadium": "Seattle-Stadion",
-    "preview": "Die USA, Mitgastgeber und einer der Favoriten auf den Heimvorteil, empfangen Australien in einem Duell zweier aufstrebender Fußballnationen. Die Amerikaner um Christian Pulisic wollen vor eigenem Publikum zeigen, dass sie beim eigenen Turnier mehr als eine Statistenrolle spielen. Die Socceroos, angeführt von den torgefährlichen Stürmern und mit WM-Erfahrung im Gepäck, werden sich keineswegs verstecken. Dieses Duell verspricht Tempo, Leidenschaft und jede Menge unvergessliche Momente!"
+    "preview": "Die USA, Mitgastgeber und einer der Favoriten auf den Heimvorteil, empfangen Australien in einem Duell zweier aufstrebender Fußballnationen. Die Amerikaner um Christian Pulisic wollen vor eigenem Publikum zeigen, dass sie beim eigenen Turnier mehr als eine Statistenrolle spielen. Die Socceroos, angeführt von den torgefährlichen Stürmern und mit WM-Erfahrung im Gepäck, werden sich keineswegs verstecken. Dieses Duell verspricht Tempo, Leidenschaft und jede Menge unvergessliche Momente!",
+    "summary": "Die USA haben vor heimischem Publikum eine überzeugende Leistung gezeigt und Australien mit 2:0 bezwungen. Das Gastgeberland präsentierte sich effizient und defensiv stabil, während die Socceroos kaum gefährliche Aktionen kreieren konnten. Ein verdienter Sieg für das Team von der Heimmannschaft, das damit einen starken Start in die WM 2026 hinlegte. Die amerikanischen Fans feierten ihre Mannschaft und die Atmosphäre war grandios."
   },
   {
     "no": 30,
@@ -521,13 +522,14 @@
     "away": "Marokko",
     "homeCode": "SCO",
     "awayCode": "MAR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Boston",
     "stadium": "Boston-Stadion",
-    "preview": "Schottland feiert nach jahrzehntelanger Durststrecke sein WM-Comeback und trifft gleich auf das starke Marokko – eine Aufgabe, die es in sich hat! Die Schotten, emotional wie kaum eine andere Nation, werden mit grenzenlosem Kampfgeist und der lautesten Fankurve weit und breit in das Spiel gehen. Marokko, der sensationelle Halbfinalist von 2022, hat bewiesen, dass sie jeden Gegner der Welt bezwingen können, und gilt als klarer Favorit. Trotzdem: Wer schreibt schon die Geschichte eines Tages wie diesen vor – Scotland the Brave könnte für die große Überraschung sorgen!"
+    "preview": "Schottland feiert nach jahrzehntelanger Durststrecke sein WM-Comeback und trifft gleich auf das starke Marokko – eine Aufgabe, die es in sich hat! Die Schotten, emotional wie kaum eine andere Nation, werden mit grenzenlosem Kampfgeist und der lautesten Fankurve weit und breit in das Spiel gehen. Marokko, der sensationelle Halbfinalist von 2022, hat bewiesen, dass sie jeden Gegner der Welt bezwingen können, und gilt als klarer Favorit. Trotzdem: Wer schreibt schon die Geschichte eines Tages wie diesen vor – Scotland the Brave könnte für die große Überraschung sorgen!",
+    "summary": "Marokko hat Schottland mit einem knappen, aber verdienten 1:0-Sieg aus dem Weg geräumt. Die Nordafrikaner, seit ihrer beeindruckenden WM 2022 in Katar bekannt für ihre defensivstarke und konterstarke Spielweise, setzten sich mit einem kühlen Treffer gegen kämpferisch eingestellte Schotten durch. Schottland gab alles, fand jedoch kein Mittel gegen die kompakte Defensive Marokkos. Es war ein klassisches Spiel der taktischen Disziplin, das Marokko souverän für sich entschied."
   },
   {
     "no": 29,
@@ -538,13 +540,14 @@
     "away": "Haiti",
     "homeCode": "BRA",
     "awayCode": "HAI",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Philadelphia",
     "stadium": "Philadelphia-Stadion",
-    "preview": "Brasilien, fünfmaliger Weltmeister und ewiger Anwärter auf den Titel, eröffnet seine WM-Kampagne gegen Haiti – ein klarer Favorit trifft auf einen leidenschaftlichen Außenseiter. Die Seleção, mit Vinicius Jr., Rodrygo und Raphinha gespickt, will nach dem bitteren Scheitern in den letzten Turnieren endlich wieder den Henkelpott in die Höhe stemmen. Haiti steht vor einer fast unlösbaren Aufgabe, doch der Fußball schreibt bekanntlich seine eigenen Geschichten, und die Karibiker werden kämpfen, bis der Schiedsrichter abpfeift. Es ist mehr als nur ein Spiel – es ist der Beginn einer brasilianischen WM-Träumerei vor Millionen von Zuschauern!"
+    "preview": "Brasilien, fünfmaliger Weltmeister und ewiger Anwärter auf den Titel, eröffnet seine WM-Kampagne gegen Haiti – ein klarer Favorit trifft auf einen leidenschaftlichen Außenseiter. Die Seleção, mit Vinicius Jr., Rodrygo und Raphinha gespickt, will nach dem bitteren Scheitern in den letzten Turnieren endlich wieder den Henkelpott in die Höhe stemmen. Haiti steht vor einer fast unlösbaren Aufgabe, doch der Fußball schreibt bekanntlich seine eigenen Geschichten, und die Karibiker werden kämpfen, bis der Schiedsrichter abpfeift. Es ist mehr als nur ein Spiel – es ist der Beginn einer brasilianischen WM-Träumerei vor Millionen von Zuschauern!",
+    "summary": "Brasilien zeigte beim 3:0-Kantersieg gegen Haiti die volle Klasse der Seleção und ließ von Beginn an keinen Zweifel am Ausgang dieser Partie. Die Südamerikaner dominierten das Spiel nach Belieben und begeisterten mit technisch anspruchsvollem, schnellem Kombinationsfußball. Haiti hatte dem brasilianischen Sturm schlicht nichts entgegenzusetzen und musste drei Tore hinnehmen. Für Brasilien ist dies der perfekte Auftakt, um den Traum vom sechsten Weltmeistertitel zu verfolgen."
   },
   {
     "no": 31,
@@ -555,13 +558,14 @@
     "away": "Paraguay",
     "homeCode": "TUR",
     "awayCode": "PAR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "San Francisco Bay Area",
     "stadium": "San-Francisco-Bay-Area-Stadion",
-    "preview": "Die Türkei, nach ihrer starken EM 2024 in aller Munde, trifft auf Paraguay – ein Duell zweier hungriger Nationen, die beweisen wollen, dass sie zur Weltspitze gehören. Die Türken unter dem Einfluss von Stars wie Hakan Çalhanoğlu und Arda Güler bringen eine explosive Mischung aus Erfahrung und jugendlichem Feuer mit. Paraguay, der südamerikanische Underdog mit einer reichen WM-Geschichte, wird physisch und taktisch alles in die Waagschale werfen. Dieses Spiel könnte einer der versteckten Leckerbissen des gesamten Turniers werden!"
+    "preview": "Die Türkei, nach ihrer starken EM 2024 in aller Munde, trifft auf Paraguay – ein Duell zweier hungriger Nationen, die beweisen wollen, dass sie zur Weltspitze gehören. Die Türken unter dem Einfluss von Stars wie Hakan Çalhanoğlu und Arda Güler bringen eine explosive Mischung aus Erfahrung und jugendlichem Feuer mit. Paraguay, der südamerikanische Underdog mit einer reichen WM-Geschichte, wird physisch und taktisch alles in die Waagschale werfen. Dieses Spiel könnte einer der versteckten Leckerbissen des gesamten Turniers werden!",
+    "summary": "Eine faustdicke Überraschung: Paraguay hat die Türkei mit 1:0 geschlagen und damit für eine der ersten Sensationen dieser WM gesorgt. Die Südamerikaner verteidigten leidenschaftlich und nutzten ihre Chance eiskalt, während die Türkei trotz druckvollen Auftretens kein Tor erzielen konnte. Der Treffer für Paraguay war möglicherweise der entscheidende Moment des Spiels, der die türkische Mannschaft aus dem Rhythmus brachte. Ein hart erkämpfter, aber hochverdienter Sieg für die Weißroten aus Südamerika."
   },
   {
     "no": 35,
@@ -1053,7 +1057,8 @@
     "status": 0,
     "minute": null,
     "city": "Boston",
-    "stadium": "Boston-Stadion"
+    "stadium": "Boston-Stadion",
+    "preview": "Ein Hochspannungs-Duell bahnt sich an: Norwegen trifft am 26. Juni 2026 auf den Weltmeister Frankreich – und Erling Haaland gegen die Weltklasse-Abwehr der Équipe Tricolore verspricht eines der aufregendsten Einzelduelle der gesamten Turnierphase. Frankreich, gespickt mit Ausnahmekönnern wie Kylian Mbappé und Antoine Griezmann, gilt als klarer Favorit, doch Norwegen reist mit einer Mannschaft an, die keine Gegner scheut. Haalands explosive Torgefährlichkeit könnte jeden Moment für das nächste Ausrufezeichen sorgen. Es erwartet uns ein taktisches Meisterwerk, bei dem die Norweger alles in die Waagschale werfen müssen, um die Franzosen zu bezwingen."
   },
   {
     "no": 62,
@@ -1069,7 +1074,8 @@
     "status": 0,
     "minute": null,
     "city": "Toronto",
-    "stadium": "Toronto-Stadion"
+    "stadium": "Toronto-Stadion",
+    "preview": "Ein hochspannendes Duell zweier hungriger Nationen erwartet uns, wenn Senegal auf den Irak trifft! Die Löwen vom Teranga um Superstar Sadio Mané wollen mit einem Sieg ihre Chancen auf das Achtelfinale festigen und präsentieren sich als eine der gefährlichsten afrikanischen Mannschaften dieses Turniers. Der Irak hingegen sorgte bereits für Aufsehen, indem er sich erstmals seit Jahrzehnten für eine WM-Endrunde qualifizieren konnte, und brennt darauf, der Welt zu beweisen, dass man diese Gruppe nicht unterschätzen darf. Besonders der irakische Angriff rund um Kapitän Mohanad Ali könnte mit blitzschnellen Kontern für böse Überraschungen sorgen. Dieses Spiel verspricht ein Feuerwerk voller Leidenschaft, Stolz und großer WM-Träume!"
   },
   {
     "no": 65,
@@ -1101,7 +1107,8 @@
     "status": 0,
     "minute": null,
     "city": "Guadalajara",
-    "stadium": "Guadalajara-Stadion"
+    "stadium": "Guadalajara-Stadion",
+    "preview": "Ein Klassiker der Weltklasse! Uruguay gegen Spanien – das ist der Stoff, aus dem WM-Legenden gemacht werden, und dieses Duell könnte eines der packendsten Spiele der gesamten Vorrunde werden. Spanien, Europas Meister des schönen Spiels unter Luis de la Fuente, geht mit einem hochtalentierten Kader rund um Pedri, Yamal und Morata als klarer Favorit in diese Partie. Doch Uruguay ist niemals zu unterschätzen: Mit einer Defensivkultur, die ihresgleichen sucht, und Offensivstars wie Darwin Núñez und Federico Valverde sind die Celeste in der Lage, jedem Gegner das Leben schwer zu machen. Die kämpferische DNA Uruguays prallt auf die technische Brillanz Spaniens – und die Welt schaut zu!"
   },
   {
     "no": 63,
@@ -1117,7 +1124,8 @@
     "status": 0,
     "minute": null,
     "city": "Seattle",
-    "stadium": "Seattle-Stadion"
+    "stadium": "Seattle-Stadion",
+    "preview": "Wenn Ägypten auf den Iran trifft, begegnen sich zwei stolze Fußballnationen mit einer reichen Geschichte, die in dieser Partie alles auf eine Karte setzen werden. Ägyptens Hoffnungen ruhen einmal mehr auf den Schultern von Mohamed Salah, dem Liverpool-Star, der auf der größten Bühne des Fußballs endlich seinen WM-Traum verwirklichen möchte. Der Iran hingegen bringt eine kampferprobte, disziplinierte Mannschaft mit, die unter dem taktisch versierten Trainer für stabile Defensive und gefährliche Standardsituationen bekannt ist. Für beide Teams ist ein Sieg in diesem Spiel möglicherweise entscheidend für den Einzug in die nächste Runde. Ein intensives, taktisch geprägtes Duell mit enormer Bedeutung – Fußball-Afrika gegen Fußball-Asien im großen WM-Showdown!"
   },
   {
     "no": 64,
@@ -1133,7 +1141,8 @@
     "status": 0,
     "minute": null,
     "city": "Vancouver",
-    "stadium": "BC Place Vancouver"
+    "stadium": "BC Place Vancouver",
+    "preview": "Neuseeland trifft auf den belgischen Fußball-Riesen – David gegen Goliath live von der WM 2026! Die All Whites aus dem Land der langen weißen Wolke sind die romantische Außenseitergeschichte dieses Turniers und werden mit unbändigem Kampfgeist und Teamspirit gegen die hochkarätige belgische Équipe antreten. Belgien, immer noch einer der stärksten Fußballexporte Europas mit Stars wie Kevin De Bruyne und Romelu Lukaku, wird dennoch gewarnt sein – Außenseiter haben bei WM-Turnieren stets für Schlagzeilen gesorgt. Neuseelands kompaktes Defensivkonzept und ihre Bereitschaft, jeden Zentimeter des Platzes zu erkämpfen, machen sie zu einem unbequemen Gegner für jede Mannschaft. Für Neuseeland ist es das Spiel ihres Lebens – für Belgien eine Pflichtaufgabe, die sie nicht auf die leichte Schulter nehmen dürfen!"
   },
   {
     "no": 67,
