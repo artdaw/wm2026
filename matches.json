@@ -42,8 +42,8 @@
     "away": "Bosnien und Herzegowina",
     "homeCode": "CAN",
     "awayCode": "BIH",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Toronto",
@@ -576,13 +576,14 @@
     "away": "Schweden",
     "homeCode": "NED",
     "awayCode": "SWE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 5,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Houston",
     "stadium": "Houston-Stadion",
-    "preview": "Ein skandinavisches Duell mit niederländischem Glanz erwartet uns: Die Elftal um Superstar Virgil van Dijk und das explosive Offensivduo Gakpo und Depay trifft auf ein kampfstarkes Schweden, das mit Alexander Isak einen der gefährlichsten Mittelstürmer der Welt in seinen Reihen hat. Die Niederländer gehen als klarer Favorit in diese Partie und wollen nach dem enttäuschenden WM-2022-Finale endlich den großen Wurf schaffen. Schweden hingegen setzt auf kompaktes Pressing und schnelle Konter – ein Rezept, das schon manchen Favoriten ins Schwitzen gebracht hat. Es ist ein Aufeinandertreffen zweier Nationen mit tief verwurzelter Fußballtradition, und die Atmosphäre im Stadion dürfte entsprechend elektrisierend sein. Wer hier die Oberhand behält, macht einen riesigen Schritt Richtung Achtelfinale!"
+    "preview": "Ein skandinavisches Duell mit niederländischem Glanz erwartet uns: Die Elftal um Superstar Virgil van Dijk und das explosive Offensivduo Gakpo und Depay trifft auf ein kampfstarkes Schweden, das mit Alexander Isak einen der gefährlichsten Mittelstürmer der Welt in seinen Reihen hat. Die Niederländer gehen als klarer Favorit in diese Partie und wollen nach dem enttäuschenden WM-2022-Finale endlich den großen Wurf schaffen. Schweden hingegen setzt auf kompaktes Pressing und schnelle Konter – ein Rezept, das schon manchen Favoriten ins Schwitzen gebracht hat. Es ist ein Aufeinandertreffen zweier Nationen mit tief verwurzelter Fußballtradition, und die Atmosphäre im Stadion dürfte entsprechend elektrisierend sein. Wer hier die Oberhand behält, macht einen riesigen Schritt Richtung Achtelfinale!",
+    "summary": "Was für eine niederländische Machtdemonstration in der WM 2026! Die Elftal ließ Schweden beim 5:1 keine Chance und zeigte von der ersten Minute an, wer Herr im Haus ist. Die Angriffsreihe um die Oranje-Stars war schlicht nicht zu bremsen und ließ die schwedische Defensive wie eine Schulmannschaft aussehen. Schweden konnte zwar den zwischenzeitlichen Ehrentreffer erzielen, doch das war nur ein kurzes Aufflackern gegen eine überlegene Niederlande. Mit diesem Kantersieg hat sich das Team von der Tulpenküste eindrucksvoll für die nächste Runde empfohlen."
   },
   {
     "no": 33,
@@ -593,13 +594,14 @@
     "away": "Elfenbeinküste",
     "homeCode": "GER",
     "awayCode": "CIV",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Toronto",
     "stadium": "Toronto-Stadion",
-    "preview": "Das DFB-Team um Bundestrainer Julian Nagelsmann steht vor einer wegweisenden Aufgabe: Gegen die Elfenbeinküste, eine der technisch versiertesten Mannschaften Afrikas, muss Deutschland früh ein Zeichen setzen. Mit Florian Wirtz, Jamal Musiala und Kai Havertz besitzt die Nationalmannschaft eine der aufregendsten Offensivreihen des Turniers – doch die Ivorer um Sébastien Haller und Simon Adingra sind physisch enorm präsent und brandgefährlich im Umschalten. Deutschland will nach dem Vorrunden-Aus 2018 und 2022 endlich wieder beweisen, dass man zu den echten Titelkandidaten gehört. Die Elfenbeinküste träumt davon, ein weiteres afrikanisches Ausrufezeichen bei dieser Weltmeisterschaft zu setzen. Ein hochklassiges, intensives Duell zweier fußballverrückter Nationen – dieses Spiel sollte man keinesfalls verpassen!"
+    "preview": "Das DFB-Team um Bundestrainer Julian Nagelsmann steht vor einer wegweisenden Aufgabe: Gegen die Elfenbeinküste, eine der technisch versiertesten Mannschaften Afrikas, muss Deutschland früh ein Zeichen setzen. Mit Florian Wirtz, Jamal Musiala und Kai Havertz besitzt die Nationalmannschaft eine der aufregendsten Offensivreihen des Turniers – doch die Ivorer um Sébastien Haller und Simon Adingra sind physisch enorm präsent und brandgefährlich im Umschalten. Deutschland will nach dem Vorrunden-Aus 2018 und 2022 endlich wieder beweisen, dass man zu den echten Titelkandidaten gehört. Die Elfenbeinküste träumt davon, ein weiteres afrikanisches Ausrufezeichen bei dieser Weltmeisterschaft zu setzen. Ein hochklassiges, intensives Duell zweier fußballverrückter Nationen – dieses Spiel sollte man keinesfalls verpassen!",
+    "summary": "Deutschland meldet sich mit einem verdienten 2:1-Sieg gegen die Elfenbeinküste auf der WM-Bühne zurück! Die Mannschaft zeigte Moral und Kampfgeist, auch wenn es am Ende enger wurde als erhofft. Die Ivorer hielten bis zum Schluss mit und fanden sogar den Anschlusstreffer, doch die DFB-Elf hielt den knappen Vorsprung über die Zeit. Dieser Sieg gibt dem deutschen Team wichtiges Selbstvertrauen für die weiteren Aufgaben im Turnier. Ein solider Auftakt, der Lust auf mehr macht!"
   },
   {
     "no": 34,
@@ -610,13 +612,14 @@
     "away": "Curaçao",
     "homeCode": "ECU",
     "awayCode": "CUW",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Kansas City",
     "stadium": "Kansas-City-Stadion",
-    "preview": "Ecuador gegen Curaçao – auf dem Papier eine klare Angelegenheit, doch bei einer Weltmeisterschaft gibt es keine leichten Gegner! Die Ecuadorianer um Enner Valencia wollen die Begeisterung ihrer leidenschaftlichen Fans nutzen und mit einem Sieg früh Punkte in der Gruppe sammeln. Curaçao, das kleine Inselparadies in der Karibik, erlebt mit dieser WM-Teilnahme den absoluten Höhepunkt seiner noch jungen Fußballgeschichte und wird mit grenzenlosem Enthusiasmus auflaufen. Ecuador bringt physische Robustheit und südamerikanische Leidenschaft mit, während Curaçao auf Kreativität und Unbekümmertheit setzt. Es ist David gegen Goliath – und gerade das macht dieses Spiel zu einem der emotionalsten des gesamten Turniers!"
+    "preview": "Ecuador gegen Curaçao – auf dem Papier eine klare Angelegenheit, doch bei einer Weltmeisterschaft gibt es keine leichten Gegner! Die Ecuadorianer um Enner Valencia wollen die Begeisterung ihrer leidenschaftlichen Fans nutzen und mit einem Sieg früh Punkte in der Gruppe sammeln. Curaçao, das kleine Inselparadies in der Karibik, erlebt mit dieser WM-Teilnahme den absoluten Höhepunkt seiner noch jungen Fußballgeschichte und wird mit grenzenlosem Enthusiasmus auflaufen. Ecuador bringt physische Robustheit und südamerikanische Leidenschaft mit, während Curaçao auf Kreativität und Unbekümmertheit setzt. Es ist David gegen Goliath – und gerade das macht dieses Spiel zu einem der emotionalsten des gesamten Turniers!",
+    "summary": "Ein torloses Unentschieden zwischen Ecuador und Curaçao – ein Ergebnis, das beiden Teams wenig Freude bereitet haben dürfte. Ecuador, als klarer Favorit in diese Partie gegangen, scheiterte immer wieder an einer aufopferungsvoll kämpfenden Curaçao-Defensive, die alles in die Waagschale warf. Für den kleinen karibischen Inselstaat ist das 0:0 gegen einen gestandenen CONMEBOL-Vertreter jedoch ein historischer Achtungserfolg. Ecuador hingegen muss sich dringend steigern, wenn man bei dieser WM noch eine Rolle spielen möchte. Ein Spiel zum Vergessen für die Fans, aber ein Zeugnis großen Kampfgeistes für Curaçao."
   },
   {
     "no": 36,
@@ -627,13 +630,14 @@
     "away": "Japan",
     "homeCode": "TUN",
     "awayCode": "JPN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 4,
     "status": 0,
     "minute": null,
     "city": "Monterrey",
     "stadium": "Monterrey-Stadion",
-    "preview": "Japan, die asiatische Fußballmacht schlechthin, trifft auf Tunesien, den erfahrensten WM-Teilnehmer des afrikanischen Kontinents – ein Duell zweier Nationen, die regelmäßig für Überraschungen auf der Weltbühne sorgen! Die Samurai Blue um Takefusa Kubo und Ritsu Doan haben zuletzt mit mutiger Spielweise und taktischer Disziplin Europa aufhorchen lassen, während Tunesien mit seiner defensiven Kompaktheit und körperlichen Präsenz jedem Gegner das Leben schwer macht. Beide Teams wissen: Ein Sieg hier könnte der Schlüssel zum Weiterkommen sein. Japan setzt auf blitzschnelles Kombinationsspiel und hohe Laufbereitschaft, Tunesien dagegen auf Erfahrung und gnadenlose Effizienz bei Standards. Diese Partie verspricht taktische Raffinesse auf höchstem Niveau – ein absolutes Pflichtspiel für jeden Fußballfan!"
+    "preview": "Japan, die asiatische Fußballmacht schlechthin, trifft auf Tunesien, den erfahrensten WM-Teilnehmer des afrikanischen Kontinents – ein Duell zweier Nationen, die regelmäßig für Überraschungen auf der Weltbühne sorgen! Die Samurai Blue um Takefusa Kubo und Ritsu Doan haben zuletzt mit mutiger Spielweise und taktischer Disziplin Europa aufhorchen lassen, während Tunesien mit seiner defensiven Kompaktheit und körperlichen Präsenz jedem Gegner das Leben schwer macht. Beide Teams wissen: Ein Sieg hier könnte der Schlüssel zum Weiterkommen sein. Japan setzt auf blitzschnelles Kombinationsspiel und hohe Laufbereitschaft, Tunesien dagegen auf Erfahrung und gnadenlose Effizienz bei Standards. Diese Partie verspricht taktische Raffinesse auf höchstem Niveau – ein absolutes Pflichtspiel für jeden Fußballfan!",
+    "summary": "Japan hat bei der WM 2026 ein fulminantes Ausrufezeichen gesetzt und Tunesien mit 4:0 regelrecht vorgeführt! Die Samurai Blue waren von Beginn an in allen Belangen überlegen und demonstrierten eindrucksvoll, warum sie zu den aufregendsten Teams des Turniers zählen. Das nordafrikanische Team aus Tunesien fand zu keinem Zeitpunkt Mittel gegen die schnelle und präzise japanische Spielweise. Vier Tore, kein Gegentor – das ist eine Ansage an alle anderen WM-Teilnehmer. Japan marschiert mit breiter Brust in die nächste Runde!"
   },
   {
     "no": 38,
@@ -1091,7 +1095,8 @@
     "status": 0,
     "minute": null,
     "city": "Houston",
-    "stadium": "Houston-Stadion"
+    "stadium": "Houston-Stadion",
+    "preview": "Am 27. Juni 2026 kommt es in der ersten Phase der WM zu einem hochinteressanten Duell zwischen Kap Verde und Saudi-Arabien! Die kapverdischen Haie, bekannt für ihre leidenschaftliche und unerschrockene Spielweise, treffen auf die technisch versierten Saudis, die zuletzt bei Weltmeisterschaften immer für Überraschungen gut waren. Saudi-Arabien wird mit dem Rückhalt eines enormen Fußball-Booms im Land und individueller Klasse in die Partie gehen, doch Kap Verde hat nichts zu verlieren und wird mit Feuer und Flamme kämpfen. Diese Begegnung zweier Außenseiter könnte eines der spektakulärsten Spiele der Vorrunde werden. Fußballfans, dieser Abend verspricht pures Drama!"
   },
   {
     "no": 66,
@@ -1158,7 +1163,8 @@
     "status": 0,
     "minute": null,
     "city": "New Jersey",
-    "stadium": "New-York-New-Jersey-Stadion"
+    "stadium": "New-York-New-Jersey-Stadion",
+    "preview": "England geht als klarer Favorit in dieses Duell gegen Panama – die Three Lions wollen nach dem bitteren Finale bei der Euro 2024 endlich den ersten WM-Titel seit 1966 holen. Panama hingegen kämpft bei ihrer zweiten WM-Teilnahme um jeden Zentimeter Rasen und wird defensiv kompakt stehen. Kapitän Harry Kane dürfte hungrig auf Tore sein und den panamaischen Abwehrriegelauf eine harte Probe stellen. Für Panama wäre schon ein Unentschieden eine kleine Sensation, aber England wird alles daran setzen, mit einem Sieg ins Achtelfinale zu marschieren."
   },
   {
     "no": 68,
@@ -1174,7 +1180,8 @@
     "status": 0,
     "minute": null,
     "city": "Philadelphia",
-    "stadium": "Philadelphia-Stadion"
+    "stadium": "Philadelphia-Stadion",
+    "preview": "Was für ein emotionales Wiedersehen! Kroatien und Ghana treffen erneut aufeinander – bei der WM 2014 in Brasilien gewannen die Kroaten mit 4:0 gegen die Black Stars. Luka Modrić, inzwischen 40 Jahre alt, könnte bei seiner möglicherweise letzten WM noch einmal den Unterschied machen und sein technisches Genie auf dem Platz aufblitzen lassen. Ghana bringt mit einer neuen, jungen Generation viel Tempo und Spielfreude mit und möchte die Schmach von damals tilgen. Dieses Spiel verspricht Kampfgeist, Leidenschaft und jede Menge taktische Finessen – ein echter Leckerbissen zum Auftakt der Gruppenphase!"
   },
   {
     "no": 71,
@@ -1190,7 +1197,8 @@
     "status": 0,
     "minute": null,
     "city": "Miami",
-    "stadium": "Miami-Stadion"
+    "stadium": "Miami-Stadion",
+    "preview": "Feuer trifft auf Feuer – Kolumbien gegen Portugal ist eines der heißest erwartetsten Duelle der Gruppenphase dieser WM 2026! Cristiano Ronaldo, auf der Jagd nach WM-Geschichte, steht einer kolumbianischen Offensive gegenüber, die mit James Rodríguez und Jhon Durán für schier unaufhörliche Gefahr sorgt. Portugal verfügt über enormen individuellen Reichtum im Kader und wird versuchen, das Spiel schnell zu machen und Kolumbien zu überrollen. Doch die Südamerikaner sind auf dem Papier keine leichte Kost – ihr Pressing und ihre Spielfreude können jedem Gegner das Leben schwer machen. Ein Spektakel ist garantiert, und das Ergebnis dieses Duells könnte bereits die Gruppe entscheiden!"
   },
   {
     "no": 72,
@@ -1206,7 +1214,8 @@
     "status": 0,
     "minute": null,
     "city": "Atlanta",
-    "stadium": "Atlanta-Stadion"
+    "stadium": "Atlanta-Stadion",
+    "preview": "Ein echtes WM-Novum: Die Demokratische Republik Kongo und Usbekistan treffen erstmals bei einem großen Turnier aufeinander – zwei Nationen, die den Fußball der Welt noch überraschen wollen. Die Leoparden aus dem Kongo bringen explosive Schnelligkeit und afrikanische Spielfreude mit, während Usbekistan als Aufsteiger der asiatischen Fußballszene gilt und sich mit technisch versiertem Kombinationsfußball auszeichnet. Für beide Teams ist es eine historische Chance, sich auf der größten Bühne des Weltfußballs zu beweisen. Unterschätzt keines dieser Teams – dieses Spiel könnte zu einer der großen Überraschungen des Turniers werden!"
   },
   {
     "no": 69,
@@ -1222,7 +1231,8 @@
     "status": 0,
     "minute": null,
     "city": "Kansas City",
-    "stadium": "Kansas-City-Stadion"
+    "stadium": "Kansas-City-Stadion",
+    "preview": "Algerien gegen Österreich – ein Duell zwischen nordafrikanischer Leidenschaft und österreichischer Ordnung! Die Wüstenfüchse aus Algerien, angetrieben von ihren heimischen Fans und einer starken Qualifikationskampagne, wollen zeigen, dass afrikanischer Fußball auf der WM-Bühne mehr als konkurrenzfähig ist. Österreich mit Superstar David Alaba – sofern fit – und dem unermüdlichen Marcel Sabitzer ist jedoch keine leichte Kost und hat sich als kompakt und taktisch diszipliniert erwiesen. Ralf Rangnick wird seine Mannschaft bestens eingestellt haben, aber Algerien ist auf heimischem Kontinent – nun ja, fast – hochmotiviert. Dieses Spiel verspricht ein echtes taktisches Kräftemessen, bei dem jeder Fehler sofort bestraft werden könnte!"
   },
   {
     "no": 70,
@@ -1238,7 +1248,8 @@
     "status": 0,
     "minute": null,
     "city": "Dallas",
-    "stadium": "Dallas-Stadion"
+    "stadium": "Dallas-Stadion",
+    "preview": "Das Aufeinandertreffen zwischen Jordanien und dem amtierenden Weltmeister Argentinien verspricht ein historischer Moment für den arabischen Fußball zu werden – denn die Nashama bestreiten damit ihre erste WM-Endrunde überhaupt. Lionel Messi und seine Mannschaft gehen als klarer Favorit in diese Partie, doch die Jordanier haben sich durch eine beeindruckende Qualifikationskampagne in der asiatischen Zone verdient, auf der größten Bühne des Weltfußballs zu stehen. Trainer Hussain Ammouta wird sein Team defensiv kompakt aufstellen und auf schnelle Konter setzen, um den Südamerikanern das Leben so schwer wie möglich zu machen. Argentinien hingegen hat nach dem WM-Triumph 2022 in Katar hungrige Nachfolger im Team, die unter der Führung des alternden, aber immer noch genialen Messi erneut Geschichte schreiben wollen. Ein Spektakel mit Gänsehaut-Garantie – Jordan träumt von der Sensation, Argentinien vom souveränen Auftakt."
   },
   {
     "no": 73,
