@@ -648,13 +648,14 @@
     "away": "Saudi-Arabien",
     "homeCode": "ESP",
     "awayCode": "KSA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 4,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Atlanta",
     "stadium": "Atlanta-Stadion",
-    "preview": "Wenn Europas Titelverteidiger auf den ambitionierten Wüstensturm aus Saudi-Arabien trifft, ist eine Partie voller Spannung garantiert! Spanien bringt mit seinem unverkennbaren Kombinationsfußball und einer goldenen Generation an technisch versierten Spielern alles mit, um als klarer Favorit in dieses Duell zu gehen. Doch Saudi-Arabien hat zuletzt bewiesen – nicht zuletzt mit dem Sensationssieg gegen Argentinien bei der WM 2022 –, dass sie Giganten bezwingen können. Am 21. Juni 2026 könnte das Publikum eine weitere Überraschung erleben, wenn die Grün-Weißen mit kompakter Defensive und blitzschnellem Umschaltspiel die spanische Übermacht herausfordern. Dieses Spiel darf kein Fußballfan verpassen!"
+    "preview": "Wenn Europas Titelverteidiger auf den ambitionierten Wüstensturm aus Saudi-Arabien trifft, ist eine Partie voller Spannung garantiert! Spanien bringt mit seinem unverkennbaren Kombinationsfußball und einer goldenen Generation an technisch versierten Spielern alles mit, um als klarer Favorit in dieses Duell zu gehen. Doch Saudi-Arabien hat zuletzt bewiesen – nicht zuletzt mit dem Sensationssieg gegen Argentinien bei der WM 2022 –, dass sie Giganten bezwingen können. Am 21. Juni 2026 könnte das Publikum eine weitere Überraschung erleben, wenn die Grün-Weißen mit kompakter Defensive und blitzschnellem Umschaltspiel die spanische Übermacht herausfordern. Dieses Spiel darf kein Fußballfan verpassen!",
+    "summary": "Spanien hat bei der WM 2026 ein glänzendes Statement abgegeben und Saudi-Arabien mit 4:0 deklassiert. Die Iberer zeigten von der ersten Minute an ihre technische Überlegenheit und ließen dem Gegner kaum Luft zum Atmen. Mit einem makellosen Kombinationsfußball und konsequenter Chancenverwertung unterstrichen die Spanier eindrucksvoll ihren Anspruch auf den WM-Titel. Für Saudi-Arabien war es ein bitterer Auftakt, gegen den sie zu keiner Zeit eine Antwort fanden."
   },
   {
     "no": 39,
@@ -665,8 +666,8 @@
     "away": "IR Iran",
     "homeCode": "BEL",
     "awayCode": "IRN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Los Angeles",
@@ -682,13 +683,14 @@
     "away": "Kap Verde",
     "homeCode": "URU",
     "awayCode": "CPV",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 2,
     "status": 0,
     "minute": null,
     "city": "Miami",
     "stadium": "Miami-Stadion",
-    "preview": "Uruguay, die zweifachen Weltmeister und ewige Großmacht des südamerikanischen Fußballs, treffen auf den aufstrebenden Außenseiter Kap Verde – auf dem Papier eine klare Sache, doch im Fußball zählt bekanntlich nur das Spielfeld. Die Mannschaft von der Inselgruppe vor der westafrikanischen Küste hat in den letzten Jahren für Aufsehen gesorgt und qualifizierte sich sensationell für ihre erste Fußball-Weltmeisterschaft überhaupt. Uruguay hingegen setzt auf seine bewährte Mischung aus Leidenschaft, taktischer Disziplin und individueller Klasse rund um Torjäger wie Darwin Núñez. Kap Verde wird mit breiter Brust und dem Rückhalt eines ganzen Inselstaates antreten – doch die Celeste-Erfahrung auf höchstem Niveau dürfte letztlich den Unterschied machen. Es könnte ein historischer Abend werden, egal wie es ausgeht!"
+    "preview": "Uruguay, die zweifachen Weltmeister und ewige Großmacht des südamerikanischen Fußballs, treffen auf den aufstrebenden Außenseiter Kap Verde – auf dem Papier eine klare Sache, doch im Fußball zählt bekanntlich nur das Spielfeld. Die Mannschaft von der Inselgruppe vor der westafrikanischen Küste hat in den letzten Jahren für Aufsehen gesorgt und qualifizierte sich sensationell für ihre erste Fußball-Weltmeisterschaft überhaupt. Uruguay hingegen setzt auf seine bewährte Mischung aus Leidenschaft, taktischer Disziplin und individueller Klasse rund um Torjäger wie Darwin Núñez. Kap Verde wird mit breiter Brust und dem Rückhalt eines ganzen Inselstaates antreten – doch die Celeste-Erfahrung auf höchstem Niveau dürfte letztlich den Unterschied machen. Es könnte ein historischer Abend werden, egal wie es ausgeht!",
+    "summary": "Was für ein dramatisches Unentschieden zwischen Uruguay und Kap Verde – 2:2 und ein Ergebnis, das niemand so erwartet hatte! Die Kap Verdianer zeigten einmal mehr, dass der afrikanische Fußball auf dem Vormarsch ist, und kämpften Uruguay mit Herz und Seele einen Punkt ab. Uruguay ging zwar in Führung, doch Kap Verde bewies Moral und glich nicht nur einmal aus. Ein Resultat, das für beide Mannschaften Konsequenzen für das Weiterkommen haben wird."
   },
   {
     "no": 40,
@@ -699,13 +701,14 @@
     "away": "Ägypten",
     "homeCode": "NZL",
     "awayCode": "EGY",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 3,
     "status": 0,
     "minute": null,
     "city": "Vancouver",
     "stadium": "BC Place Vancouver",
-    "preview": "Neuseeland und Ägypten – zwei Nationen, die bei einer Weltmeisterschaft absolute Seltenheitswert haben, liefern sich ein wegweisendes Duell in der Gruppenphase. Die All Whites aus Neuseeland, bekannt für ihren unbändigen Kampfgeist, hoffen auf die Unterstützung der nordamerikanischen Gastgeberatmosphäre, um für eine Überraschung zu sorgen. Ägypten, Heimat der Pharaonen und einer leidenschaftlichen Fußballkultur, bringt erfahrene Spieler aus europäischen Ligen mit und setzt auf seine technische Stärke im Mittelfeld. Für beide Teams ist dieser Auftakt enorm wichtig – ein Sieg könnte den Grundstein für das Weiterkommen legen. Das Stadion wird brodeln, denn hier kämpfen zwei Underdogs mit allem, was sie haben, um WM-Geschichte zu schreiben!"
+    "preview": "Neuseeland und Ägypten – zwei Nationen, die bei einer Weltmeisterschaft absolute Seltenheitswert haben, liefern sich ein wegweisendes Duell in der Gruppenphase. Die All Whites aus Neuseeland, bekannt für ihren unbändigen Kampfgeist, hoffen auf die Unterstützung der nordamerikanischen Gastgeberatmosphäre, um für eine Überraschung zu sorgen. Ägypten, Heimat der Pharaonen und einer leidenschaftlichen Fußballkultur, bringt erfahrene Spieler aus europäischen Ligen mit und setzt auf seine technische Stärke im Mittelfeld. Für beide Teams ist dieser Auftakt enorm wichtig – ein Sieg könnte den Grundstein für das Weiterkommen legen. Das Stadion wird brodeln, denn hier kämpfen zwei Underdogs mit allem, was sie haben, um WM-Geschichte zu schreiben!",
+    "summary": "Ägypten feierte einen verdienten 3:1-Sieg gegen Neuseeland und legte damit einen vielversprechenden Start in die WM 2026 hin. Die Nordafrikaner dominierten weite Strecken der Partie und zeigten sich vor allem in der zweiten Halbzeit eiskalt und effizient. Neuseeland kämpfte tapfer und erzielte zumindest den Ehrentreffer, konnte die ägyptische Überlegenheit aber nicht wirklich in Frage stellen. Für Ägypten ist dies ein Zeichen, dass man in dieser Gruppe ernsthaft um das Weiterkommen mitspielen will."
   },
   {
     "no": 43,
