@@ -672,7 +672,8 @@
     "minute": null,
     "city": "Los Angeles",
     "stadium": "Los-Angeles-Stadion",
-    "preview": "Die Roten Teufel aus Belgien treffen auf die kämpferischen Iraner – ein Duell zweier Nationen mit gänzlich unterschiedlichen Fußballphilosophien. Belgien, einst die Nummer eins der FIFA-Weltrangliste, befindet sich im Generationenwechsel und will unter neuem Trainer endlich den ersehnten WM-Titel anpeilen. Der Iran hingegen ist für seine defensive Kompaktheit bekannt und gefährlich bei Kontern, wie zuletzt bei der WM 2022 in Katar bewiesen. Für Belgien ist ein Sieg fast Pflicht, um die Gruppenphase erfolgreich zu gestalten – doch der Iran wird alles daransetzen, die Europäer zu ärgern. Ein hochspannendes Aufeinandertreffen, das mehr Brisanz birgt, als es auf dem Papier vermuten lässt!"
+    "preview": "Die Roten Teufel aus Belgien treffen auf die kämpferischen Iraner – ein Duell zweier Nationen mit gänzlich unterschiedlichen Fußballphilosophien. Belgien, einst die Nummer eins der FIFA-Weltrangliste, befindet sich im Generationenwechsel und will unter neuem Trainer endlich den ersehnten WM-Titel anpeilen. Der Iran hingegen ist für seine defensive Kompaktheit bekannt und gefährlich bei Kontern, wie zuletzt bei der WM 2022 in Katar bewiesen. Für Belgien ist ein Sieg fast Pflicht, um die Gruppenphase erfolgreich zu gestalten – doch der Iran wird alles daransetzen, die Europäer zu ärgern. Ein hochspannendes Aufeinandertreffen, das mehr Brisanz birgt, als es auf dem Papier vermuten lässt!",
+    "summary": "Ein torloses Remis zwischen Belgien und dem Iran – ein enttäuschendes Ergebnis für die Roten Teufel, die trotz Ballbesitz und zahlreicher Chancen keinen Weg durch die kompakte iranische Defensive fanden. Der Iran verteidigte mit enormer Disziplin und Leidenschaft und sicherte sich einen überaus wertvollen Punkt. Belgien muss sich nun ernsthafte Fragen über die eigene Chancenverwertung stellen, denn die Qualität im Kader wäre für mehr als ausreichend. Ein Punkt für beide Teams, der die Gruppe gehörig durcheinanderwirbelt."
   },
   {
     "no": 37,
@@ -719,13 +720,14 @@
     "away": "Österreich",
     "homeCode": "ARG",
     "awayCode": "AUT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Dallas",
     "stadium": "Dallas-Stadion",
-    "preview": "Am 22. Juni 2026 trifft der amtierende Weltmeister Argentinien auf ein aufstrebendes österreichisches Team – ein Duell, das unterschiedlicher kaum sein könnte. Lionel Messi und seine Mannschaft werden den Favoritenstatus mit Nachdruck unterstreichen wollen, während Österreich mit Ralf Rangnicks taktischer Handschrift auf eine Überraschung hofft. Die österreichische Defensive um David Alaba wird alles daran setzen, die argentinische Offensive rund um Julián Álvarez und Enzo Fernández zu bändigen. Es verspricht ein taktisch hochinteressantes Kräftemessen zu werden, bei dem Argentinien jedoch klar als Favorit in dieses Spiel geht."
+    "preview": "Am 22. Juni 2026 trifft der amtierende Weltmeister Argentinien auf ein aufstrebendes österreichisches Team – ein Duell, das unterschiedlicher kaum sein könnte. Lionel Messi und seine Mannschaft werden den Favoritenstatus mit Nachdruck unterstreichen wollen, während Österreich mit Ralf Rangnicks taktischer Handschrift auf eine Überraschung hofft. Die österreichische Defensive um David Alaba wird alles daran setzen, die argentinische Offensive rund um Julián Álvarez und Enzo Fernández zu bändigen. Es verspricht ein taktisch hochinteressantes Kräftemessen zu werden, bei dem Argentinien jedoch klar als Favorit in dieses Spiel geht.",
+    "summary": "Argentinien ließ gegen Österreich keine Zweifel aufkommen und fuhr einen verdienten 2:0-Sieg ein, der die Qualität des amtierenden Weltmeisters eindrucksvoll unterstrich. Die Albiceleste kontrollierten das Spiel von Beginn an und ließen den Österreichern kaum Räume zur Entfaltung. Österreich kämpfte zwar mit Herz, doch die Klasse der Südamerikaner war über weite Strecken zu groß. Argentinien marschiert erhobenen Hauptes weiter in der Weltmeisterschaft."
   },
   {
     "no": 42,
@@ -736,13 +738,14 @@
     "away": "Irak",
     "homeCode": "FRA",
     "awayCode": "IRQ",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Philadelphia",
     "stadium": "Philadelphia-Stadion",
-    "preview": "Frankreich trifft am 22. Juni 2026 in der Gruppenphase auf den Irak – auf dem Papier eine klare Angelegenheit für Les Bleus, doch bei einer Weltmeisterschaft ist Vorsicht stets geboten. Kylian Mbappé, Antoine Griezmann und eine der talentiertesten Offensivreihen der Welt werden dem irakischen Torhüter eine lange Nacht bereiten wollen. Der Irak, der sich erstmals seit Jahrzehnten für eine WM qualifiziert hat, wird mit viel Leidenschaft und einer gut organisierten Defensive versuchen, für eine der großen Überraschungen des Turniers zu sorgen. Frankreich wird dennoch alles daran setzen, frühzeitig für klare Verhältnisse zu sorgen und mit einem Sieg die Tabellenführung in der Gruppe zu festigen."
+    "preview": "Frankreich trifft am 22. Juni 2026 in der Gruppenphase auf den Irak – auf dem Papier eine klare Angelegenheit für Les Bleus, doch bei einer Weltmeisterschaft ist Vorsicht stets geboten. Kylian Mbappé, Antoine Griezmann und eine der talentiertesten Offensivreihen der Welt werden dem irakischen Torhüter eine lange Nacht bereiten wollen. Der Irak, der sich erstmals seit Jahrzehnten für eine WM qualifiziert hat, wird mit viel Leidenschaft und einer gut organisierten Defensive versuchen, für eine der großen Überraschungen des Turniers zu sorgen. Frankreich wird dennoch alles daran setzen, frühzeitig für klare Verhältnisse zu sorgen und mit einem Sieg die Tabellenführung in der Gruppe zu festigen.",
+    "summary": "Frankreich präsentierte sich in Topform und ließ dem Irak beim deutlichen 3:0-Sieg keinerlei Chance. Les Bleus demonstrierten von der ersten Minute an ihre ganze Klasse und kombinierten sich immer wieder mühelos durch die irakische Abwehr. Der Irak war zu keiner Zeit in der Lage, dem Druck der Franzosen standzuhalten, und musste sich am Ende klar geschlagen geben. Mit diesem Auftritt sendet Frankreich ein starkes Signal an alle Turnierteilnehmer."
   },
   {
     "no": 41,
@@ -753,13 +756,14 @@
     "away": "Senegal",
     "homeCode": "NOR",
     "awayCode": "SEN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 2,
     "status": 0,
     "minute": null,
     "city": "New Jersey",
     "stadium": "New-York-New-Jersey-Stadion",
-    "preview": "Ein hochspannendes Aufeinandertreffen zweier aufstrebender Fußballnationen steht bevor! Norwegen, angeführt vom überragenden Erling Haaland, bringt eine der gefährlichsten Offensivreihen des gesamten Turniers mit nach Nordamerika. Auf der anderen Seite präsentiert sich Senegal als das stärkste Team Afrikas, mit Spielern wie Sadio Mané und einer kompakten, leidenschaftlichen Defensive. Beide Mannschaften sind hungrig auf den ersten Sieg in dieser Gruppe und werden alles geben, um die drei Punkte einzufahren. Ein Spektakel ist garantiert – dieses Spiel könnte eines der Highlights der Vorrunde werden!"
+    "preview": "Ein hochspannendes Aufeinandertreffen zweier aufstrebender Fußballnationen steht bevor! Norwegen, angeführt vom überragenden Erling Haaland, bringt eine der gefährlichsten Offensivreihen des gesamten Turniers mit nach Nordamerika. Auf der anderen Seite präsentiert sich Senegal als das stärkste Team Afrikas, mit Spielern wie Sadio Mané und einer kompakten, leidenschaftlichen Defensive. Beide Mannschaften sind hungrig auf den ersten Sieg in dieser Gruppe und werden alles geben, um die drei Punkte einzufahren. Ein Spektakel ist garantiert – dieses Spiel könnte eines der Highlights der Vorrunde werden!",
+    "summary": "Was für ein dramatisches Spiel in dieser Partie zwischen Norwegen und Senegal! Norwegen setzte sich am Ende mit 3:2 durch und lieferte damit eines der unterhaltsamsten Matches des bisherigen Turniers. Senegal kämpfte bis zur letzten Minute und bewies einmal mehr, warum der afrikanische Fußball auf der Weltbühne zu fürchten ist. Doch Norwegen bewies Nervenstärke und sicherte sich am Ende drei enorm wichtige Punkte für das Weiterkommen."
   },
   {
     "no": 44,
@@ -770,13 +774,14 @@
     "away": "Algerien",
     "homeCode": "JOR",
     "awayCode": "ALG",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 2,
     "status": 0,
     "minute": null,
     "city": "San Francisco Bay Area",
     "stadium": "San-Francisco-Bay-Area-Stadion",
-    "preview": "Jordanien und Algerien liefern sich ein wegweisendes Duell zweier Nationen, die ihren historischen Moment auf der größten Fußballbühne der Welt endlich erleben dürfen. Die Algerier, bekannt für ihr technisch feines Kombinationsspiel und ihre leidenschaftliche Anhängerschaft, gelten als klarer Favorit in dieser Begegnung. Doch Jordanien hat sich erst kürzlich als aufstrebende Kraft im asiatischen Fußball etabliert und wird alles daran setzen, eine Überraschung zu landen. Die Schlüsselspieler auf beiden Seiten könnten den Unterschied ausmachen – ein packender Schlagabtausch zwischen asiatischem Kampfgeist und afrikanischer Spielkunst erwartet uns hier."
+    "preview": "Jordanien und Algerien liefern sich ein wegweisendes Duell zweier Nationen, die ihren historischen Moment auf der größten Fußballbühne der Welt endlich erleben dürfen. Die Algerier, bekannt für ihr technisch feines Kombinationsspiel und ihre leidenschaftliche Anhängerschaft, gelten als klarer Favorit in dieser Begegnung. Doch Jordanien hat sich erst kürzlich als aufstrebende Kraft im asiatischen Fußball etabliert und wird alles daran setzen, eine Überraschung zu landen. Die Schlüsselspieler auf beiden Seiten könnten den Unterschied ausmachen – ein packender Schlagabtausch zwischen asiatischem Kampfgeist und afrikanischer Spielkunst erwartet uns hier.",
+    "summary": "Algerien dreht das Spiel gegen Jordanien und gewinnt verdient mit 2:1 – ein wichtiger Sieg für die Wüstenfüchse im Kampf um das Weiterkommen. Jordanien ging zunächst in Führung und schürte kurzzeitig die Hoffnung auf eine Überraschung, doch Algerien antwortete mit Entschlossenheit und Qualität. Die Nordafrikaner zeigten Moral und bewiesen, dass mit ihnen in dieser Gruppe fest zu rechnen ist. Ein verdienter Sieg, der Algerien eine ausgezeichnete Ausgangsposition verschafft."
   },
   {
     "no": 47,
@@ -1268,7 +1273,8 @@
     "status": 1,
     "minute": "",
     "city": "Los Angeles",
-    "stadium": "Los-Angeles-Stadion"
+    "stadium": "Los-Angeles-Stadion",
+    "preview": "Das Sechzehntelfinale zwischen den Gruppenzweiten der Gruppen A und B verspricht ein echtes Duell auf Augenhöhe! Beide Teams haben sich in ihrer Gruppe als Zweite durchgesetzt und brennen darauf, den nächsten Schritt zu machen. Die Taktik wird entscheidend sein – wer kompakter steht und in den Umschaltsituationen schneller ist, dürfte die Oberhand gewinnen. Ein Unentschieden nach 90 Minuten ist durchaus möglich, was die Verlängerung oder gar das Elfmeterschießen ins Spiel bringen würde. Dieses Match ist ein Hochseilakt ohne Netz – wer zittert, scheidet aus!"
   },
   {
     "no": 76,
@@ -1284,7 +1290,8 @@
     "status": 1,
     "minute": "",
     "city": "Houston",
-    "stadium": "Houston-Stadion"
+    "stadium": "Houston-Stadion",
+    "preview": "Gruppensieger C trifft auf den Zweiten der Gruppe F – ein klassisches Aufeinandertreffen von Kontinuität gegen Aufbruchsstimmung! Der Gruppensieger geht mit breiter Brust in diese Partie und wird versuchen, von Beginn an die Kontrolle zu übernehmen. Doch der Zweite aus Gruppe F hat in der Vorrunde Moral bewiesen und wird sich nicht kampflos ergeben. Taktische Disziplin und Effizienz vor dem Tor werden über das Weiterkommen entscheiden. Ein Spiel, das die WM-Bühne verdient – und das Publikum dürfte auf seine Kosten kommen!"
   },
   {
     "no": 74,
@@ -1316,7 +1323,8 @@
     "status": 1,
     "minute": "",
     "city": "Monterrey",
-    "stadium": "Monterrey-Stadion"
+    "stadium": "Monterrey-Stadion",
+    "preview": "Gruppensieger F empfängt den Zweiten der Gruppe C in einem Sechzehntelfinale, das auf dem Papier viel Qualität verspricht! Beide Mannschaften haben die Gruppenphase mit Selbstvertrauen im Gepäck hinter sich gebracht und werden keinen Zentimeter kampflos abgeben. Der Gruppensieger wird auf heimischem Boden – die WM 2026 findet in den USA, Kanada und Mexiko statt – von lautstarker Unterstützung getragen werden wollen. Die erste halbe Stunde wird wegweisend sein: Wer früh trifft, hat die psychologische Führung in diesem Hochdruckspiel. Alles ist möglich – und genau das macht diese WM so unberechenbar und wunderschön!"
   },
   {
     "no": 78,
