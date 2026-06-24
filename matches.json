@@ -792,13 +792,14 @@
     "away": "Usbekistan",
     "homeCode": "POR",
     "awayCode": "UZB",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 5,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Houston",
     "stadium": "Houston-Stadion",
-    "preview": "Portugal betritt das WM-Parkett mit einem Kader voller Weltklassespieler – angeführt von Cristiano Ronaldo, der bei seiner wohl letzten Weltmeisterschaft noch einmal Geschichte schreiben will. Usbekistan hingegen ist das Underdog-Märchen des Turniers: Die Zentralasiaten haben sich erstmals für eine WM-Endrunde qualifiziert und werden mit unbändiger Energie und kollektiver Leidenschaft dagegenzuhalten versuchen. Für Portugal ist ein Sieg Pflicht, doch unterschätzen sollte man die quirligen Usbekier keinesfalls – in der Gruppenphase haben schon größere Namen gestolpert. Es verspricht ein Duell zwischen technischer Brillanz und unbezähmbarem Kampfgeist zu werden. Der Allianz-Stadion-Atmosphäre in Atlanta dürfte an diesem Juniabend kaum etwas fehlen!"
+    "preview": "Portugal betritt das WM-Parkett mit einem Kader voller Weltklassespieler – angeführt von Cristiano Ronaldo, der bei seiner wohl letzten Weltmeisterschaft noch einmal Geschichte schreiben will. Usbekistan hingegen ist das Underdog-Märchen des Turniers: Die Zentralasiaten haben sich erstmals für eine WM-Endrunde qualifiziert und werden mit unbändiger Energie und kollektiver Leidenschaft dagegenzuhalten versuchen. Für Portugal ist ein Sieg Pflicht, doch unterschätzen sollte man die quirligen Usbekier keinesfalls – in der Gruppenphase haben schon größere Namen gestolpert. Es verspricht ein Duell zwischen technischer Brillanz und unbezähmbarem Kampfgeist zu werden. Der Allianz-Stadion-Atmosphäre in Atlanta dürfte an diesem Juniabend kaum etwas fehlen!",
+    "summary": "Portugal lässt bei der WM 2026 absolut keine Zweifel aufkommen und zerlegt Usbekistan mit einem beeindruckenden 5:0. Die Seleção das Quinas zeigt sich in glänzender Verfassung und dominiert die Partie von der ersten bis zur letzten Minute. Cristiano Ronaldo und seine Kollegen spielen auf höchstem Niveau und machen dem Publikum eine wahre Freude. Mit diesem klaren Sieg setzt Portugal ein unmissverständliches Ausrufezeichen an die Konkurrenz in der Gruppenphase."
   },
   {
     "no": 45,
@@ -809,13 +810,14 @@
     "away": "Ghana",
     "homeCode": "ENG",
     "awayCode": "GHA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Boston",
     "stadium": "Boston-Stadion",
-    "preview": "England gegen Ghana – das ist nicht nur ein Fußballspiel, das ist ein Aufeinandertreffen zweier Nationen mit einer tiefen, historisch gewachsenen Verbindung. Die Three Lions reisen mit enormen Erwartungen nach Nordamerika: Unter Trainer Thomas Tuchel soll endlich der lang ersehnte große Titel her, und ein überzeugender Auftakt gegen Ghana wäre das perfekte Signal an die restliche Welt. Ghana seinerseits hat mit Spielern wie Jordan Ayew und einer wachsenden Talentgeneration durchaus das Potenzial, für eine Überraschung zu sorgen. Die westafrikanische Leidenschaft trifft auf englische Disziplin – das Rezept für ein hochklassiges Gruppenspiel ist angerichtet. Wer die Oberhand behält, wird auch die Weichen für das weitere Turnierschicksal beider Teams stellen."
+    "preview": "England gegen Ghana – das ist nicht nur ein Fußballspiel, das ist ein Aufeinandertreffen zweier Nationen mit einer tiefen, historisch gewachsenen Verbindung. Die Three Lions reisen mit enormen Erwartungen nach Nordamerika: Unter Trainer Thomas Tuchel soll endlich der lang ersehnte große Titel her, und ein überzeugender Auftakt gegen Ghana wäre das perfekte Signal an die restliche Welt. Ghana seinerseits hat mit Spielern wie Jordan Ayew und einer wachsenden Talentgeneration durchaus das Potenzial, für eine Überraschung zu sorgen. Die westafrikanische Leidenschaft trifft auf englische Disziplin – das Rezept für ein hochklassiges Gruppenspiel ist angerichtet. Wer die Oberhand behält, wird auch die Weichen für das weitere Turnierschicksal beider Teams stellen.",
+    "summary": "Ein enttäuschendes Remis für England – die Three Lions kommen gegen Ghana über ein torloses 0:0 nicht hinaus. Trotz deutlicher Überlegenheit im Ballbesitz fehlt es den Engländern an Durchschlagskraft und Kreativität im letzten Drittel. Ghana verteidigt mit großem Einsatz und Geschlossenheit und hält die favorisierten Engländer erfolgreich in Schach. Für das Team von Gareth Southgate ist dieses Ergebnis eine herbe Enttäuschung und wirft Fragen zur Chancenverwertung auf."
   },
   {
     "no": 46,
@@ -826,13 +828,14 @@
     "away": "Kroatien",
     "homeCode": "PAN",
     "awayCode": "CRO",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Toronto",
     "stadium": "Toronto-Stadion",
-    "preview": "Panama gegen Kroatien – auf dem Papier klingt das nach einer klaren Angelegenheit für den Vizeweltmeister von 2018, doch die WM hat uns schon oft gelehrt, dass Papierform und Realität weit auseinanderliegen können. Kroatien um Modric, der mit 40 Jahren noch immer das Mittelfeld dirigiert wie kein anderer, ist eingespielt, erfahren und hungrig auf einen erneuten tiefen Turnierlauf. Panama dagegen kämpft mit einer Mischung aus unbedingtem Willen und taktischer Disziplin – die Mittelamerikaner wissen, dass sie jeden Zentimeter des Rasens verteidigen müssen. Für die Kroaten geht es darum, einen souveränen Start hinzulegen und keine unnötigen Kräfte zu verschwenden. Dieses Spiel könnte knapper werden, als viele erwarten – Panama hat nichts zu verlieren und alles zu gewinnen."
+    "preview": "Panama gegen Kroatien – auf dem Papier klingt das nach einer klaren Angelegenheit für den Vizeweltmeister von 2018, doch die WM hat uns schon oft gelehrt, dass Papierform und Realität weit auseinanderliegen können. Kroatien um Modric, der mit 40 Jahren noch immer das Mittelfeld dirigiert wie kein anderer, ist eingespielt, erfahren und hungrig auf einen erneuten tiefen Turnierlauf. Panama dagegen kämpft mit einer Mischung aus unbedingtem Willen und taktischer Disziplin – die Mittelamerikaner wissen, dass sie jeden Zentimeter des Rasens verteidigen müssen. Für die Kroaten geht es darum, einen souveränen Start hinzulegen und keine unnötigen Kräfte zu verschwenden. Dieses Spiel könnte knapper werden, als viele erwarten – Panama hat nichts zu verlieren und alles zu gewinnen.",
+    "summary": "Kroatien setzt sich in einem zähen Duell mit 1:0 gegen Panama durch und holt drei wichtige Punkte in der WM-Gruppenphase. Die Mitteleuropäer tun sich lange schwer gegen den tief stehenden Gegner, ehe ein entscheidendes Tor den Knoten platzen lässt. Panama kämpft bis zum Schluss leidenschaftlich, doch die kroatische Qualität macht am Ende den Unterschied. Mit diesem Sieg zeigt das Team um Modrić einmal mehr seine Erfahrung und Cleverness auf der ganz großen Bühne."
   },
   {
     "no": 48,
@@ -843,13 +846,14 @@
     "away": "DR Kongo",
     "homeCode": "COL",
     "awayCode": "COD",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Guadalajara",
     "stadium": "Guadalajara-Stadion",
-    "preview": "Kolumbien trifft auf die Demokratische Republik Kongo – ein Duell zweier aufregender Fußballnationen, die beide mit Stil und Tempo brillieren können. Die Kolumbianer um James Rodríguez und Luis Díaz haben in der Qualifikation gezeigt, dass sie zu den gefährlichsten Teams Südamerikas zählen, und wollen auch auf der WM-Bühne glänzen. Die DR Kongo hingegen bringt rohe Athletik, technisches Feingefühl und eine Portion Unberechenbarkeit mit – Attribute, die jeden Gegner in Schwierigkeiten bringen können. Es ist ein Spiel der Kontraste: südamerikanische Spielkultur gegen afrikanischen Rhythmus und Energie. Der Sieger dieses packenden Duells dürfte ein entscheidendes Wort um den Gruppensieg mitreden."
+    "preview": "Kolumbien trifft auf die Demokratische Republik Kongo – ein Duell zweier aufregender Fußballnationen, die beide mit Stil und Tempo brillieren können. Die Kolumbianer um James Rodríguez und Luis Díaz haben in der Qualifikation gezeigt, dass sie zu den gefährlichsten Teams Südamerikas zählen, und wollen auch auf der WM-Bühne glänzen. Die DR Kongo hingegen bringt rohe Athletik, technisches Feingefühl und eine Portion Unberechenbarkeit mit – Attribute, die jeden Gegner in Schwierigkeiten bringen können. Es ist ein Spiel der Kontraste: südamerikanische Spielkultur gegen afrikanischen Rhythmus und Energie. Der Sieger dieses packenden Duells dürfte ein entscheidendes Wort um den Gruppensieg mitreden.",
+    "summary": "Kolumbien gewinnt in einem intensiven Aufeinandertreffen mit 1:0 gegen die DR Kongo und sichert sich damit drei wertvolle Punkte. Das goldene Tor für die Cafeteros reicht aus, um eine disziplinierte kongolesische Mannschaft zu bezwingen, die bis zuletzt um den Ausgleich kämpft. Kolumbien überzeugt mit schnellem Kombinationsspiel und starker Defensivarbeit, lässt dem Gegner kaum Räume. Es ist ein hart erkämpfter, aber verdienter Sieg, der Kolumbien in der Gruppe nach vorne bringt."
   },
   {
     "no": 51,
@@ -1307,7 +1311,8 @@
     "status": 1,
     "minute": "",
     "city": "Boston",
-    "stadium": "Boston-Stadion"
+    "stadium": "Boston-Stadion",
+    "preview": "Das Sechzehntelfinale zwischen dem Gruppensieger aus Gruppe E und einem der besten Gruppendritten verspricht ein hochklassiges K.o.-Duell bei der WM 2026 am 29. Juni! Der Gruppensieger geht mit dem Selbstvertrauen eines ungeschlagenen Teams in die Partie, während der Gruppendritte alles riskieren muss, um weiterzukommen. Solche Aufeinandertreffen zwischen einem Favoriten und einem hungrigen Außenseiter haben bei Weltmeisterschaften schon für unvergessliche Überraschungen gesorgt. Die Fans können sich auf ein spannendes, emotionsgeladenes Spiel freuen, bei dem jeder Fehler sofort bestraft werden kann – es ist die große WM-Bühne, und beide Teams werden alles geben!"
   },
   {
     "no": 75,
@@ -1340,7 +1345,8 @@
     "status": 1,
     "minute": "",
     "city": "Dallas",
-    "stadium": "Dallas-Stadion"
+    "stadium": "Dallas-Stadion",
+    "preview": "Das Sechzehntelfinale zwischen dem Gruppenzweiten der Gruppe E und dem Gruppenzweiten der Gruppe I verspricht ein packendes Duell auf Augenhöhe zu werden. Beide Mannschaften haben ihre Gruppen als solide Zweite abgeschlossen und wollen nun endlich den nächsten großen Schritt in Richtung Achtelfinale machen. Die Spannung steigt, denn für beide Teams ist ein Ausscheiden gleichbedeutend mit dem Ende ihres WM-Traums. Taktische Disziplin und individuelle Klasse werden wohl den Unterschied ausmachen, wenn diese beiden Nationen um das Weiterkommen kämpfen. Ein Spiel, das niemanden kaltlässt – und das Potenzial hat, zur Überraschung des Turniers zu werden!"
   },
   {
     "no": 77,
@@ -1356,7 +1362,8 @@
     "status": 1,
     "minute": "",
     "city": "New Jersey",
-    "stadium": "New-York-New-Jersey-Stadion"
+    "stadium": "New-York-New-Jersey-Stadion",
+    "preview": "Der Gruppensieger der Gruppe I trifft auf einen der besten Gruppendritten aus den Gruppen C, D, F, G oder H – ein klassisches Duell zwischen dem souveränen Gruppensieger und dem kämpferischen Außenseiter, der sich mühsam durch die Vorrunde gezwängt hat. Der Tabellenführer geht mit Rückenwind und dem Selbstvertrauen eines makellosen Auftritts in der Gruppenphase in diese Partie. Doch Vorsicht: Mannschaften, die als Gruppendritte die K.o.-Runde erreichen, haben bei Weltmeisterschaften immer wieder für faustdicke Überraschungen gesorgt. Der Underdog wird alles in die Waagschale werfen, um den vermeintlichen Favoriten zu bezwingen. Es bleibt zu fragen, ob die Qualität des Gruppensiegers oder die Unbekümmertheit des Dritten am Ende triumphiert!"
   },
   {
     "no": 79,
@@ -1372,7 +1379,8 @@
     "status": 1,
     "minute": "",
     "city": "Mexiko-Stadt",
-    "stadium": "Mexiko-Stadt-Stadion"
+    "stadium": "Mexiko-Stadt-Stadion",
+    "preview": "Der Gruppensieger der Gruppe A – einer der begehrtesten Plätze im gesamten Turnierbaum – empfängt am 1. Juli einen Gruppendritten aus den Gruppen C, E, F, H oder I. Als Sieger der Gruppe A hat sich diese Mannschaft mit starken Leistungen für die K.o.-Runde empfohlen und wird nun zum ersten Mal wirklich auf die Probe gestellt. Ihr Gegner, der als Gruppendritter qualifiziert ist, musste in der Vorrunde jeden Punkt mit Zähnen und Klauen erkämpfen und kommt mit der Mentalität eines Teams, das nichts zu verlieren hat. Diese Mischung aus dem Selbstvertrauen des Spitzenreiters und der Entschlossenheit des Underdogs macht dieses Duell zu einem echten Leckerbissen für alle Fußballfans. Der 1. Juli könnte für eine dieser Nationen zum unvergesslichsten Tag ihrer Fußballgeschichte werden!"
   },
   {
     "no": 80,
