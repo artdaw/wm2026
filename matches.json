@@ -972,13 +972,14 @@
     "away": "Elfenbeinküste",
     "homeCode": "CUW",
     "awayCode": "CIV",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 2,
     "status": 0,
     "minute": null,
     "city": "Philadelphia",
     "stadium": "Philadelphia-Stadion",
-    "preview": "Ein hochinteressantes Duell steht bevor: Curaçao, das märchenhafte Überraschungsteam dieser WM aus der Karibik, trifft am 25. Juni 2026 auf den westafrikanischen Giganten Elfenbeinküste. Die Ivorer mit ihren gefährlichen Angreifern und einer goldenen Spielergeneration gelten als klarer Favorit, doch Curaçao hat bereits bewiesen, dass sie kein leichter Brocken sind. Für die kleine Karibikinsel wäre ein Ergebnis gegen die Elefanten eine Sensation – für die Elfenbeinküste hingegen ein Pflichtspiel, das gewonnen werden muss, um in der Gruppe weiterzukommen. Es verspricht ein feuriges und taktisch reizvolles Aufeinandertreffen zu werden!"
+    "preview": "Ein hochinteressantes Duell steht bevor: Curaçao, das märchenhafte Überraschungsteam dieser WM aus der Karibik, trifft am 25. Juni 2026 auf den westafrikanischen Giganten Elfenbeinküste. Die Ivorer mit ihren gefährlichen Angreifern und einer goldenen Spielergeneration gelten als klarer Favorit, doch Curaçao hat bereits bewiesen, dass sie kein leichter Brocken sind. Für die kleine Karibikinsel wäre ein Ergebnis gegen die Elefanten eine Sensation – für die Elfenbeinküste hingegen ein Pflichtspiel, das gewonnen werden muss, um in der Gruppe weiterzukommen. Es verspricht ein feuriges und taktisch reizvolles Aufeinandertreffen zu werden!",
+    "summary": "Eine souveräne Vorstellung der Elfenbeinküste gegen Curaçao! Die Mannschaft aus Westafrika dominierte das Spiel von der ersten Minute an und ließ dem Außenseiter aus der Karibik kaum Luft zum Atmen. Mit zwei verdienten Toren sicherten sich die Ivorer einen gelungenen WM-Auftakt. Curaçao kämpfte zwar tapfer, hatte gegen die individuelle Klasse des Gegners jedoch keine Mittel. Ein klarer, ungefährdeter Sieg für die Elfenbeinküste."
   },
   {
     "no": 56,
@@ -989,13 +990,14 @@
     "away": "Deutschland",
     "homeCode": "ECU",
     "awayCode": "GER",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "New Jersey",
     "stadium": "New-York-New-Jersey-Stadion",
-    "preview": "Ein Hochspannungsduell der Gruppe erwartet uns, wenn Ecuador und Deutschland aufeinandertreffen! Die DFB-Elf unter Bundestrainer Julian Nagelsmann reist mit großen Ambitionen nach Nordamerika und will endlich wieder WM-Geschichte schreiben. Ecuador hingegen ist bekannt für seine leidenschaftliche, körperlich intensive Spielweise und wird in ihrem eigenen Kontinentalvorfeld alles geben, um für eine Überraschung zu sorgen. Spieler wie Jamal Musiala und Florian Wirtz sind in Glanzform und könnten das Spiel im Alleingang entscheiden. Es verspricht ein elektrisierendes Duell zu werden, bei dem Deutschland klarer Favorit ist, Ecuador aber den Gastgeber-Kontinent auf seiner Seite hat!"
+    "preview": "Ein Hochspannungsduell der Gruppe erwartet uns, wenn Ecuador und Deutschland aufeinandertreffen! Die DFB-Elf unter Bundestrainer Julian Nagelsmann reist mit großen Ambitionen nach Nordamerika und will endlich wieder WM-Geschichte schreiben. Ecuador hingegen ist bekannt für seine leidenschaftliche, körperlich intensive Spielweise und wird in ihrem eigenen Kontinentalvorfeld alles geben, um für eine Überraschung zu sorgen. Spieler wie Jamal Musiala und Florian Wirtz sind in Glanzform und könnten das Spiel im Alleingang entscheiden. Es verspricht ein elektrisierendes Duell zu werden, bei dem Deutschland klarer Favorit ist, Ecuador aber den Gastgeber-Kontinent auf seiner Seite hat!",
+    "summary": "Ein Schock für das deutsche Lager! Ecuador besiegte die DFB-Elf mit 2:1 und sorgte damit für eine der größten Überraschungen der Gruppenphase. Die Südamerikaner zeigten eine leidenschaftliche Leistung und nutzten die Unkonzentriertheiten der Deutschen eiskalt aus. Deutschland fand zwar den Anschlusstreffer, konnte den Rückstand aber nicht mehr wettmachen. Bitter für Bundestrainer und Fans – der Weg ins Achtelfinale wird nun deutlich schwieriger."
   },
   {
     "no": 57,
@@ -1006,13 +1008,14 @@
     "away": "Schweden",
     "homeCode": "JPN",
     "awayCode": "SWE",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Dallas",
     "stadium": "Dallas-Stadion",
-    "preview": "Japan gegen Schweden – ein Aufeinandertreffen zweier WM-erfahrener Nationen, die beide mit Entschlossenheit in das Turnier gestartet sind! Die Samurai Blue haben zuletzt bei Weltmeisterschaften wiederholt für Überraschungen gesorgt und verfügen über ein schnelles, taktisch diszipliniertes Team. Schweden wiederum bringt mit Spielern wie Alexander Isak und Dejan Kulusevski eine physisch starke, gefährliche Offensive mit. Japan wird auf Konter lauern und versuchen, das schwedische Aufbauspiel zu stören. Es ist ein Duell zwischen skandinavischer Wucht und asiatischer Präzision – und könnte einer der spannendsten Gruppenspiele des Tages werden!"
+    "preview": "Japan gegen Schweden – ein Aufeinandertreffen zweier WM-erfahrener Nationen, die beide mit Entschlossenheit in das Turnier gestartet sind! Die Samurai Blue haben zuletzt bei Weltmeisterschaften wiederholt für Überraschungen gesorgt und verfügen über ein schnelles, taktisch diszipliniertes Team. Schweden wiederum bringt mit Spielern wie Alexander Isak und Dejan Kulusevski eine physisch starke, gefährliche Offensive mit. Japan wird auf Konter lauern und versuchen, das schwedische Aufbauspiel zu stören. Es ist ein Duell zwischen skandinavischer Wucht und asiatischer Präzision – und könnte einer der spannendsten Gruppenspiele des Tages werden!",
+    "summary": "Ein packendes Duell zwischen Japan und Schweden endete mit einem gerechten 1:1-Unentschieden. Beide Teams lieferten sich ein taktisch kluges Spiel auf hohem Niveau, in dem keine Mannschaft die Oberhand gewinnen konnte. Japan bewies erneut seine Qualitäten als WM-Teilnehmer und holte sich mit dem Ausgleich den verdienten Punkt. Schweden zeigte sich robust und effektiv, ließ aber zu wenig Kreativität im letzten Drittel erkennen. Für beide Mannschaften geht die Reise durch die Gruppe mit noch allen Möglichkeiten weiter."
   },
   {
     "no": 58,
@@ -1023,13 +1026,14 @@
     "away": "Niederlande",
     "homeCode": "TUN",
     "awayCode": "NED",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 3,
     "status": 0,
     "minute": null,
     "city": "Kansas City",
     "stadium": "Kansas-City-Stadion",
-    "preview": "Tunesien trifft auf die Niederlande – und die Nordafrikaner werden alles daran setzen, die Oranjes zu ärgern! Die Niederländer um Superstar Virgil van Dijk und Xavi Simons kommen als klarer Favorit in dieses Spiel, haben aber in der Vergangenheit immer wieder Schwierigkeiten gegen tief stehende afrikanische Teams gezeigt. Tunesien ist für seine disziplinierte Defensivarbeit bekannt und könnte auf einen Lucky-Punch über schnelle Konter hoffen. Ronald Koemans Team muss von Beginn an Dominanz zeigen und darf es nicht wie so oft zu einem engen Spiel kommen lassen. Ein Selbstläufer wird das für die Niederlande ganz sicher nicht!"
+    "preview": "Tunesien trifft auf die Niederlande – und die Nordafrikaner werden alles daran setzen, die Oranjes zu ärgern! Die Niederländer um Superstar Virgil van Dijk und Xavi Simons kommen als klarer Favorit in dieses Spiel, haben aber in der Vergangenheit immer wieder Schwierigkeiten gegen tief stehende afrikanische Teams gezeigt. Tunesien ist für seine disziplinierte Defensivarbeit bekannt und könnte auf einen Lucky-Punch über schnelle Konter hoffen. Ronald Koemans Team muss von Beginn an Dominanz zeigen und darf es nicht wie so oft zu einem engen Spiel kommen lassen. Ein Selbstläufer wird das für die Niederlande ganz sicher nicht!",
+    "summary": "Die Niederlande feierten einen überzeugenden 3:1-Sieg gegen Tunesien und meldeten damit klare WM-Ambitionen an. Oranje war von Beginn an die spielbestimmende Mannschaft und setzte die nordafrikanische Defensive mit schnellen Kombinationen unter Druck. Tunesien gelang zwar der zwischenzeitliche Anschlusstreffer, doch die Niederländer antworteten prompt und ließen keine Zweifel am Sieger aufkommen. Es war ein starker Auftritt der Elftal, die in Angriff wie Defensive überzeugte. Ein gelungener WM-Start für die Niederlande."
   },
   {
     "no": 59,
@@ -1040,13 +1044,14 @@
     "away": "USA",
     "homeCode": "TUR",
     "awayCode": "USA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 2,
     "status": 0,
     "minute": null,
     "city": "Los Angeles",
     "stadium": "Los-Angeles-Stadion",
-    "preview": "Feuer trifft auf Feuer – wenn die leidenschaftliche Türkei auf die USA trifft, ist ein packender Schlagabtausch garantiert! Die Türkei um Hakan Çalhanoğlu hat sich unter ihrem neuen Trainer zu einer gefährlichen Einheit entwickelt und wird das nordamerikanische Publikum mit ihrem offensiven Fußball begeistern wollen. Das Heimteam USA setzt auf junge Wilden wie Christian Pulisic und Folarin Balogun und wird den Vorteil des Gastgebers voll ausnutzen wollen. Beide Teams brauchen nach dem Auftakt dringend Punkte, was dieses Duell zu einem echten Schlüsselspiel in der Gruppe macht. Wer hier verliert, steht schon früh mit dem Rücken zur Wand!"
+    "preview": "Feuer trifft auf Feuer – wenn die leidenschaftliche Türkei auf die USA trifft, ist ein packender Schlagabtausch garantiert! Die Türkei um Hakan Çalhanoğlu hat sich unter ihrem neuen Trainer zu einer gefährlichen Einheit entwickelt und wird das nordamerikanische Publikum mit ihrem offensiven Fußball begeistern wollen. Das Heimteam USA setzt auf junge Wilden wie Christian Pulisic und Folarin Balogun und wird den Vorteil des Gastgebers voll ausnutzen wollen. Beide Teams brauchen nach dem Auftakt dringend Punkte, was dieses Duell zu einem echten Schlüsselspiel in der Gruppe macht. Wer hier verliert, steht schon früh mit dem Rücken zur Wand!",
+    "summary": "Was für ein dramatisches Spiel in der Gruppe der Türkei und der USA! Die Türkei setzte sich in einem hochklassigen Duell mit 3:2 gegen die Amerikaner durch und feierte damit einen wichtigen Sieg. Beide Teams schenkten sich nichts und lieferten den Zuschauern ein offenes Spektakel mit Chancen auf beiden Seiten. Die Türkei bewies Nervenstärke und Effizienz vor dem Tor, während die USA trotz des frühen Rückstands immer wieder zurückkamen. Am Ende jubelten die Türken verdient – ein Auftakt nach Maß für die Mannschaft vom Bosporus."
   },
   {
     "no": 60,
@@ -1057,13 +1062,14 @@
     "away": "Australien",
     "homeCode": "PAR",
     "awayCode": "AUS",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "San Francisco Bay Area",
     "stadium": "San-Francisco-Bay-Area-Stadion",
-    "preview": "Paraguay gegen Australien – ein klassisches Duell zwischen südamerikanischer Leidenschaft und australischer Kampfkraft! Die Paraguayer sind für ihr unnachgiebiges Defensivspiel und ihre blitzschnellen Umschaltsituationen bekannt und werden mit voller Energie in die WM starten. Die Socceroos um ihren Stürmerstar Mathew Leckie haben sich in den letzten Jahren enorm weiterentwickelt und träumen von einer erneuten Sensation wie 2022. Beide Teams wissen, dass ein Sieg zum Auftakt im Kampf um das Achtelfinale entscheidend sein kann. Ein offenes, intensives Spiel zweier Nationen mit allem zu verlieren und alles zu gewinnen – ein echtes WM-Abenteuer!"
+    "preview": "Paraguay gegen Australien – ein klassisches Duell zwischen südamerikanischer Leidenschaft und australischer Kampfkraft! Die Paraguayer sind für ihr unnachgiebiges Defensivspiel und ihre blitzschnellen Umschaltsituationen bekannt und werden mit voller Energie in die WM starten. Die Socceroos um ihren Stürmerstar Mathew Leckie haben sich in den letzten Jahren enorm weiterentwickelt und träumen von einer erneuten Sensation wie 2022. Beide Teams wissen, dass ein Sieg zum Auftakt im Kampf um das Achtelfinale entscheidend sein kann. Ein offenes, intensives Spiel zweier Nationen mit allem zu verlieren und alles zu gewinnen – ein echtes WM-Abenteuer!",
+    "summary": "Ein zähes, intensives Duell endete torlos – Paraguay und Australien trennten sich mit einem 0:0, das beiden Teams letztlich wenig hilft. Die Socceroos zeigten sich defensiv kompakt, fanden aber offensiv kaum Mittel gegen eine disziplinierte paraguayische Hintermannschaft. Paraguay hatte mehr Ballbesitz und versuchte es immer wieder über die Flügel, doch der entscheidende letzte Pass blieb stets aus. Am Ende ein Punkt für jeden – und die große Frage, ob das für das Weiterkommen reichen wird."
   },
   {
     "no": 61,
@@ -1453,7 +1459,8 @@
     "status": 1,
     "minute": "",
     "city": "Los Angeles",
-    "stadium": "Los-Angeles-Stadion"
+    "stadium": "Los-Angeles-Stadion",
+    "preview": "Das Sechzehntelfinale zwischen dem Gruppensieger H und dem Gruppenzweiten J verspricht ein hochklassiges Duell auf Augenhöhe zu werden. Beide Teams haben ihre Gruppe als starke Einheiten verlassen und brennen nun auf ihren ersten K.-o.-Runden-Auftritt bei dieser WM. Der Gruppensieger geht mit dem Heimvorteil des besseren Abschneidens in der Vorrunde ins Spiel, doch in einem einzigen Spiel kann jederzeit alles passieren. Wer hier die Nerven behält und die Chancen kaltblütig nutzt, marschiert ins Achtelfinale – Spannung pur ist garantiert!"
   },
   {
     "no": 83,
@@ -1469,7 +1476,8 @@
     "status": 1,
     "minute": "",
     "city": "Toronto",
-    "stadium": "Toronto-Stadion"
+    "stadium": "Toronto-Stadion",
+    "preview": "Im zweiten Sechzehntelfinale des Tages empfängt der Gruppenzweite K den Gruppenzweiten L – ein Duell zweier Teams, die in der Vorrunde nicht immer überzeugt haben, aber mit Kampfgeist und Leidenschaft ins Achtelfinale wollen. Beide Mannschaften kennen die Bedeutung dieses Spiels genau: Eine Niederlage bedeutet das Ende des WM-Traums. Taktische Raffinesse könnte hier den Unterschied machen, da beide Trainer ihre Hausaufgaben gemacht haben dürften. Ein enges, nervenaufreibendes Spiel zeichnet sich ab – und ein Tor könnte schon alles entscheiden!"
   },
   {
     "no": 85,
@@ -1485,7 +1493,8 @@
     "status": 1,
     "minute": "",
     "city": "Vancouver",
-    "stadium": "BC Place Vancouver"
+    "stadium": "BC Place Vancouver",
+    "preview": "Gruppensieger B trifft auf einen der besten Gruppendritten aus den Gruppen E, F, G, I oder J – und bekommt es damit womöglich mit einem echten Überraschungsteam dieses Turniers zu tun. Der Gruppensieger geht als Favorit ins Rennen, doch die Gruppendrittplatzierten haben bewiesen, dass sie sich gegen härteste Konkurrenz behaupten können. Für den Außenseiter gilt es, befreit aufzuspielen und dem Favoriten mit schnellem Umschaltspiel wehzutun. Dieses Sechzehntelfinale könnte die größte Überraschung des bisherigen Turniers bereithalten – am 3. Juli werden wir es wissen!"
   },
   {
     "no": 88,
