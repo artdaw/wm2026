@@ -1080,13 +1080,14 @@
     "away": "Frankreich",
     "homeCode": "NOR",
     "awayCode": "FRA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 4,
     "status": 0,
     "minute": null,
     "city": "Boston",
     "stadium": "Boston-Stadion",
-    "preview": "Ein Hochspannungs-Duell bahnt sich an: Norwegen trifft am 26. Juni 2026 auf den Weltmeister Frankreich – und Erling Haaland gegen die Weltklasse-Abwehr der Équipe Tricolore verspricht eines der aufregendsten Einzelduelle der gesamten Turnierphase. Frankreich, gespickt mit Ausnahmekönnern wie Kylian Mbappé und Antoine Griezmann, gilt als klarer Favorit, doch Norwegen reist mit einer Mannschaft an, die keine Gegner scheut. Haalands explosive Torgefährlichkeit könnte jeden Moment für das nächste Ausrufezeichen sorgen. Es erwartet uns ein taktisches Meisterwerk, bei dem die Norweger alles in die Waagschale werfen müssen, um die Franzosen zu bezwingen."
+    "preview": "Ein Hochspannungs-Duell bahnt sich an: Norwegen trifft am 26. Juni 2026 auf den Weltmeister Frankreich – und Erling Haaland gegen die Weltklasse-Abwehr der Équipe Tricolore verspricht eines der aufregendsten Einzelduelle der gesamten Turnierphase. Frankreich, gespickt mit Ausnahmekönnern wie Kylian Mbappé und Antoine Griezmann, gilt als klarer Favorit, doch Norwegen reist mit einer Mannschaft an, die keine Gegner scheut. Haalands explosive Torgefährlichkeit könnte jeden Moment für das nächste Ausrufezeichen sorgen. Es erwartet uns ein taktisches Meisterwerk, bei dem die Norweger alles in die Waagschale werfen müssen, um die Franzosen zu bezwingen.",
+    "summary": "Eine bittere Niederlage für Norwegen, das sich gegen das französische Starensemble schlicht und ergreifend überfordert zeigte. Die Équipe Tricolore dominierte von der ersten Minute an und ließ den Skandinaviern kaum Luft zum Atmen. Mit einem lupenreinen Auftritt demonstrierte Frankreich seine WM-Ambitionen auf eindrucksvolle Weise. Das einsame norwegische Tor war lediglich Ergebniskosmetik – an der klaren Überlegenheit der Franzosen gab es keinen Zweifel."
   },
   {
     "no": 62,
@@ -1097,13 +1098,14 @@
     "away": "Irak",
     "homeCode": "SEN",
     "awayCode": "IRQ",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 5,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Toronto",
     "stadium": "Toronto-Stadion",
-    "preview": "Ein hochspannendes Duell zweier hungriger Nationen erwartet uns, wenn Senegal auf den Irak trifft! Die Löwen vom Teranga um Superstar Sadio Mané wollen mit einem Sieg ihre Chancen auf das Achtelfinale festigen und präsentieren sich als eine der gefährlichsten afrikanischen Mannschaften dieses Turniers. Der Irak hingegen sorgte bereits für Aufsehen, indem er sich erstmals seit Jahrzehnten für eine WM-Endrunde qualifizieren konnte, und brennt darauf, der Welt zu beweisen, dass man diese Gruppe nicht unterschätzen darf. Besonders der irakische Angriff rund um Kapitän Mohanad Ali könnte mit blitzschnellen Kontern für böse Überraschungen sorgen. Dieses Spiel verspricht ein Feuerwerk voller Leidenschaft, Stolz und großer WM-Träume!"
+    "preview": "Ein hochspannendes Duell zweier hungriger Nationen erwartet uns, wenn Senegal auf den Irak trifft! Die Löwen vom Teranga um Superstar Sadio Mané wollen mit einem Sieg ihre Chancen auf das Achtelfinale festigen und präsentieren sich als eine der gefährlichsten afrikanischen Mannschaften dieses Turniers. Der Irak hingegen sorgte bereits für Aufsehen, indem er sich erstmals seit Jahrzehnten für eine WM-Endrunde qualifizieren konnte, und brennt darauf, der Welt zu beweisen, dass man diese Gruppe nicht unterschätzen darf. Besonders der irakische Angriff rund um Kapitän Mohanad Ali könnte mit blitzschnellen Kontern für böse Überraschungen sorgen. Dieses Spiel verspricht ein Feuerwerk voller Leidenschaft, Stolz und großer WM-Träume!",
+    "summary": "Senegal hat beim WM-Auftakt ein historisches Ausrufezeichen gesetzt und den Irak mit 5:0 förmlich vom Platz gefegt. Die Löwen der Teranga zeigten sich von ihrer besten Seite und ließen dem überforderten Irak keine Chance. Es war ein Spektakel der Extraklasse – effektiv, schnell und gnadenlos effizient vor dem Tor. Mit diesem Kantersieg meldet sich Senegal als ernsthafter Mitfavorit in seiner Gruppe an."
   },
   {
     "no": 65,
@@ -1114,13 +1116,14 @@
     "away": "Saudi-Arabien",
     "homeCode": "CPV",
     "awayCode": "KSA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Houston",
     "stadium": "Houston-Stadion",
-    "preview": "Am 27. Juni 2026 kommt es in der ersten Phase der WM zu einem hochinteressanten Duell zwischen Kap Verde und Saudi-Arabien! Die kapverdischen Haie, bekannt für ihre leidenschaftliche und unerschrockene Spielweise, treffen auf die technisch versierten Saudis, die zuletzt bei Weltmeisterschaften immer für Überraschungen gut waren. Saudi-Arabien wird mit dem Rückhalt eines enormen Fußball-Booms im Land und individueller Klasse in die Partie gehen, doch Kap Verde hat nichts zu verlieren und wird mit Feuer und Flamme kämpfen. Diese Begegnung zweier Außenseiter könnte eines der spektakulärsten Spiele der Vorrunde werden. Fußballfans, dieser Abend verspricht pures Drama!"
+    "preview": "Am 27. Juni 2026 kommt es in der ersten Phase der WM zu einem hochinteressanten Duell zwischen Kap Verde und Saudi-Arabien! Die kapverdischen Haie, bekannt für ihre leidenschaftliche und unerschrockene Spielweise, treffen auf die technisch versierten Saudis, die zuletzt bei Weltmeisterschaften immer für Überraschungen gut waren. Saudi-Arabien wird mit dem Rückhalt eines enormen Fußball-Booms im Land und individueller Klasse in die Partie gehen, doch Kap Verde hat nichts zu verlieren und wird mit Feuer und Flamme kämpfen. Diese Begegnung zweier Außenseiter könnte eines der spektakulärsten Spiele der Vorrunde werden. Fußballfans, dieser Abend verspricht pures Drama!",
+    "summary": "Ein torloses Remis zwischen Kap Verde und Saudi-Arabien – ein Ergebnis, mit dem beide Mannschaften wohl leben können, auch wenn die Zuschauer auf Tore warten mussten. Beide Teams lieferten eine taktisch disziplinierte Vorstellung, in der die Defensive jeweils die Oberhand behielt. Kap Verde bewies erneut, dass die kleinen Inselkicker auf der großen WM-Bühne keineswegs zu unterschätzen sind. Saudi-Arabien hingegen verpasste es, an den Sensationssieg von 2022 gegen Argentinien anzuknüpfen."
   },
   {
     "no": 66,
@@ -1131,13 +1134,14 @@
     "away": "Spanien",
     "homeCode": "URU",
     "awayCode": "ESP",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Guadalajara",
     "stadium": "Guadalajara-Stadion",
-    "preview": "Ein Klassiker der Weltklasse! Uruguay gegen Spanien – das ist der Stoff, aus dem WM-Legenden gemacht werden, und dieses Duell könnte eines der packendsten Spiele der gesamten Vorrunde werden. Spanien, Europas Meister des schönen Spiels unter Luis de la Fuente, geht mit einem hochtalentierten Kader rund um Pedri, Yamal und Morata als klarer Favorit in diese Partie. Doch Uruguay ist niemals zu unterschätzen: Mit einer Defensivkultur, die ihresgleichen sucht, und Offensivstars wie Darwin Núñez und Federico Valverde sind die Celeste in der Lage, jedem Gegner das Leben schwer zu machen. Die kämpferische DNA Uruguays prallt auf die technische Brillanz Spaniens – und die Welt schaut zu!"
+    "preview": "Ein Klassiker der Weltklasse! Uruguay gegen Spanien – das ist der Stoff, aus dem WM-Legenden gemacht werden, und dieses Duell könnte eines der packendsten Spiele der gesamten Vorrunde werden. Spanien, Europas Meister des schönen Spiels unter Luis de la Fuente, geht mit einem hochtalentierten Kader rund um Pedri, Yamal und Morata als klarer Favorit in diese Partie. Doch Uruguay ist niemals zu unterschätzen: Mit einer Defensivkultur, die ihresgleichen sucht, und Offensivstars wie Darwin Núñez und Federico Valverde sind die Celeste in der Lage, jedem Gegner das Leben schwer zu machen. Die kämpferische DNA Uruguays prallt auf die technische Brillanz Spaniens – und die Welt schaut zu!",
+    "summary": "Spanien setzt sich mit einer knappen, aber verdienten 1:0-Erfolg gegen Uruguay durch und feiert einen wichtigen Auftaktsieg bei der WM 2026. Die Furia Roja kontrollierte weite Teile der Partie und ließ die routinierten Südamerikaner kaum ins Spiel kommen. Das goldene Tor war der Lohn für eine konzentrierte und reife Mannschaftsleistung der Spanier. Uruguay kämpfte bis zum Schluss, doch gegen diese technisch überlegene spanische Elf reichte es diesmal nicht."
   },
   {
     "no": 63,
@@ -1148,13 +1152,14 @@
     "away": "IR Iran",
     "homeCode": "EGY",
     "awayCode": "IRN",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Seattle",
     "stadium": "Seattle-Stadion",
-    "preview": "Wenn Ägypten auf den Iran trifft, begegnen sich zwei stolze Fußballnationen mit einer reichen Geschichte, die in dieser Partie alles auf eine Karte setzen werden. Ägyptens Hoffnungen ruhen einmal mehr auf den Schultern von Mohamed Salah, dem Liverpool-Star, der auf der größten Bühne des Fußballs endlich seinen WM-Traum verwirklichen möchte. Der Iran hingegen bringt eine kampferprobte, disziplinierte Mannschaft mit, die unter dem taktisch versierten Trainer für stabile Defensive und gefährliche Standardsituationen bekannt ist. Für beide Teams ist ein Sieg in diesem Spiel möglicherweise entscheidend für den Einzug in die nächste Runde. Ein intensives, taktisch geprägtes Duell mit enormer Bedeutung – Fußball-Afrika gegen Fußball-Asien im großen WM-Showdown!"
+    "preview": "Wenn Ägypten auf den Iran trifft, begegnen sich zwei stolze Fußballnationen mit einer reichen Geschichte, die in dieser Partie alles auf eine Karte setzen werden. Ägyptens Hoffnungen ruhen einmal mehr auf den Schultern von Mohamed Salah, dem Liverpool-Star, der auf der größten Bühne des Fußballs endlich seinen WM-Traum verwirklichen möchte. Der Iran hingegen bringt eine kampferprobte, disziplinierte Mannschaft mit, die unter dem taktisch versierten Trainer für stabile Defensive und gefährliche Standardsituationen bekannt ist. Für beide Teams ist ein Sieg in diesem Spiel möglicherweise entscheidend für den Einzug in die nächste Runde. Ein intensives, taktisch geprägtes Duell mit enormer Bedeutung – Fußball-Afrika gegen Fußball-Asien im großen WM-Showdown!",
+    "summary": "Ägypten und der Iran liefern sich ein hart umkämpftes 1:1-Unentschieden, das beiden Teams einen Punkt beschert. Mo Salahs Ägypten drängte auf den Siegtreffer, doch der Iran zeigte sich äußerst defensivstark und sicherte den Punkt über die Zeit. Es war ein intensives Duell zweier taktisch disziplinierter Mannschaften, die sich gegenseitig neutralisierten. Am Ende müssen beide Seiten mit einem Punkt vorliebnehmen – für das weitere Turnierprogramm bleibt die Gruppe damit völlig offen."
   },
   {
     "no": 64,
@@ -1165,13 +1170,14 @@
     "away": "Belgien",
     "homeCode": "NZL",
     "awayCode": "BEL",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 5,
     "status": 0,
     "minute": null,
     "city": "Vancouver",
     "stadium": "BC Place Vancouver",
-    "preview": "Neuseeland trifft auf den belgischen Fußball-Riesen – David gegen Goliath live von der WM 2026! Die All Whites aus dem Land der langen weißen Wolke sind die romantische Außenseitergeschichte dieses Turniers und werden mit unbändigem Kampfgeist und Teamspirit gegen die hochkarätige belgische Équipe antreten. Belgien, immer noch einer der stärksten Fußballexporte Europas mit Stars wie Kevin De Bruyne und Romelu Lukaku, wird dennoch gewarnt sein – Außenseiter haben bei WM-Turnieren stets für Schlagzeilen gesorgt. Neuseelands kompaktes Defensivkonzept und ihre Bereitschaft, jeden Zentimeter des Platzes zu erkämpfen, machen sie zu einem unbequemen Gegner für jede Mannschaft. Für Neuseeland ist es das Spiel ihres Lebens – für Belgien eine Pflichtaufgabe, die sie nicht auf die leichte Schulter nehmen dürfen!"
+    "preview": "Neuseeland trifft auf den belgischen Fußball-Riesen – David gegen Goliath live von der WM 2026! Die All Whites aus dem Land der langen weißen Wolke sind die romantische Außenseitergeschichte dieses Turniers und werden mit unbändigem Kampfgeist und Teamspirit gegen die hochkarätige belgische Équipe antreten. Belgien, immer noch einer der stärksten Fußballexporte Europas mit Stars wie Kevin De Bruyne und Romelu Lukaku, wird dennoch gewarnt sein – Außenseiter haben bei WM-Turnieren stets für Schlagzeilen gesorgt. Neuseelands kompaktes Defensivkonzept und ihre Bereitschaft, jeden Zentimeter des Platzes zu erkämpfen, machen sie zu einem unbequemen Gegner für jede Mannschaft. Für Neuseeland ist es das Spiel ihres Lebens – für Belgien eine Pflichtaufgabe, die sie nicht auf die leichte Schulter nehmen dürfen!",
+    "summary": "Was für ein Debakel für die All Whites! Belgien ließ Neuseeland beim 5:1-Kantersieg in der Gruppenphase der WM 2026 schlicht keine Chance. Die Roten Teufel zeigten von Beginn an eine beeindruckende Effizienz und schalteten jeden Angriff der Neuseeländer gnadenlos ab. Zwar gelang Neuseeland ein Ehrentreffer, doch dieser konnte die belgische Dominanz zu keinem Zeitpunkt ernsthaft erschüttern. Mit diesem klaren Sieg unterstrich Belgien eindrucksvoll seinen Anspruch auf das Weiterkommen in der Weltmeisterschaft."
   },
   {
     "no": 67,
@@ -1510,7 +1516,8 @@
     "status": 1,
     "minute": "",
     "city": "Dallas",
-    "stadium": "Dallas-Stadion"
+    "stadium": "Dallas-Stadion",
+    "preview": "Das Sechzehntelfinale zwischen dem Gruppenzweiten aus Gruppe D und dem Gruppenzweiten aus Gruppe G verspricht am 3. Juli 2026 ein heißes Duell auf höchstem Niveau! Beide Teams haben sich durch starke Leistungen in der Gruppenphase für diese Runde qualifiziert und werden nun alles geben, um ins Achtelfinale einzuziehen. In der K.o.-Phase ist kein Platz für Fehler – ein einziger Patzer kann das Turnier-Aus bedeuten. Die Fans dürfen sich auf ein taktisch ausgeklügeltes Spiel freuen, bei dem jede Mannschaft ihre Stärken ausspielen wird."
   },
   {
     "no": 86,
@@ -1526,7 +1533,8 @@
     "status": 1,
     "minute": "",
     "city": "Miami",
-    "stadium": "Miami-Stadion"
+    "stadium": "Miami-Stadion",
+    "preview": "Der Gruppensieger aus Gruppe J trifft am 3. Juli 2026 im Sechzehntelfinale auf den Gruppenzweiten aus Gruppe H – eine Begegnung mit enormem Knistern! Der Gruppensieger geht als leichter Favorit ins Rennen, doch in einer WM-K.o.-Runde können Tabellenstände schnell zur Makulatur werden. Es wird entscheidend sein, wer die Nerven behält und den ersten entscheidenden Treffer erzielt. Beide Nationen träumen vom großen WM-Märchen, und am Ende könnte ein einzelner Moment über Weiterkommen oder Heimreise entscheiden."
   },
   {
     "no": 87,
@@ -1542,7 +1550,8 @@
     "status": 1,
     "minute": "",
     "city": "Kansas City",
-    "stadium": "Kansas-City-Stadion"
+    "stadium": "Kansas-City-Stadion",
+    "preview": "Am 4. Juli 2026 kommt es im Sechzehntelfinale zu einem spannungsgeladenen Duell zwischen dem Gruppensieger aus Gruppe K und einem der besten Gruppendritten aus den Gruppen D, E, I, J oder L! Der Gruppensieger hat sich die Favoritenrolle erarbeitet, doch Gruppendritte haben bei Weltmeisterschaften immer wieder für Überraschungen gesorgt und nichts zu verlieren. Der Underdog wird mit breiter Brust auflaufen und versuchen, dem Turniersieger-Kandidaten das Leben so schwer wie möglich zu machen. Es verspricht ein Spiel voller Leidenschaft, taktischer Raffinesse und der unbändigen Gier nach dem nächsten großen WM-Coup zu werden."
   },
   {
     "no": 90,
