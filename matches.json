@@ -1188,13 +1188,14 @@
     "away": "England",
     "homeCode": "PAN",
     "awayCode": "ENG",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 2,
     "status": 0,
     "minute": null,
     "city": "New Jersey",
     "stadium": "New-York-New-Jersey-Stadion",
-    "preview": "England geht als klarer Favorit in dieses Duell gegen Panama – die Three Lions wollen nach dem bitteren Finale bei der Euro 2024 endlich den ersten WM-Titel seit 1966 holen. Panama hingegen kämpft bei ihrer zweiten WM-Teilnahme um jeden Zentimeter Rasen und wird defensiv kompakt stehen. Kapitän Harry Kane dürfte hungrig auf Tore sein und den panamaischen Abwehrriegelauf eine harte Probe stellen. Für Panama wäre schon ein Unentschieden eine kleine Sensation, aber England wird alles daran setzen, mit einem Sieg ins Achtelfinale zu marschieren."
+    "preview": "England geht als klarer Favorit in dieses Duell gegen Panama – die Three Lions wollen nach dem bitteren Finale bei der Euro 2024 endlich den ersten WM-Titel seit 1966 holen. Panama hingegen kämpft bei ihrer zweiten WM-Teilnahme um jeden Zentimeter Rasen und wird defensiv kompakt stehen. Kapitän Harry Kane dürfte hungrig auf Tore sein und den panamaischen Abwehrriegelauf eine harte Probe stellen. Für Panama wäre schon ein Unentschieden eine kleine Sensation, aber England wird alles daran setzen, mit einem Sieg ins Achtelfinale zu marschieren.",
+    "summary": "England marschiert mit einem souveränen 2:0-Sieg über Panama in die nächste Runde der WM 2026! Die Three Lions zeigten eine konzentrierte Leistung und ließen dem Außenseiter aus Mittelamerika kaum Chancen. Panama kämpfte tapfer, war aber gegen die Qualität der Engländer schlichtweg chancenlos. Mit diesem Sieg setzt England ein klares Statement und meldet sich als ernsthafter Titelkandidat an."
   },
   {
     "no": 68,
@@ -1205,13 +1206,14 @@
     "away": "Ghana",
     "homeCode": "CRO",
     "awayCode": "GHA",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 2,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Philadelphia",
     "stadium": "Philadelphia-Stadion",
-    "preview": "Was für ein emotionales Wiedersehen! Kroatien und Ghana treffen erneut aufeinander – bei der WM 2014 in Brasilien gewannen die Kroaten mit 4:0 gegen die Black Stars. Luka Modrić, inzwischen 40 Jahre alt, könnte bei seiner möglicherweise letzten WM noch einmal den Unterschied machen und sein technisches Genie auf dem Platz aufblitzen lassen. Ghana bringt mit einer neuen, jungen Generation viel Tempo und Spielfreude mit und möchte die Schmach von damals tilgen. Dieses Spiel verspricht Kampfgeist, Leidenschaft und jede Menge taktische Finessen – ein echter Leckerbissen zum Auftakt der Gruppenphase!"
+    "preview": "Was für ein emotionales Wiedersehen! Kroatien und Ghana treffen erneut aufeinander – bei der WM 2014 in Brasilien gewannen die Kroaten mit 4:0 gegen die Black Stars. Luka Modrić, inzwischen 40 Jahre alt, könnte bei seiner möglicherweise letzten WM noch einmal den Unterschied machen und sein technisches Genie auf dem Platz aufblitzen lassen. Ghana bringt mit einer neuen, jungen Generation viel Tempo und Spielfreude mit und möchte die Schmach von damals tilgen. Dieses Spiel verspricht Kampfgeist, Leidenschaft und jede Menge taktische Finessen – ein echter Leckerbissen zum Auftakt der Gruppenphase!",
+    "summary": "Kroatien setzt seine WM-Tradition fort und besiegt Ghana verdient mit 2:1! Die Vatreni zeigten einmal mehr ihre Klasse in großen Turnieren und sicherten sich drei wichtige Punkte. Ghana kämpfte leidenschaftlich und traf zum zwischenzeitlichen Anschluss, doch Kroatien behielt die Nerven und brachte den Sieg über die Ziellinie. Mit dieser Leistung untermauern die Kroaten ihren Ruf als zuverlässige Turniermannschaft."
   },
   {
     "no": 71,
@@ -1222,13 +1224,14 @@
     "away": "Portugal",
     "homeCode": "COL",
     "awayCode": "POR",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 0,
+    "awayScore": 0,
     "status": 0,
     "minute": null,
     "city": "Miami",
     "stadium": "Miami-Stadion",
-    "preview": "Feuer trifft auf Feuer – Kolumbien gegen Portugal ist eines der heißest erwartetsten Duelle der Gruppenphase dieser WM 2026! Cristiano Ronaldo, auf der Jagd nach WM-Geschichte, steht einer kolumbianischen Offensive gegenüber, die mit James Rodríguez und Jhon Durán für schier unaufhörliche Gefahr sorgt. Portugal verfügt über enormen individuellen Reichtum im Kader und wird versuchen, das Spiel schnell zu machen und Kolumbien zu überrollen. Doch die Südamerikaner sind auf dem Papier keine leichte Kost – ihr Pressing und ihre Spielfreude können jedem Gegner das Leben schwer machen. Ein Spektakel ist garantiert, und das Ergebnis dieses Duells könnte bereits die Gruppe entscheiden!"
+    "preview": "Feuer trifft auf Feuer – Kolumbien gegen Portugal ist eines der heißest erwartetsten Duelle der Gruppenphase dieser WM 2026! Cristiano Ronaldo, auf der Jagd nach WM-Geschichte, steht einer kolumbianischen Offensive gegenüber, die mit James Rodríguez und Jhon Durán für schier unaufhörliche Gefahr sorgt. Portugal verfügt über enormen individuellen Reichtum im Kader und wird versuchen, das Spiel schnell zu machen und Kolumbien zu überrollen. Doch die Südamerikaner sind auf dem Papier keine leichte Kost – ihr Pressing und ihre Spielfreude können jedem Gegner das Leben schwer machen. Ein Spektakel ist garantiert, und das Ergebnis dieses Duells könnte bereits die Gruppe entscheiden!",
+    "summary": "Ein echtes Remis-Spektakel auf hohem Niveau: Kolumbien und Portugal trennten sich torlos mit 0:0! Trotz fehlender Treffer bot die Partie hochklassigen Fußball mit zahlreichen Möglichkeiten auf beiden Seiten. Cristiano Ronaldo und seine Mannschaft konnten die kolumbianische Defensive nicht überwinden, während auch die Südamerikaner die starken Portugiesen nicht bezwingen konnten. Beide Teams müssen im nächsten Spiel nachlegen, wenn sie noch weiterkommen wollen."
   },
   {
     "no": 72,
@@ -1239,13 +1242,14 @@
     "away": "Usbekistan",
     "homeCode": "COD",
     "awayCode": "UZB",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 1,
     "status": 0,
     "minute": null,
     "city": "Atlanta",
     "stadium": "Atlanta-Stadion",
-    "preview": "Ein echtes WM-Novum: Die Demokratische Republik Kongo und Usbekistan treffen erstmals bei einem großen Turnier aufeinander – zwei Nationen, die den Fußball der Welt noch überraschen wollen. Die Leoparden aus dem Kongo bringen explosive Schnelligkeit und afrikanische Spielfreude mit, während Usbekistan als Aufsteiger der asiatischen Fußballszene gilt und sich mit technisch versiertem Kombinationsfußball auszeichnet. Für beide Teams ist es eine historische Chance, sich auf der größten Bühne des Weltfußballs zu beweisen. Unterschätzt keines dieser Teams – dieses Spiel könnte zu einer der großen Überraschungen des Turniers werden!"
+    "preview": "Ein echtes WM-Novum: Die Demokratische Republik Kongo und Usbekistan treffen erstmals bei einem großen Turnier aufeinander – zwei Nationen, die den Fußball der Welt noch überraschen wollen. Die Leoparden aus dem Kongo bringen explosive Schnelligkeit und afrikanische Spielfreude mit, während Usbekistan als Aufsteiger der asiatischen Fußballszene gilt und sich mit technisch versiertem Kombinationsfußball auszeichnet. Für beide Teams ist es eine historische Chance, sich auf der größten Bühne des Weltfußballs zu beweisen. Unterschätzt keines dieser Teams – dieses Spiel könnte zu einer der großen Überraschungen des Turniers werden!",
+    "summary": "Die DR Kongo sorgt für eine der größten Überraschungen dieser WM-Gruppenphase und schlägt Usbekistan deutlich mit 3:1! Die Kongolesen zeigten begeisternden Offensivfußball und bewiesen, dass der afrikanische Fußball auf der Weltbühne angekommen ist. Usbekistan, das erstmals bei einer Weltmeisterschaft antritt, gab nie auf und erzielte immerhin den Ehrentreffer. Ein historischer Sieg für die DR Kongo, der das Turnier nachhaltig aufmischt!"
   },
   {
     "no": 69,
@@ -1256,13 +1260,14 @@
     "away": "Österreich",
     "homeCode": "ALG",
     "awayCode": "AUT",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 3,
+    "awayScore": 3,
     "status": 0,
     "minute": null,
     "city": "Kansas City",
     "stadium": "Kansas-City-Stadion",
-    "preview": "Algerien gegen Österreich – ein Duell zwischen nordafrikanischer Leidenschaft und österreichischer Ordnung! Die Wüstenfüchse aus Algerien, angetrieben von ihren heimischen Fans und einer starken Qualifikationskampagne, wollen zeigen, dass afrikanischer Fußball auf der WM-Bühne mehr als konkurrenzfähig ist. Österreich mit Superstar David Alaba – sofern fit – und dem unermüdlichen Marcel Sabitzer ist jedoch keine leichte Kost und hat sich als kompakt und taktisch diszipliniert erwiesen. Ralf Rangnick wird seine Mannschaft bestens eingestellt haben, aber Algerien ist auf heimischem Kontinent – nun ja, fast – hochmotiviert. Dieses Spiel verspricht ein echtes taktisches Kräftemessen, bei dem jeder Fehler sofort bestraft werden könnte!"
+    "preview": "Algerien gegen Österreich – ein Duell zwischen nordafrikanischer Leidenschaft und österreichischer Ordnung! Die Wüstenfüchse aus Algerien, angetrieben von ihren heimischen Fans und einer starken Qualifikationskampagne, wollen zeigen, dass afrikanischer Fußball auf der WM-Bühne mehr als konkurrenzfähig ist. Österreich mit Superstar David Alaba – sofern fit – und dem unermüdlichen Marcel Sabitzer ist jedoch keine leichte Kost und hat sich als kompakt und taktisch diszipliniert erwiesen. Ralf Rangnick wird seine Mannschaft bestens eingestellt haben, aber Algerien ist auf heimischem Kontinent – nun ja, fast – hochmotiviert. Dieses Spiel verspricht ein echtes taktisches Kräftemessen, bei dem jeder Fehler sofort bestraft werden könnte!",
+    "summary": "Dramatik pur in der Gruppe: Algerien und Österreich liefern sich ein spektakuläres 3:3-Unentschieden! Sechs Tore, Führungen und Rückstände, Aufholjagden – dieses Spiel hatte alles, was Fußball so besonders macht. Algerien führte zwischenzeitlich und schien auf Kurs, doch Österreich bewies großen Charakter und erkämpfte sich noch den Ausgleich. Am Ende nehmen beide Teams einen Punkt mit, der je nach Verlauf der Gruppe noch Gold wert sein könnte."
   },
   {
     "no": 70,
@@ -1273,13 +1278,14 @@
     "away": "Argentinien",
     "homeCode": "JOR",
     "awayCode": "ARG",
-    "homeScore": null,
-    "awayScore": null,
+    "homeScore": 1,
+    "awayScore": 3,
     "status": 0,
     "minute": null,
     "city": "Dallas",
     "stadium": "Dallas-Stadion",
-    "preview": "Das Aufeinandertreffen zwischen Jordanien und dem amtierenden Weltmeister Argentinien verspricht ein historischer Moment für den arabischen Fußball zu werden – denn die Nashama bestreiten damit ihre erste WM-Endrunde überhaupt. Lionel Messi und seine Mannschaft gehen als klarer Favorit in diese Partie, doch die Jordanier haben sich durch eine beeindruckende Qualifikationskampagne in der asiatischen Zone verdient, auf der größten Bühne des Weltfußballs zu stehen. Trainer Hussain Ammouta wird sein Team defensiv kompakt aufstellen und auf schnelle Konter setzen, um den Südamerikanern das Leben so schwer wie möglich zu machen. Argentinien hingegen hat nach dem WM-Triumph 2022 in Katar hungrige Nachfolger im Team, die unter der Führung des alternden, aber immer noch genialen Messi erneut Geschichte schreiben wollen. Ein Spektakel mit Gänsehaut-Garantie – Jordan träumt von der Sensation, Argentinien vom souveränen Auftakt."
+    "preview": "Das Aufeinandertreffen zwischen Jordanien und dem amtierenden Weltmeister Argentinien verspricht ein historischer Moment für den arabischen Fußball zu werden – denn die Nashama bestreiten damit ihre erste WM-Endrunde überhaupt. Lionel Messi und seine Mannschaft gehen als klarer Favorit in diese Partie, doch die Jordanier haben sich durch eine beeindruckende Qualifikationskampagne in der asiatischen Zone verdient, auf der größten Bühne des Weltfußballs zu stehen. Trainer Hussain Ammouta wird sein Team defensiv kompakt aufstellen und auf schnelle Konter setzen, um den Südamerikanern das Leben so schwer wie möglich zu machen. Argentinien hingegen hat nach dem WM-Triumph 2022 in Katar hungrige Nachfolger im Team, die unter der Führung des alternden, aber immer noch genialen Messi erneut Geschichte schreiben wollen. Ein Spektakel mit Gänsehaut-Garantie – Jordan träumt von der Sensation, Argentinien vom souveränen Auftakt.",
+    "summary": "Argentinien marschiert unaufhaltsam durch diese Weltmeisterschaft! Die Albiceleste ließ Jordanien beim klaren 3:1-Sieg keine Chance und zeigte einmal mehr, warum sie als Titelverteidiger zu fürchten sind. Die Südamerikaner kontrollierten das Spiel von der ersten Minute an und ließen dem Außenseiter aus dem Nahen Osten kaum Luft zum Atmen. Jordanien kämpfte tapfer und belohnte sich mit einem Ehrentreffer, doch gegen die individuelle Klasse eines Lionel Messi und seiner Mannschaft war letztlich kein Kraut gewachsen. Argentinien steht damit sicher in der nächsten Runde und sendet ein unmissverständliches Signal an alle verbliebenen Konkurrenten."
   },
   {
     "no": 73,
@@ -1567,7 +1573,8 @@
     "status": 1,
     "minute": "",
     "city": "Houston",
-    "stadium": "Houston-Stadion"
+    "stadium": "Houston-Stadion",
+    "preview": "Das Achtelfinale am 4. Juli verspricht ein echtes Fußballfest zu werden, wenn die Sieger aus den Gruppen C und E aufeinandertreffen! Beide Mannschaften haben sich durch starke Gruppenleistungen für diese K.o.-Runde qualifiziert und werden mit breiter Brust in diese Partie gehen. Es geht um alles oder nichts – ein einziger Fehler kann das WM-Abenteuer jäh beenden, und genau diese Dramaturgie macht das K.o.-Format so unwiderstehlich. Die Fans dürfen sich auf ein taktisch hochklassiges Duell freuen, in dem jede Mannschaft ihre Trümpfe ausspielen will. Wer zieht ins Viertelfinale ein? Am 4. Juli werden wir es wissen!"
   },
   {
     "no": 89,
@@ -1583,7 +1590,8 @@
     "status": 1,
     "minute": "",
     "city": "Philadelphia",
-    "stadium": "Philadelphia-Stadion"
+    "stadium": "Philadelphia-Stadion",
+    "preview": "Ein weiteres Knallerspiel im Achtelfinale steht am 4. Juli auf dem Programm, wenn die Sieger aus den Gruppen D und F den Einzug ins Viertelfinale anstreben! Diese Begegnung verspricht Hochspannung pur, denn in der K.o.-Runde einer Weltmeisterschaft ist kein Platz für Experimente – hier muss geliefert werden. Beide Teams haben gezeigt, dass sie das Zeug haben, weit zu kommen, und werden alles in die Waagschale werfen, um den nächsten Schritt in Richtung WM-Titel zu machen. Die Trainerstäbe werden ihre Hausaufgaben gemacht und die Stärken des Gegners akribisch analysiert haben. Dieses Duell könnte einer der Höhepunkte des gesamten Turniers werden – unbedingt einschalten!"
   },
   {
     "no": 91,
